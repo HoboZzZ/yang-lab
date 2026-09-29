@@ -1,9 +1,5 @@
 {
-  "stats": [
-    {"value":"68","label":"Peer-reviewed journal articles","detail":"Career total in the supplied CV"},
-    {"value":"30","label":"Peer-reviewed articles","detail":"2022–2026 · supplied CV"},
-    {"value":"2","label":"Editor-reviewed articles","detail":"2022–2026 · supplied CV"}
-  ],
+  "stats": [],
   "items": [
     {"year":2026,"authors":"Dwyer, T., Wang, Y., Head, G.P., and Yang, F.","title":"Inheritance and stability of Cry2Ab2 resistance in an Ostrinia nubilalis strain originating from Wisconsin, U.S.","journal":"Pest Management Science","doi":"10.1002/ps.71336"},
     {"year":2026,"authors":"Dwyer, T., Head, G.P., Hamilton, K.L., de Bortoli, C.P., Calvin, W., Jurat-Fuentes, J.L. and Yang, F.","title":"Susceptibility of field populations of Ostrinia nubilalis from Minnesota and Wisconsin to Cry1Ab, Cry1Fa, and Cry1A.105 Bt proteins.","journal":"Crop Protection, 209: 107727","doi":""},

@@ -198,6 +198,9 @@ def main():
             if current:
                 if entry.get("note"):
                     current["note"] = entry["note"]
+                if entry.get("doi") and not current.get("doi"):
+                    current["doi"] = entry["doi"]
+                    current["url"] = f"https://doi.org/{entry['doi']}"
                 continue
             add({
                 "year": int(entry["year"]),

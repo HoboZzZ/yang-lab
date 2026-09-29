@@ -94,7 +94,12 @@
     "image": "images/people/haobo-zhang.png",
     "url": "",
     "cv": "",
-    "links": []
+    "links": [
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/haobo-zhang-0462a332a/"
+      }
+    ]
   },
   {
     "name": "Loi Shah",

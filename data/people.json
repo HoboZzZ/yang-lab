@@ -34,7 +34,12 @@
     "image": "images/people/yucheng-wang.jpeg",
     "url": "",
     "cv": "",
-    "links": []
+    "links": [
+      {
+        "label": "Scholar",
+        "url": "https://scholar.google.com/citations?user=11_48SYAAAAJ&hl=en"
+      }
+    ]
   },
   {
     "name": "Qinglei Ming",
@@ -42,7 +47,12 @@
     "image": "images/people/qinglei-ming.png",
     "url": "",
     "cv": "",
-    "links": []
+    "links": [
+      {
+        "label": "Scholar",
+        "url": "https://scholar.google.com/citations?user=mDU7PIMAAAAJ&amp;hl=en"
+      }
+    ]
   },
   {
     "name": "Yuchun Wang",
@@ -58,7 +68,12 @@
     "image": "images/people/tatum-dwyer.png",
     "url": "",
     "cv": "",
-    "links": []
+    "links": [
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/tatumdwyer/"
+      }
+    ]
   },
   {
     "name": "Hunter Ness",
@@ -66,7 +81,12 @@
     "image": "images/people/hunter-ness.png",
     "url": "",
     "cv": "",
-    "links": []
+    "links": [
+       {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/hunter-ness-751889293/"
+      }
+    ]
   },
   {
     "name": "Haobo Zhang",

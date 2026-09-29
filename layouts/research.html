@@ -1,6 +1,19 @@
 {{ define "main" }}
 <section id="research" class="lab-section container" aria-labelledby="research-title">
- {{ partial "lab/section-head.html" (dict "level" 1 "label" "Research" "id" "research" "title" "Protecting crops.<br>Preserving our tools." "intro" "Understanding pest populations and resistance is the foundation of durable corn insect management.") }}
- <div class="research-grid">{{ range $i, $item := hugo.Data.research }}<article class="research-item"><span class="research-number">{{ printf "%02d" (add $i 1) }}</span><h3>{{ .title }}</h3><p>{{ .description }}</p><ul>{{ range .points }}<li>{{ . }}</li>{{ end }}</ul></article>{{ end }}</div>
+  {{ partial "lab/section-head.html" (dict "level" 1 "label" "Research" "id" "research" "title" "Protecting crops.<br>Preserving our tools." "intro" "Understanding pest populations and resistance is the foundation of durable corn insect management.") }}
+  <div class="research-grid">
+    {{ range $i, $item := hugo.Data.research }}
+      <article class="research-item">
+        <div class="research-card-top">
+          <span class="research-number">{{ printf "%02d" (add $i 1) }}</span>
+          <span class="research-tag">{{ .title }}</span>
+        </div>
+        <h3>{{ .description }}</h3>
+        <ul class="research-chips">
+          {{ range .points }}<li>{{ . }}</li>{{ end }}
+        </ul>
+      </article>
+    {{ end }}
+  </div>
 </section>
 {{ end }}

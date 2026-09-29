@@ -54,4 +54,8 @@ html[data-theme="dark"] .contact-section{background:#1c1714}
 html[data-theme="dark"] .person-photo{background:#2a2420}
 @media(max-width:800px){.theme-toggle{margin-left:auto;order:2}.menu-toggle{order:3}.lab-nav{order:4;margin-left:0}}
 
-
+.hero-focus{display:flex;align-items:baseline;gap:8px;min-height:1.6em;margin-top:18px;overflow:hidden}
+.hero-focus-label{flex:none;font-size:13px;letter-spacing:.04em;text-transform:uppercase;color:var(--muted)}
+.hero-typing{color:var(--accent-dark);border-right:2px solid var(--accent-dark);padding-right:3px;font-family:var(--font-display);font-style:italic;font-weight:600;font-size:22px;line-height:1.2;white-space:nowrap;animation:hero-caret .85s step-end infinite}
+@keyframes hero-caret{50%{border-color:transparent}}
+@media(prefers-reduced-motion:reduce){.hero-typing{animation:none}}

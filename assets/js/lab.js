@@ -24,6 +24,35 @@
     if (stored !== "light" && stored !== "dark") applyTheme(event.matches ? "dark" : "light");
   });
 
+  const typing = document.getElementById("hero-typing");
+  if (typing && !matchMedia("(prefers-reduced-motion: reduce)").matches) {
+    const words = (typing.dataset.phrases || typing.textContent).split("|").map(word => word.trim()).filter(Boolean);
+    let wordIndex = 0;
+    let count = 0;
+    let deleting = false;
+    const tick = () => {
+      const word = words[wordIndex];
+      if (!deleting) {
+        count += 1;
+        if (count >= word.length) {
+          typing.textContent = word;
+          deleting = true;
+          setTimeout(tick, 1500);
+          return;
+        }
+      } else {
+        count -= 1;
+        if (count <= 0) {
+          deleting = false;
+          wordIndex = (wordIndex + 1) % words.length;
+        }
+      }
+      typing.textContent = word.slice(0, Math.max(count, 0));
+      setTimeout(tick, deleting ? 35 : 70);
+    };
+    tick();
+  }
+
   const toggle = document.querySelector('.menu-toggle');
   const nav = document.querySelector('.lab-nav');
   if (toggle && nav) {

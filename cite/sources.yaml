@@ -1,0 +1,7 @@
+# Citations are expanded by scripts/cite.py.
+# An ORCID entry pulls every journal article on that profile.
+# An id entry adds one DOI that is not already on the profile.
+
+- orcid: "0000-0001-5162-4575"
+
+# - id: 10.1038/nature12345

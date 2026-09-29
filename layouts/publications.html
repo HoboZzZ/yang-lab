@@ -5,8 +5,20 @@
 <div class="publication-notice"><p>{{ len hugo.Data.publications.items }} records transcribed from the supplied 2023–2026 screenshots. This is a partial list, with bibliographic details awaiting lab review. DOI links will appear as verified identifiers are added.</p></div>
 <form class="publication-filters" role="search" hidden><div><label for="paper-search">Search publications</label><input id="paper-search" type="search" placeholder="Title, author, or journal…" autocomplete="off"></div><div><label for="paper-year">Year</label><select id="paper-year"><option value="all">All years</option>{{ range $years }}<option value="{{ . }}">{{ . }}</option>{{ end }}</select></div><button type="reset" class="reset-button">Reset</button></form>
 <p id="paper-count" class="source-note" role="status" aria-live="polite">{{ len hugo.Data.publications.items }} publications</p>
-<div id="paper-list">{{ range $year := $years }}{{ $items := where hugo.Data.publications.items "year" $year }}<section class="publication-year" data-year="{{ $year }}" aria-labelledby="year-{{ $year }}"><div class="year-heading"><h2 id="year-{{ $year }}">{{ $year }}</h2><p><span data-year-count>{{ len $items }}</span> records</p></div><ol>{{ range $items }}<li id="{{ .title | urlize }}" class="publication-record" data-search="{{ printf "%s %s %s %d" .title .authors .journal .year | lower }}"><p class="citation-authors">{{ .authors }}</p><h3>{{ .title }}</h3><p class="citation-journal">{{ .journal }}{{ with .note }} <span>({{ . }})</span>{{ end }}</p>{{ with .doi }}<a href="https://doi.org/{{ . }}" class="text-link">DOI ↗</a>{{ end }}</li>{{ end }}</ol></section>{{ end }}</div>
+<div id="paper-list">{{ range $index, $year := $years }}{{ $items := where hugo.Data.publications.items "year" $year }}<details class="publication-year" data-year="{{ $year }}"{{ if eq $index 0 }} open{{ end }}><summary class="year-heading"><h2 id="year-{{ $year }}">{{ $year }}</h2><p><span data-year-count>{{ len $items }}</span> records</p><span class="year-caret" aria-hidden="true"><svg viewBox="0 0 12 12" width="12" height="12" focusable="false"><path d="M2.2 4.3 6 8 9.8 4.3" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span></summary><ol>{{ range $items }}<li id="{{ .title | urlize }}" class="publication-record" data-search="{{ printf "%s %s %s %d" .title .authors .journal .year | lower }}"><p class="citation-authors">{{ .authors }}</p><h3>{{ .title }}</h3><p class="citation-journal">{{ .journal }}{{ with .note }} <span>({{ . }})</span>{{ end }}</p>{{ with .doi }}<a href="https://doi.org/{{ . }}" class="text-link">DOI ↗</a>{{ end }}</li>{{ end }}</ol></details>{{ end }}</div>
 <div class="no-results" hidden><h2>No publications found.</h2><p>Try another author, keyword, or year.</p></div>
 </section>
+<style>
+.publications-page .publication-year{display:block;margin-top:0;padding-top:0}
+.publications-page .publication-year:last-of-type{border-bottom:1px solid var(--line-soft)}
+.publications-page .year-heading{display:grid;grid-template-columns:155px 1fr auto;gap:8px 30px;align-items:center;cursor:pointer;list-style:none;padding:20px 0}
+.publications-page .year-heading::-webkit-details-marker{display:none}
+.publications-page .year-heading p{margin:0}
+.year-caret{display:inline-flex;color:var(--ink);transition:transform .32s cubic-bezier(.34,1.45,.64,1)}
+.publication-year[open] > .year-heading .year-caret{transform:rotate(180deg)}
+.publication-year:not([open]) > .year-heading:hover .year-caret{transform:translateY(2px)}
+.publications-page .publication-year ol{padding-bottom:8px}
+@media(max-width:800px){.publications-page .year-heading{grid-template-columns:1fr auto;gap:2px 16px}.publications-page .year-heading p{grid-column:1}}
+@media(prefers-reduced-motion:reduce){.year-caret{transition:none}}
+</style>
 {{ end }}
-

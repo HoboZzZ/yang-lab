@@ -23,6 +23,7 @@
   const groups = [...document.querySelectorAll('.publication-year')];
   function filter() {
     const words = search.value.trim().toLowerCase().split(/\s+/).filter(Boolean);
+    const filtering = words.length > 0 || year.value !== 'all';
     let total = 0;
     for (const group of groups) {
       let n = 0;
@@ -31,7 +32,10 @@
         paper.hidden = !visible;
         if (visible) n++;
       }
-      group.hidden = !n; group.querySelector('[data-year-count]').textContent = n; total += n;
+      group.hidden = !n;
+      if (filtering && n) group.open = true;
+      group.querySelector('[data-year-count]').textContent = n;
+      total += n;
     }
     count.textContent = `${total} publication${total === 1 ? '' : 's'}`;
     document.querySelector('.no-results').hidden = total !== 0;
@@ -39,6 +43,12 @@
   form.addEventListener('submit', e => e.preventDefault());
   search.addEventListener('input', filter); year.addEventListener('change', filter);
   form.addEventListener('reset', () => { requestAnimationFrame(filter); });
+  addEventListener('beforeprint', () => {
+    for (const group of groups) { group.dataset.wasOpen = group.open ? '1' : '0'; group.open = true; }
+  });
+  addEventListener('afterprint', () => {
+    for (const group of groups) { if (group.dataset.wasOpen === '0') group.open = false; }
+  });
 })();
 
 document.querySelectorAll('.nav-dropdown').forEach(dropdown => {
@@ -46,4 +56,3 @@ document.querySelectorAll('.nav-dropdown').forEach(dropdown => {
   document.addEventListener('click', event => { if (!dropdown.contains(event.target)) dropdown.open = false; });
   document.addEventListener('keydown', event => { if (event.key === 'Escape' && dropdown.open) { dropdown.open = false; dropdown.querySelector('summary').focus(); } });
 });
-

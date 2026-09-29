@@ -1,0 +1,9 @@
+{{ $news := (where .Site.RegularPages "Section" "news").ByDate.Reverse }}
+<section class="section lab-news" id="lab-news" aria-labelledby="lab-news-title"><div class="container">
+ <div class="section__head"><h2 id="lab-news-title" class="section__title">Lab News</h2><a class="section__all" href="{{ "news/" | relURL }}">View all news →</a></div>
+ {{ if where $news "Draft" true }}<p class="news-preview-note">Layout preview · Sample drafts below will be replaced with lab news.</p>{{ end }}
+ {{ if $news }}<div class="latest__grid">
+  {{ range first 1 $news }}{{ partial "post-card.html" (dict "page" . "variant" "lead") }}{{ end }}
+  {{ with first 3 (after 1 $news) }}<div class="mini-cards">{{ range . }}{{ partial "post-card.html" (dict "page" . "variant" "mini") }}{{ end }}</div>{{ end }}
+ </div>{{ else }}<div class="news-empty"><p>Updates from the lab are on their way.</p><p>Research highlights, team news, and moments from the field.</p></div>{{ end }}
+</div></section>

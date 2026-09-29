@@ -1,0 +1,5 @@
+{{ define "main" }}
+<section class="lab-section container alumni-page"><p class="eyebrow">People / Alumni</p><h1>Alumni</h1><p class="page-intro">Former members of the Yang Lab.</p>
+{{ with hugo.Data.alumni }}<div class="alumni-list">{{ range . }}<article><h2>{{ .name }}</h2><p>{{ .role }}{{ with .years }} · {{ . }}{{ end }}</p>{{ with .currentPosition }}<p>{{ . }}</p>{{ end }}</article>{{ end }}</div>{{ else }}<div class="news-empty"><p>Alumni profiles are coming soon.</p></div>{{ end }}
+<a class="text-link" href="{{ "people/" | relURL }}">Meet our current members →</a></section>
+{{ end }}

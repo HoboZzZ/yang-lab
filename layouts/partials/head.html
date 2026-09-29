@@ -1,0 +1,19 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ if .IsHome }}Yang Lab · Corn Entomology{{ else }}{{ .Title }} · Yang Lab{{ end }}</title>
+<meta name="description" content="{{ .Description | default .Site.Params.description }}">
+{{ if .Site.Params.preview }}<meta name="robots" content="noindex,nofollow">{{ end }}
+<link rel="canonical" href="{{ .Permalink }}">
+<meta property="og:title" content="{{ .Title }}">
+<meta property="og:description" content="{{ .Description | default .Site.Params.description }}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ .Permalink }}">
+{{ with resources.Get .Site.Params.heroImage }}{{ $social := .Resize "1200x webp q85" }}<meta property="og:image" content="{{ $social.Permalink }}">{{ end }}
+<meta name="theme-color" content="#F7F6F2">
+<link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">
+{{ $style := resources.Get "css/style.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
+{{ $lab := resources.Get "css/lab.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $lab.RelPermalink }}" integrity="{{ $lab.Data.Integrity }}">
+{{ with .OutputFormats.Get "rss" }}<link rel="alternate" type="application/rss+xml" href="{{ .RelPermalink }}" title="Yang Lab">{{ end }}
+

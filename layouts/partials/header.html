@@ -1,0 +1,15 @@
+<div class="institution-bar container"><span>{{ .Site.Params.institution }}</span><span class="institution-field">{{ .Site.Params.department }}</span></div>
+<header class="lab-header">
+  <div class="container header-inner">
+    <a class="lab-wordmark" href="{{ .Site.Home.RelPermalink }}" aria-label="Yang Lab home">YANG LAB<span class="wordmark-dot">.</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="lab-navigation" hidden>Menu <span aria-hidden="true">☰</span></button>
+    <nav id="lab-navigation" class="lab-nav" aria-label="Main navigation">
+      {{ range .Site.Menus.main }}
+        {{ if eq .Name "People" }}
+        <details class="nav-dropdown"><summary{{ if or (eq $.Layout "people") (eq $.Layout "alumni") }} class="is-current"{{ end }}>People <span aria-hidden="true">⌄</span></summary><div class="nav-submenu"><a href="{{ "people/" | relURL }}"{{ if eq $.Layout "people" }} aria-current="page"{{ end }}>Current Members</a><a href="{{ "people/alumni/" | relURL }}"{{ if eq $.Layout "alumni" }} aria-current="page"{{ end }}>Alumni</a></div></details>
+        {{ else }}<a href="{{ .URL | relURL }}"{{ if hasPrefix $.RelPermalink (.URL | relURL) }} aria-current="page"{{ end }}>{{ .Name }}</a>{{ end }}
+      {{ end }}
+    </nav>
+  </div>
+</header>
+

@@ -1,0 +1,63 @@
+baseURL = 'https://HoboZzZ.github.io/yang-lab/'
+title = 'Yang Lab'
+theme = 'stacknote'
+languageCode = 'en-US'
+locale = 'en-US'
+enableRobotsTXT = true
+disableKinds = ['taxonomy', 'term']
+
+[params]
+  description = 'Corn entomology at the University of Minnesota. Research on insect resistance, pest biology, and sustainable crop protection.'
+  author = 'Fei Yang'
+  mainSection = 'news'
+  showToc = true
+  preview = true
+  themeColor = '#F7F6F2'
+  institution = 'University of Minnesota'
+  department = 'Corn Entomology'
+  homeEyebrow = 'Field questions. Scientific answers.'
+  homeIntro = 'We study corn insects and the evolution of resistance to help growers protect their crops and sustain effective pest management.'
+  heroImage = 'images/lab-group.png'
+  heroAlt = 'Yang Lab team photographed together outdoors.'
+  heroCaption = 'The Yang Lab'
+  location = 'University of Minnesota · St. Paul'
+  email = 'yang8905@umn.edu'
+  facultyURL = 'https://entomology.umn.edu/people/fei-yang'
+  extensionURL = 'https://extension.umn.edu/corn/corn-pest-management'
+
+[outputs]
+  home = ['HTML', 'RSS']
+
+[caches.images]
+  dir = ':cacheDir/images'
+
+[[menus.main]]
+  name = 'Research'
+  url = '/research/'
+  weight = 10
+[[menus.main]]
+  name = 'People'
+  url = '/people/'
+  weight = 20
+[[menus.main]]
+  name = 'Projects'
+  url = '/projects/'
+  weight = 30
+[[menus.main]]
+  name = 'Publications'
+  url = '/publications/'
+  weight = 40
+[[menus.main]]
+  name = 'Extension'
+  url = '/extension/'
+  weight = 50
+[[menus.main]]
+  name = 'Contact'
+  url = '/contact/'
+  weight = 60
+
+[[menus.main]]
+  name = 'Lab News'
+  url = '/news/'
+  weight = 55
+

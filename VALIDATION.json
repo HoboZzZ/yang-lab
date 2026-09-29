@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "pagesChecked": [
+    "",
+    "research/",
+    "people/",
+    "people/alumni/",
+    "projects/",
+    "publications/",
+    "extension/",
+    "contact/",
+    "news/",
+    "news/lab-life/",
+    "news/research-update/",
+    "news/publication-highlight/",
+    "news/events-outreach/"
+  ],
+  "productionLinksChecked": 189,
+  "draftArticlesExcludedFromProduction": true,
+  "homeSections": [
+    "Hero",
+    "Mission",
+    "Lab News"
+  ],
+  "deployment": "Local preview only"
+}

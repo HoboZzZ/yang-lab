@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Bt resistance & corn borers",
+    "description": "Monitoring European corn borer resistance, assessing its genetic basis, and evaluating risks to transgenic Bt corn.",
+    "points": [
+      "Resistance surveillance and F₂ screening",
+      "Inheritance and resistance stability",
+      "Multi-state and international collaboration"
+    ]
+  },
+  {
+    "title": "Corn rootworm management",
+    "description": "Evaluating management tools and the biology of western and northern corn rootworms.",
+    "points": [
+      "Bt traits, insecticides, and seed treatments",
+      "Larval competition and feeding behavior",
+      "Egg cold tolerance and diapause"
+    ]
+  },
+  {
+    "title": "Corn earworm & invasive pests",
+    "description": "Studying resistance in corn earworm and monitoring risks associated with the invasive Old World bollworm, Helicoverpa armigera.",
+    "points": [
+      "Bt and Vip3A resistance",
+      "Invasive insect monitoring and risk assessment",
+      "Sweet corn pest management"
+    ]
+  },
+  {
+    "title": "Sustainable pest management",
+    "description": "Connecting pest surveys and efficacy trials with decisions that reduce unnecessary insecticide use.",
+    "points": [
+      "Statewide corn insect surveillance",
+      "Neonicotinoid seed treatments in corn and soybean",
+      "Pollinator protection and grower outreach"
+    ]
+  }
+]

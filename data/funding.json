@@ -1,0 +1,39 @@
+{
+  "stats": [
+    {
+      "value": "$5,813,389",
+      "label": "Career grants and contracts",
+      "detail": "CV total"
+    },
+    {
+      "value": "$3,503,044",
+      "label": "University of Minnesota awards",
+      "detail": "Collaborative projects included"
+    },
+    {
+      "value": "$2,819,206",
+      "label": "Allocated to Yang’s UMN program",
+      "detail": "Program allocation"
+    }
+  ],
+  "note": "Award totals include collaborative projects. Program allocations are shown separately. Unfunded proposals are excluded. Figures follow the supplied CV summary.",
+  "description": "European corn borer projects monitor Bt resistance across Minnesota, the U.S., and Canada. Corn rootworm projects evaluate Bt traits, insecticides, seed treatments, larval competition, and cold tolerance. Additional work addresses invasive Old World bollworm risk, statewide pest surveillance, and reduced neonicotinoid use.",
+  "partners": [
+    "USDA Agriculture and Food Research Initiative",
+    "Corteva Agriscience",
+    "Minnesota Corn Research and Promotion Council",
+    "Minnesota Invasive Terrestrial Plants and Pests Center (MITPPC)",
+    "Minnesota Department of Agriculture",
+    "Minnesota Agricultural Experiment Station, Rapid Agricultural Response Fund Program",
+    "Bayer CropScience",
+    "FMC",
+    "Wyffels",
+    "BASF",
+    "Pahl’s Farm",
+    "Valent",
+    "Profarm",
+    "Syngenta",
+    "MWFPA",
+    "AMVAC"
+  ]
+}

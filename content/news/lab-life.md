@@ -1,0 +1,18 @@
++++
+title = "Team moments & lab life"
+date = 2026-09-28
+draft = true
+tags = ["Lab life"]
+description = "A space for team photos, new members, and everyday moments from the lab."
+
+[cover]
+image = "images/lab-group.png"
+alt = "Yang Lab team photographed outdoors"
+hiddenInSingle = false
++++
+
+**Sample draft for layout preview. This is not a report of an actual event.**
+
+A space for team photos, new members, and everyday moments from the lab.
+
+Replace this example with the lab’s own news, photograph, and publication date. Set `draft = false` when the article is ready to publish.

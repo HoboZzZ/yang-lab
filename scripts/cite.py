@@ -18,6 +18,7 @@ SOURCES = ROOT / "cite" / "sources.yaml"
 MANUAL = ROOT / "data" / "publications.json"
 OUTPUT = ROOT / "data" / "citations.json"
 UA = "yang-lab-citations/1.0 (mailto:yang8905@umn.edu)"
+MIN_YEAR = 2021
 
 
 def get(url):
@@ -208,6 +209,7 @@ def main():
                 "note": entry.get("note") or "",
             })
 
+    items = [item for item in items if item["year"] >= MIN_YEAR]
     items.sort(key=lambda item: (-item["year"], item["title"].lower()))
     items = dedupe(items)
     OUTPUT.write_text(json.dumps({"items": items}, indent=2, ensure_ascii=False) + "\n")

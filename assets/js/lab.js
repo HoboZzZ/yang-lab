@@ -1,4 +1,29 @@
 (() => {
+  const root = document.documentElement;
+  const themeButton = document.querySelector(".theme-toggle");
+  const themeMedia = matchMedia("(prefers-color-scheme: dark)");
+  const themeKey = "yang-lab-theme";
+  const applyTheme = (theme) => {
+    root.dataset.theme = theme;
+    const meta = document.querySelector('meta[name="theme-color"]');
+    if (meta) meta.setAttribute("content", theme === "dark" ? "#161210" : "#F7F6F2");
+    if (!themeButton) return;
+    const dark = theme === "dark";
+    themeButton.setAttribute("aria-pressed", String(dark));
+    themeButton.setAttribute("aria-label", dark ? "Switch to light mode" : "Switch to dark mode");
+  };
+  applyTheme(root.dataset.theme || (themeMedia.matches ? "dark" : "light"));
+  themeButton?.addEventListener("click", () => {
+    const next = root.dataset.theme === "dark" ? "light" : "dark";
+    applyTheme(next);
+    try { localStorage.setItem(themeKey, next); } catch (e) {}
+  });
+  themeMedia.addEventListener("change", (event) => {
+    let stored = null;
+    try { stored = localStorage.getItem(themeKey); } catch (e) {}
+    if (stored !== "light" && stored !== "dark") applyTheme(event.matches ? "dark" : "light");
+  });
+
   const toggle = document.querySelector('.menu-toggle');
   const nav = document.querySelector('.lab-nav');
   if (toggle && nav) {

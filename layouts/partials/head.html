@@ -1,5 +1,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<script>
+(function () {
+  try {
+    var stored = localStorage.getItem("yang-lab-theme");
+    var theme = stored === "light" || stored === "dark" ? stored : (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+    document.documentElement.setAttribute("data-theme", theme);
+  } catch (e) {}
+})();
+</script>
 <title>{{ if .IsHome }}Yang Lab · Corn Entomology{{ else }}{{ .Title }} · Yang Lab{{ end }}</title>
 <meta name="description" content="{{ .Description | default .Site.Params.description }}">
 {{ if .Site.Params.preview }}<meta name="robots" content="noindex,nofollow">{{ end }}

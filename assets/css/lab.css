@@ -30,3 +30,17 @@
 @media(max-width:1000px) and (min-width:801px){.nav-dropdown summary{font-size:12px}}
 @media(max-width:800px){.nav-dropdown summary{padding:6px 0}.nav-submenu{position:static;box-shadow:none;border:0;border-left:1px solid var(--line-soft);margin:8px 0 0 3px;padding:0 0 0 12px;min-width:145px}.lab-nav:has(.nav-dropdown[open]){align-items:flex-start}}
 
+.lab-nav{margin-left:auto}
+.theme-toggle{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;margin-left:14px;border:1px solid var(--line-soft);background:transparent;color:var(--ink);cursor:pointer;flex:none}
+.theme-toggle:hover{border-color:var(--accent-dark);color:var(--accent-dark)}
+.theme-icon-sun{display:none}
+html[data-theme="dark"] .theme-icon-moon{display:none}
+html[data-theme="dark"] .theme-icon-sun{display:block}
+html[data-theme="dark"]{color-scheme:dark;--paper:#161210;--paper-2:#221c18;--card:#2b241f;--ink:#f6f1ea;--muted:#c9bfb4;--line:#8a7568;--line-soft:#3d322c;--accent:#FFCC33;--accent-dark:#f0c4c8;--accent-soft:#3a2428;--focus:#FFCC33}
+html[data-theme="dark"] .btn--primary{background:#7A0019;color:#fff}
+html[data-theme="dark"] .publication-section{background:#1c1714}
+html[data-theme="dark"] .contact-section{background:#1c1714}
+html[data-theme="dark"] .person-photo{background:#2a2420}
+@media(max-width:800px){.theme-toggle{margin-left:auto;order:2}.menu-toggle{order:3}.lab-nav{order:4;margin-left:0}}
+
+

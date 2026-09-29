@@ -30,7 +30,8 @@
 .alumni-columns{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:28px;margin-block:40px 28px}
 .alumni-column h2{font-size:22px;font-weight:600;border-top:2px solid var(--accent);padding-top:16px;margin-bottom:8px}
 .alumni-column article{border-top:1px solid var(--line-soft);padding-block:18px}
-.alumni-column h3{font:600 26px/1.2 var(--font-display);margin-bottom:6px}
+.alumni-column h3{font:600 26px/1.2 var(--font-display);margin-bottom:4px}
+.alumni-years{font-size:13px;letter-spacing:.04em;color:var(--accent-dark);margin-bottom:6px}
 .alumni-column p{font-size:14px;color:var(--muted)}
 .alumni-column .text-link{margin-top:8px}
 .alumni-empty{margin-top:16px;font-size:14px;color:var(--muted)}

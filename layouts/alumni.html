@@ -15,7 +15,8 @@
           {{ range $people }}
             <article>
               <h3>{{ .name }}</h3>
-              <p>{{ .role }}{{ with .years }} · {{ . }}{{ end }}</p>
+              {{ with .years }}<p class="alumni-years">{{ . }}</p>{{ end }}
+              <p>{{ .role }}</p>
               {{ with .currentPosition }}<p>{{ . }}</p>{{ end }}
               {{ with .url }}<a class="text-link" href="{{ . }}">Profile ↗</a>{{ end }}
             </article>

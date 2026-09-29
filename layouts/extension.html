@@ -1,6 +1,36 @@
 {{ define "main" }}
 <section id="extension" class="lab-section container" aria-labelledby="extension-title">
  {{ partial "lab/section-head.html" (dict "level" 1 "label" "Extension" "id" "extension" "title" "From research<br>to the field." "intro" "Timely pest updates, scouting guidance, and monitoring reports for growers and agricultural professionals.") }}
- <div class="extension-feature"><div><p class="eyebrow">Knowledge in practice</p><h3>Better information.<br>Better field decisions.</h3><p>The supplied CV summary includes 32 unique Extension articles and trapping reports from 2023–2026, covering European corn borer, corn rootworm, corn leafhopper, black cutworm, armyworm, and insect management decisions.</p><a class="text-link" href="{{ .Site.Params.extensionURL }}">UMN Extension corn pest resources ↗</a></div><div class="extension-topics"><p>For growers &amp; agricultural professionals</p><ul><li>Pest monitoring &amp; scouting</li><li>Resistance management</li><li>Field trials &amp; treatment decisions</li><li>Seasonal pest updates</li></ul><a href="https://blog-crop-news.extension.umn.edu/" class="text-link">Minnesota Crop News ↗</a></div></div>
+ <div class="extension-feature"><div><p class="eyebrow">Knowledge in practice</p><h3>Better information.<br>Better field decisions.</h3><p>The supplied CV summary includes 32 unique Extension articles and trapping reports from 2023–2026, covering European corn borer, corn rootworm, corn leafhopper, black cutworm, armyworm, and insect management decisions.</p><a class="text-link" href="{{ .Site.Params.extensionURL }}">UMN Extension corn pest resources ↗</a></div><div class="extension-topics"><p>For growers & agricultural professionals</p><ul><li>Pest monitoring & scouting</li><li>Resistance management</li><li>Field trials & treatment decisions</li><li>Seasonal pest updates</li></ul><a href="https://blog-crop-news.extension.umn.edu/" class="text-link">Minnesota Crop News ↗</a></div></div>
+ {{ if or .Params.video .Params.links }}
+ <div class="extension-stage">
+  {{ with .Params.video }}
+  <figure class="extension-video">
+   <div class="photo-frame"><div class="extension-player"><iframe src="https://www.youtube-nocookie.com/embed/{{ . }}" title="{{ $.Params.videoTitle | default "Extension video" }}" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div></div>
+   <figcaption><span>{{ $.Params.videoTitle }}</span><span>{{ $.Params.videoCaption }}</span></figcaption>
+  </figure>
+  {{ end }}
+  {{ with .Params.links }}
+  <div class="extension-links"><p class="eyebrow">Resources</p><ul>
+   {{ range . }}<li><a href="{{ .url }}">{{ .name }} <span aria-hidden="true">↗</span></a></li>{{ end }}
+  </ul></div>
+  {{ end }}
+ </div>
+ {{ end }}
 </section>
+<style>
+.extension-stage{display:grid;grid-template-columns:1.25fr .85fr;gap:clamp(28px,5vw,70px);align-items:start;margin-top:56px}
+.extension-video{margin:0;min-width:0}
+.extension-player{position:relative;aspect-ratio:16/9;background:#171714}
+.extension-player iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.extension-video figcaption{display:flex;justify-content:space-between;gap:15px;margin-top:16px;font-size:11px;color:var(--muted)}
+.extension-video figcaption span:first-child{color:var(--ink);letter-spacing:.02em}
+.extension-links ul{list-style:none;padding:0;margin:8px 0 0}
+.extension-links li{border-top:1px solid var(--line-soft)}
+.extension-links li:last-child{border-bottom:1px solid var(--line-soft)}
+.extension-links a{display:flex;justify-content:space-between;align-items:baseline;gap:18px;padding:16px 0;font-size:16px;line-height:1.4;color:var(--ink);text-decoration:none}
+.extension-links a:hover{color:var(--accent-dark)}
+.extension-links a span{color:var(--accent-dark);flex:none}
+@media(max-width:800px){.extension-stage{grid-template-columns:1fr;gap:28px;margin-top:36px}.extension-video figcaption{flex-direction:column;gap:4px}}
+</style>
 {{ end }}

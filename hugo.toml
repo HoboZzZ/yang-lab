@@ -52,7 +52,7 @@ disableKinds = ['taxonomy', 'term']
   url = '/extension/'
   weight = 50
 [[menus.main]]
-  name = 'Contact'
+  name = 'Join US!'
   url = '/contact/'
   weight = 60
 

@@ -49,7 +49,7 @@ hugo server --buildDrafts --disableFastRender
 
 正式发布前，将 `hugo.toml` 中 `baseURL` 改为实际站点 URL，并完成内容核对后将 `preview = true` 改为 `false`。预览模式显示简短提示且禁止搜索引擎索引，**不提供访问控制**。仓库和 Pages 的可见性请按实验室需要选择。
 
-当前只完成本地网站和部署配置，尚未创建远程仓库、推送或公开发布。GitHub Pages 实际部署需在目标仓库验证。
+已于 2026-09-29 推送到 https://github.com/HoboZzZ/yang-lab 并通过 GitHub Actions 构建、部署。在线预览：https://hobozzz.github.io/yang-lab/ 。后续推送 main 分支将自动更新网站。当前保留 preview = true；示例新闻草稿不会上线。
 
 ## 内容范围与素材
 

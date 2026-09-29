@@ -1,12 +1,7 @@
 [
   {
-    "name": "Yucheng Wang",
-    "role": "Research Associate and Visiting Scholar",
-    "years": "2024–2025",
-    "currentPosition": "University of Minnesota, Twin Cities"
-  },
-  {
     "name": "Wilfrid Calvin",
+    "group": "Postdoctoral",
     "role": "Postdoctoral Research Associate",
     "years": "2023–2024",
     "currentPosition": "University of Arizona",
@@ -14,9 +9,17 @@
   },
   {
     "name": "David Wangila",
+    "group": "Postdoctoral",
     "role": "Postdoctoral Research Associate",
     "years": "2024–2025",
     "currentPosition": "University of Nebraska, Lincoln",
     "url": "https://epd.unl.edu/profile/dwangila2"
+  },
+  {
+    "name": "Yucheng Wang",
+    "group": "Visiting scholar",
+    "role": "Research Associate and Visiting Scholar",
+    "years": "2024–2025",
+    "currentPosition": "University of Minnesota, Twin Cities"
   }
 ]

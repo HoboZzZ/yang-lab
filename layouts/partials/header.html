@@ -6,10 +6,17 @@
     <nav id="lab-navigation" class="lab-nav" aria-label="Main navigation">
       {{ range .Site.Menus.main }}
         {{ if eq .Name "People" }}
-        <details class="nav-dropdown"><summary{{ if or (eq $.Layout "people") (eq $.Layout "alumni") }} class="is-current"{{ end }}>People <span aria-hidden="true">⌄</span></summary><div class="nav-submenu"><a href="{{ "people/" | relURL }}"{{ if eq $.Layout "people" }} aria-current="page"{{ end }}>Current Members</a><a href="{{ "people/alumni/" | relURL }}"{{ if eq $.Layout "alumni" }} aria-current="page"{{ end }}>Alumni</a></div></details>
+        <details class="nav-dropdown"><summary{{ if or (eq $.Layout "people") (eq $.Layout "alumni") }} class="is-current"{{ end }}>People <span class="nav-caret" aria-hidden="true"><svg viewBox="0 0 12 12" width="11" height="11" focusable="false"><path d="M2.2 4.3 6 8 9.8 4.3" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span></summary><div class="nav-submenu"><a href="{{ "people/" | relURL }}"{{ if eq $.Layout "people" }} aria-current="page"{{ end }}>Current Members</a><a href="{{ "people/alumni/" | relURL }}"{{ if eq $.Layout "alumni" }} aria-current="page"{{ end }}>Alumni</a></div></details>
         {{ else }}<a href="{{ .URL | relURL }}"{{ if hasPrefix $.RelPermalink (.URL | relURL) }} aria-current="page"{{ end }}>{{ .Name }}</a>{{ end }}
       {{ end }}
     </nav>
   </div>
 </header>
-
+<style>
+.nav-caret{display:inline-flex;align-items:center;justify-content:center;width:14px;height:14px;margin-top:1px;transform-origin:center;transition:transform .34s cubic-bezier(.34,1.45,.64,1)}
+.nav-dropdown[open] > summary .nav-caret{transform:rotate(180deg)}
+.nav-dropdown:not([open]) > summary:hover .nav-caret{transform:translateY(2px)}
+.nav-submenu{transform-origin:top center}
+.nav-dropdown[open] > .nav-submenu{animation:nav-submenu-in .22s cubic-bezier(.2,.8,.2,1)}
+@keyframes nav-submenu-in{from{opacity:0;transform:translateY(-6px)}to{opacity:1;transform:none}}
+</style>

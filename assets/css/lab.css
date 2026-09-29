@@ -71,3 +71,5 @@ html[data-theme="dark"] .person-photo{background:#2a2420}
 .research-chips li{margin:0;padding:4px 8px;border:1px solid var(--line-soft);border-radius:999px;background:var(--accent-soft);color:var(--accent-dark);font-size:12px;line-height:1.35}
 @media(max-width:800px){.research-grid{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){.research-item{transition:none}.research-item:hover{transform:none}}
+
+.citation-authors strong{font-weight:700;color:var(--ink)}

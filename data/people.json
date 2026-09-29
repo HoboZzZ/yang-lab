@@ -3,48 +3,81 @@
     "name": "Fei Yang",
     "role": "Principal investigator",
     "image": "images/people/fei-yang.png",
-    "url": "https://entomology.umn.edu/people/fei-yang"
+    "url": "https://entomology.umn.edu/people/fei-yang",
+    "cv": "",
+    "links": [
+      {
+        "label": "Scholar",
+        "url": "https://scholar.google.com/citations?user=SfACRjcAAAAJ&hl=en"
+      },
+      {
+        "label": "ResearchGate",
+        "url": "https://www.researchgate.net/profile/Fei-Yang-51"
+      },
+      {
+        "label": "ORCID",
+        "url": "https://orcid.org/0000-0001-5162-4575"
+      },
+      {
+        "label": "Profile",
+        "url": "https://entomology.umn.edu/people/fei-yang"
+      }
+    ]
   },
   {
     "name": "Yucheng Wang",
     "role": "Postdoctoral researcher",
     "image": "images/people/yucheng-wang.jpeg",
-    "url": ""
+    "url": "",
+    "cv": "",
+    "links": []
   },
   {
     "name": "Qinglei Ming",
     "role": "Postdoctoral researcher",
     "image": "images/people/qinglei-ming.png",
-    "url": ""
+    "url": "",
+    "cv": "",
+    "links": []
   },
   {
     "name": "Yuchun Wang",
     "role": "Lab technician",
     "image": "images/people/yuchun-wang.jpeg",
-    "url": ""
+    "url": "",
+    "cv": "",
+    "links": []
   },
   {
     "name": "Tatum Dwyer",
     "role": "PhD student",
     "image": "images/people/tatum-dwyer.png",
-    "url": ""
+    "url": "",
+    "cv": "",
+    "links": []
   },
   {
     "name": "Hunter Ness",
     "role": "MS student",
     "image": "images/people/hunter-ness.png",
-    "url": ""
+    "url": "",
+    "cv": "",
+    "links": []
   },
   {
     "name": "Haobo Zhang",
     "role": "MS student",
     "image": "images/people/haobo-zhang.png",
-    "url": ""
+    "url": "",
+    "cv": "",
+    "links": []
   },
   {
     "name": "Loi Shah",
     "role": "Undergraduate researcher",
     "image": "images/people/loi-shah.png",
-    "url": ""
+    "url": "",
+    "cv": "",
+    "links": []
   }
 ]

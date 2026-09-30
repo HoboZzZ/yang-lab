@@ -86,5 +86,7 @@ body,h1,h2,h3,h4{font-variant-numeric:lining-nums}
 
 .alumni-current{margin-top:8px}
 .alumni-current-label{font-weight:500;color:var(--ink)}
+.person-project{margin-top:8px;font-size:14px;line-height:1.6;color:var(--muted);overflow-wrap:anywhere}
+.person-project-label{font-weight:500;color:var(--ink)}
 
 .research-image{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;object-position:center 30%;margin-bottom:4px;flex-shrink:0}

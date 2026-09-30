@@ -17,6 +17,7 @@
                 <h4>{{ .name }}</h4>
                 {{ with .years }}<p class="alumni-years">{{ . }}</p>{{ end }}
                 <p>{{ .role }}</p>
+                {{ partial "lab/person-project.html" . }}
                 {{ with .currentPosition }}<p class="alumni-current"><span class="alumni-current-label">Current institution:</span> {{ . }}</p>{{ end }}
                 {{ with .url }}<a class="text-link" href="{{ . }}">Profile ↗</a>{{ end }}
               </article>

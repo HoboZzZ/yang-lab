@@ -1,0 +1,7 @@
+{{ with .interests }}
+  <ul class="person-interests" aria-label="Research interests" role="list">
+    {{ range $index, $interest := . }}
+      <li>{{ if $index }}<span class="person-interest-separator" aria-hidden="true"> · </span>{{ end }}{{ $interest }}</li>
+    {{ end }}
+  </ul>
+{{ end }}

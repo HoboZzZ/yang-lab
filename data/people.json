@@ -27,12 +27,16 @@
         "label": "Profile",
         "url": "https://entomology.umn.edu/people/fei-yang"
       }
+    ],
+    "interests": [
+      "Bt resistance",
+      "Insect ecology",
+      "IPM"
     ]
   },
   {
     "name": "Yucheng Wang",
     "role": "Postdoctoral researcher",
-    "project": "",
     "project": "",
     "image": "images/people/yucheng-wang.jpeg",
     "url": "",
@@ -42,7 +46,8 @@
         "label": "Scholar",
         "url": "https://scholar.google.com/citations?user=11_48SYAAAAJ&hl=en"
       }
-    ]
+    ],
+    "interests": []
   },
   {
     "name": "Qinglei Ming",
@@ -55,7 +60,8 @@
         "label": "Scholar",
         "url": "https://scholar.google.com/citations?user=mDU7PIMAAAAJ&amp;hl=en"
       }
-    ]
+    ],
+    "interests": []
   },
   {
     "name": "Yuchun Wang",
@@ -64,7 +70,8 @@
     "image": "images/people/yuchun-wang.jpeg",
     "url": "",
     "cv": "",
-    "links": []
+    "links": [],
+    "interests": []
   },
   {
     "name": "Tatum Dwyer",
@@ -82,22 +89,23 @@
         "label": "LinkedIn",
         "url": "https://www.linkedin.com/in/tatumdwyer/"
       }
-    ]
+    ],
+    "interests": []
   },
   {
     "name": "Hunter Ness",
     "role": "MS student",
     "project": "",
-    "project": "",
     "image": "images/people/hunter-ness.png",
     "url": "",
     "cv": "",
     "links": [
-       {
+      {
         "label": "LinkedIn",
         "url": "https://www.linkedin.com/in/hunter-ness-751889293/"
       }
-    ]
+    ],
+    "interests": []
   },
   {
     "name": "Haobo Zhang",
@@ -110,7 +118,8 @@
         "label": "LinkedIn",
         "url": "https://www.linkedin.com/in/haobo-zhang-0462a332a/"
       }
-    ]
+    ],
+    "interests": []
   },
   {
     "name": "Loi Shah",
@@ -119,6 +128,7 @@
     "image": "images/people/loi-shah.png",
     "url": "",
     "cv": "",
-    "links": []
+    "links": [],
+    "interests": []
   }
 ]

@@ -101,6 +101,7 @@ body,h1,h2,h3,h4{font-variant-numeric:lining-nums}
 @media print{.hiring-banner{display:none!important}}
 
 .research-image{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;object-position:center 30%;margin-bottom:4px;flex-shrink:0}
+.research-image--diagram{object-fit:contain;object-position:center;background:#fff;padding:8px}
 
 .person-tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
 .person-tag{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;padding:0;border:1px solid var(--line-soft);color:var(--ink);text-decoration:none}

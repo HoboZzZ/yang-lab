@@ -7,8 +7,9 @@
       "Inheritance and resistance stability",
       "Multi-state and international collaboration"
     ],
-    "image": "images/lab-group.png",
-    "imageAlt": "Corn Entomology Lab team photographed together outdoors."
+    "image": "images/research/ecb-f2-screening.png",
+    "imageAlt": "European corn borer F₂ screening workflow, from larval collection and rearing through single pairing, F₁ and F₂ families, diagnostic diet-overlay bioassays, and full-range assays.",
+    "imageFit": "contain"
   },
   {
     "title": "Corn rootworm management",

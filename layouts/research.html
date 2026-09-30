@@ -8,7 +8,7 @@
           {{ with resources.Get . }}
             {{ $oriented := .Filter images.AutoOrient }}
             {{ $img := $oriented.Resize "1200x webp q85" }}
-            <img class="research-image" src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="{{ $item.imageAlt | default $item.title }}" loading="lazy">
+            <img class="research-image{{ if eq $item.imageFit "contain" }} research-image--diagram{{ end }}" src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="{{ $item.imageAlt | default $item.title }}" loading="lazy">
           {{ else }}
             {{ warnf "Research image not found: %s" . }}
           {{ end }}

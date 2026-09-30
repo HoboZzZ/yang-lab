@@ -1,0 +1,13 @@
+{{- with .author_list -}}
+  {{- range $i, $author := . -}}
+    {{- if $i }}, {{ end -}}
+    {{- if eq $author.name "Yang, F." -}}<strong>{{ $author.name }}</strong>{{- else -}}{{ $author.name }}{{- end -}}
+    {{- range $author.roles -}}
+      {{- if eq . "graduate" -}}<sup class="author-symbol" title="Graduate student as author" aria-label="Graduate student as author">*</sup>
+      {{- else if eq . "postdoc" -}}<sup class="author-symbol" title="Postdoc as author" aria-label="Postdoc as author">**</sup>
+      {{- else if eq . "corresponding" -}}<sup class="author-symbol" title="Corresponding author" aria-label="Corresponding author">##</sup>{{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- else -}}
+  {{- replace .authors "Yang, F." "<strong>Yang, F.</strong>" | safeHTML -}}
+{{- end -}}

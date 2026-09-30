@@ -77,3 +77,6 @@ html[data-theme="dark"] .person-photo{background:#2a2420}
 /* Keep numerals on the baseline, including years within display headings. */
 body,h1,h2,h3,h4{font-variant-numeric:lining-nums}
 :where(time,.extension-meta,.extension-year-count,.extension-format-title span,.alumni-years,.project-period,.project-funding,.project-count){font-variant-numeric:lining-nums tabular-nums}
+
+.publication-legend{display:flex;flex-wrap:wrap;gap:8px 24px;margin-top:24px;color:var(--muted);font:400 13px/1.6 var(--font-body)}
+.publication-legend sup,.author-symbol{color:var(--accent-dark);font-weight:600;font-size:.8em;line-height:0;vertical-align:super;position:static}

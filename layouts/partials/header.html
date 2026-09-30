@@ -6,7 +6,7 @@
     <nav id="lab-navigation" class="lab-nav" aria-label="Main navigation">
       {{ range .Site.Menus.main }}
         {{ if eq .Name "People" }}
-        <a href="{{ "people/" | relURL }}"{{ if eq $.Layout "people" }} aria-current="page"{{ end }}>People</a>
+        <a href="{{ "people/" | relURL }}"{{ if eq $.Section "people" }} aria-current="page"{{ end }}>People</a>
         {{ else }}<a href="{{ .URL | relURL }}"{{ if hasPrefix $.RelPermalink (.URL | relURL) }} aria-current="page"{{ end }}>{{ .Name }}</a>{{ end }}
       {{ end }}
     </nav>

@@ -1,0 +1,71 @@
+{{ define "main" }}
+{{ $matches := where hugo.Data.people "profileSlug" .Params.member }}
+{{ if ne (len $matches) 1 }}{{ errorf "Member page %s needs exactly one matching profileSlug in data/people.json" .Path }}{{ else }}
+{{ $person := index $matches 0 }}
+<section class="member-page container" aria-labelledby="member-name">
+  <a class="text-link member-back" href="{{ "people/" | relURL }}#current-members"><span aria-hidden="true">←</span> Back to People</a>
+  <div class="member-layout">
+    <div class="member-identity">
+      {{ with resources.Get $person.image }}
+        {{ $oriented := .Filter images.AutoOrient }}{{ $portrait := $oriented.Resize "640x webp q85" }}
+        <img class="member-portrait" src="{{ $portrait.RelPermalink }}" width="{{ $portrait.Width }}" height="{{ $portrait.Height }}" alt="Portrait of {{ $person.name }}" fetchpriority="high">
+      {{ end }}
+      <h1 id="member-name">{{ $person.name }}</h1>
+      <p class="member-role">{{ .Params.position | default $person.role }}</p>
+      <p class="member-affiliation">{{ .Site.Params.institution }}</p>
+      {{ with .Params.advisors }}<p class="member-advisors">{{ if gt (len .) 1 }}Advisors{{ else }}Advisor{{ end }}: {{ delimit . " & " }}</p>{{ end }}
+      <div class="member-links">{{ partial "lab/person-links.html" $person }}</div>
+      {{ with .Params.email }}<a class="member-email" href="mailto:{{ . }}">{{ . }}</a>{{ end }}
+    </div>
+    <div class="member-body">
+      {{ if strings.TrimSpace .Content }}
+      <section class="member-biography" aria-labelledby="biography-title">
+        <h2 id="biography-title">Biography</h2>
+        {{ .Content }}
+      </section>
+      {{ end }}
+      {{ if or $person.interests .Params.education }}
+      <div class="member-details{{ if not (and $person.interests .Params.education) }} member-details--single{{ end }}">
+        {{ with $person.interests }}
+        <section aria-labelledby="interests-title">
+          <h2 id="interests-title">Research Interests</h2>
+          <ul class="member-interests">{{ range . }}<li>{{ . }}</li>{{ end }}</ul>
+        </section>
+        {{ end }}
+        {{ with .Params.education }}
+        <section aria-labelledby="education-title">
+          <h2 id="education-title">Education</h2>
+          <ul class="member-education" role="list">
+            {{ range . }}<li><svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path fill="currentColor" d="M12 3 1 8.5 12 14l8-4v6h2V8.5L12 3zm-7 9v5c4 3 10 3 14 0v-5l-7 3.5L5 12z"/></svg><div><p class="member-degree">{{ .degree }}</p><p class="member-school">{{ .institution }}</p>{{ with .period }}<p class="member-years">{{ . }}</p>{{ end }}</div></li>{{ end }}
+          </ul>
+        </section>
+        {{ end }}
+      </div>
+      {{ end }}
+      {{ with $person.project }}<section class="member-section" aria-labelledby="focus-title"><h2 id="focus-title">Current Focus</h2><p>{{ . }}</p></section>{{ end }}
+      {{ with .Params.experience }}
+      <section class="member-section" aria-labelledby="experience-title"><h2 id="experience-title">Experience</h2><ul class="member-interests">{{ range . }}<li>{{ . }}</li>{{ end }}</ul></section>
+      {{ end }}
+      {{ with .Params.research_projects }}
+      <section class="member-section" aria-labelledby="research-projects-title">
+        <h2 id="research-projects-title">Current Research</h2>
+        <ul class="member-projects" role="list">{{ range . }}<li><h3>{{ with .url }}<a href="{{ . | relURL }}">{{ end }}{{ .title }}{{ if .url }}</a>{{ end }}</h3>{{ with .description }}<p>{{ . }}</p>{{ end }}</li>{{ end }}</ul>
+      </section>
+      {{ end }}
+      {{ $publications := slice }}
+      {{ range .Params.publication_dois }}
+        {{ $records := where hugo.Data.citations.items "doi" . }}
+        {{ if $records }}{{ $publications = $publications | append (index $records 0) }}{{ else }}{{ warnf "Publication DOI %s on %s was not found in data/citations.json" . $.Path }}{{ end }}
+      {{ end }}
+      {{ with $publications }}
+      <section class="member-section" aria-labelledby="member-publications-title">
+        <h2 id="member-publications-title">Selected Publications</h2>
+        <ul class="member-publications" role="list">{{ range . }}<li><p class="member-publication-year">{{ .year }}</p><h3><a href="{{ .url }}">{{ .title | replaceRE "\\s+" " " }}</a></h3><p class="member-publication-authors">{{ partial "citation-authors.html" . }}</p><p>{{ .journal }}</p></li>{{ end }}</ul>
+        <a class="text-link" href="{{ "publications/" | relURL }}">Lab Publications &amp; Author Markers <span aria-hidden="true">→</span></a>
+      </section>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}

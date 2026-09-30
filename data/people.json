@@ -47,7 +47,12 @@
         "url": "https://scholar.google.com/citations?user=11_48SYAAAAJ&hl=en"
       }
     ],
-    "interests": []
+    "interests": [
+      "Corn insect biology",
+      "Environmental effects on pests",
+      "Sustainable pest management"
+    ],
+    "profileSlug": "yucheng-wang"
   },
   {
     "name": "Qinglei Ming",
@@ -58,10 +63,15 @@
     "links": [
       {
         "label": "Scholar",
-        "url": "https://scholar.google.com/citations?user=mDU7PIMAAAAJ&amp;hl=en"
+        "url": "https://scholar.google.com/citations?user=mDU7PIMAAAAJ&hl=en"
       }
     ],
-    "interests": []
+    "interests": [
+      "Crop insect pests",
+      "IPM",
+      "IRM"
+    ],
+    "profileSlug": "qinglei-ming"
   },
   {
     "name": "Yuchun Wang",
@@ -71,7 +81,11 @@
     "url": "",
     "cv": "",
     "links": [],
-    "interests": []
+    "interests": [
+      "Bt resistance fitness costs",
+      "European corn borer monitoring"
+    ],
+    "profileSlug": "yuchun-wang"
   },
   {
     "name": "Tatum Dwyer",
@@ -90,7 +104,11 @@
         "url": "https://www.linkedin.com/in/tatumdwyer/"
       }
     ],
-    "interests": []
+    "interests": [
+      "European corn borer",
+      "Bt resistance genetics"
+    ],
+    "profileSlug": "tatum-dwyer"
   },
   {
     "name": "Hunter Ness",
@@ -105,7 +123,12 @@
         "url": "https://www.linkedin.com/in/hunter-ness-751889293/"
       }
     ],
-    "interests": []
+    "interests": [
+      "Corn and soybean soil pests",
+      "Seed treatments",
+      "Bt crops"
+    ],
+    "profileSlug": "hunter-ness"
   },
   {
     "name": "Haobo Zhang",
@@ -119,7 +142,11 @@
         "url": "https://www.linkedin.com/in/haobo-zhang-0462a332a/"
       }
     ],
-    "interests": []
+    "interests": [
+      "Bt resistance monitoring",
+      "Resistance genetics"
+    ],
+    "profileSlug": "haobo-zhang"
   },
   {
     "name": "Loi Shah",
@@ -129,6 +156,10 @@
     "url": "",
     "cv": "",
     "links": [],
-    "interests": []
+    "interests": [
+      "European corn borer",
+      "Bt resistance fitness costs"
+    ],
+    "profileSlug": "loi-shah"
   }
 ]

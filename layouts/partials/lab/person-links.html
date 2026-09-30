@@ -1,0 +1,8 @@
+{{ if or .links .cv }}
+<div class="person-tags">
+  {{ range .links }}{{ if .url }}<a class="person-tag" href="{{ .url }}" aria-label="{{ .label }}" title="{{ .label }}">{{ partial "lab/icon.html" .label }}</a>{{ end }}{{ end }}
+  {{ with .cv }}<a class="person-tag" href="{{ . }}" aria-label="CV" title="CV">{{ partial "lab/icon.html" "CV" }}</a>{{ end }}
+</div>
+{{ else }}
+  {{ with .url }}<a class="text-link person-link" href="{{ . }}">Faculty profile <span aria-hidden="true">↗</span></a>{{ end }}
+{{ end }}

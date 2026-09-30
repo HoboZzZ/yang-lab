@@ -1,0 +1,119 @@
+# Status is derived from end_year; the end year is inclusive.
+# Titles and themes support Markdown for scientific names.
+- id: ecb-minnesota
+  title: Monitoring and risk assessment of European corn borer (ECB) resistance to transgenic Bt corn in Minnesota
+  pi: Fei Yang
+  co_pis: [Yucheng Wang]
+  sponsors: [Minnesota Corn Research and Promotion Council]
+  start_year: 2023
+  end_year: 2027
+  funding_amount: 410000
+  funding_note: All to my program
+  themes: [European Corn Borer, Bt Resistance]
+
+- id: ecb-f2-screening
+  title: Large-scale assessment of European corn borer (ECB) resistance to Bt proteins in the U.S. and Canada using F2 screening
+  pi: Fei Yang
+  sponsors: [Corteva Agriscience]
+  start_year: 2025
+  end_year: 2028
+  funding_amount: 438458
+  funding_note: All to my program
+  themes: [European Corn Borer, Bt Resistance, F2 Screening]
+
+- id: invasive-armigera
+  title: Monitoring and risk assessment of the invasive insect *Helicoverpa armigera*
+  pi: Fei Yang
+  co_pis: [Yucheng Wang, Amelia Lindsey, William Hutchison]
+  sponsors: [Minnesota Invasive Terrestrial Plants and Pests Center (MITPPC)]
+  start_year: 2026
+  end_year: 2030
+  funding_amount: 587389
+  funding_note: All to my program
+  themes: [Invasive Insect Pests, '*Helicoverpa armigera*']
+
+- id: rootworm-ecology
+  title: Understanding competition and feeding behavior of larvae and cold tolerance of eggs in western and northern corn rootworm
+  pi: Fei Yang
+  sponsors: [Corteva Agriscience]
+  start_year: 2023
+  end_year: 2037
+  funding_amount: 311520
+  funding_note: All to my program
+  themes: [Corn Rootworm, Insect Ecology]
+
+- id: billion-dollar-pest
+  title: 'The billion-dollar pest strikes back: European corn borer resistance to Bt corn'
+  pi: Juan Luis Jurat-Fuentes
+  co_pis: [Fei Yang, Jocelyn Smith, Kurt H. Lamour]
+  sponsors: [USDA Agriculture and Food Research Initiative]
+  start_year: 2026
+  end_year: 2029
+  funding_amount: 750000
+  program_share: 70034
+  funding_label: Total award
+  themes: [European Corn Borer, Bt Resistance]
+
+- id: corn-survey
+  title: Enhancement of Survey Efforts for Corn Insect Pests in Minnesota
+  pi: Fei Yang
+  sponsors: [Minnesota Corn Research and Promotion Council]
+  start_year: 2024
+  end_year: 2027
+  funding_amount: 165660
+  funding_note: All to my program
+  themes: [Insect Monitoring, IPM]
+
+- id: rootworm-seed-treatment
+  title: Investigating the Efficacy of Insecticidal Seed Treatments in Bt and Non-Bt Corn for Managing Corn Rootworm Complex
+  pi: Fei Yang
+  sponsors: [Minnesota Corn Research and Promotion Council]
+  start_year: 2024
+  end_year: 2026
+  funding_amount: 147880
+  funding_note: All to my program
+  themes: [Corn Rootworm, Seed Treatment, IPM]
+
+- id: bayer-ecb
+  title: 'Bt resistance in European corn borer (ECB): monitoring and assessment'
+  pi: Fei Yang
+  sponsors: [Bayer CropScience]
+  start_year: 2025
+  end_year: 2027
+  funding_amount: 119753
+  funding_note: All to my program
+  themes: [European Corn Borer, Bt Resistance]
+
+- id: rapid-response-ecb
+  title: 'Rapid response to evolution of Bt resistance in a billion-dollar pest, European corn borer in Minnesota: Evaluating the magnitude of the threat'
+  pi: Fei Yang
+  sponsors: ['Minnesota Agricultural Experiment Station, Rapid Agricultural Response Fund Program']
+  start_year: 2025
+  end_year: 2027
+  funding_amount: 199482
+  funding_note: All to my program
+  themes: [European Corn Borer, Bt Resistance]
+
+- id: pollinator-protection
+  title: 'Preserving pollinators: Reducing use of neonicotinoid seed treatments in corn and soybean across Minnesota'
+  pi: Fei Yang
+  co_pis: [Robert L. Koch]
+  sponsors: ['Minnesota Department of Agriculture, Pollinator Research and Outreach Grant Program']
+  start_year: 2024
+  end_year: 2026
+  funding_amount: 208753
+  funding_note: All to my program
+  themes: [Pollinator Protection, Seed Treatment, IPM]
+
+- id: applied-field-research
+  title: Applied Field Research Projects
+  pi: Fei Yang
+  sponsor_summary: Multiple industry and public partners
+  sponsors: [Wyffels, Pahl’s Farm, Corteva Agriscience, Bayer CropScience, ProFarm, FMC, Syngenta, BASF, Valent, Minnesota Department of Agriculture, MWFPA, AMVAC]
+  start_year: 2023
+  end_year: 2027
+  funding_amount: 156169
+  funding_label: Combined funding
+  funding_note: All to my program
+  description: Applied field trials evaluating the efficacy of foliar insecticides, soil insecticides, seed treatments, and Bt hybrids against corn rootworm, corn earworm, seed corn maggots, and other corn insect pests.
+  themes: [Applied Field Research, IPM, Corn Insect Pests]

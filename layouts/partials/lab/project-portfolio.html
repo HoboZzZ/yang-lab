@@ -1,0 +1,40 @@
+{{ $projects := hugo.Data.projects }}
+{{ $themes := slice }}{{ $sponsors := slice }}
+{{ range $projects }}{{ range .themes }}{{ $themes = $themes | append . }}{{ end }}{{ range .sponsors }}{{ $sponsors = $sponsors | append . }}{{ end }}{{ end }}
+<section class="project-portfolio" id="project-portfolio" aria-labelledby="portfolio-title">
+  <header class="portfolio-heading">
+    <p class="eyebrow">Funded Projects</p>
+    <h2 id="portfolio-title">Project portfolio</h2>
+    <p>Explore the Yang Lab’s externally funded research in insect pest management, Bt resistance, insect ecology, monitoring, and integrated pest management (IPM).</p>
+  </header>
+  <form class="project-filters" role="search" aria-label="Filter funded projects" hidden>
+    <fieldset class="project-status"><legend class="visually-hidden">Project status</legend>
+      {{ range slice "All" "Active" "Completed" }}
+      <label><input type="radio" name="status" value="{{ lower . }}"{{ if eq . "All" }} checked{{ end }}><span>{{ . }}</span></label>
+      {{ end }}
+    </fieldset>
+    <div><label for="project-area">Research area</label><select id="project-area" name="area"><option value="">All research areas</option>{{ range sort (uniq $themes) }}<option value="{{ . | urlize }}">{{ . | markdownify | plainify }}</option>{{ end }}</select></div>
+    <div><label for="project-sponsor">Sponsor</label><select id="project-sponsor" name="sponsor"><option value="">All sponsors</option>{{ range sort (uniq $sponsors) }}<option value="{{ . | urlize }}">{{ . }}</option>{{ end }}</select></div>
+    <div><label for="project-search">Search projects</label><input id="project-search" name="q" type="search" placeholder="Title, investigator, or keyword…" autocomplete="off"></div>
+    <button type="reset" class="project-reset">Reset filters</button>
+  </form>
+  <p class="project-count" role="status" aria-live="polite" aria-atomic="true">{{ len $projects }} Projects</p>
+  <div class="project-list">
+    {{ range $projects }}
+    {{ $status := "Active" }}{{ if lt (int .end_year) now.Year }}{{ $status = "Completed" }}{{ end }}
+    {{ $areas := slice }}{{ range .themes }}{{ $areas = $areas | append (. | urlize) }}{{ end }}
+    {{ $partners := slice }}{{ range .sponsors }}{{ $partners = $partners | append (. | urlize) }}{{ end }}
+    <article class="funded-project" id="{{ .id }}" data-end-year="{{ .end_year }}" data-status="{{ lower $status }}" data-areas="{{ delimit $areas "|" }}" data-sponsors="{{ delimit $partners "|" }}" data-search="{{ printf "%s %s %s %s %s %s %d %d" .title .pi (delimit (.co_pis | default slice) " ") (delimit .sponsors " ") (delimit .themes " ") (.description | default "") (int .start_year) (int .end_year) | markdownify | plainify | lower }}" aria-labelledby="title-{{ .id }}">
+      <div class="project-meta"><p>{{ range $i, $theme := first 3 .themes }}{{ if $i }}<span aria-hidden="true"> · </span>{{ end }}{{ $theme | markdownify }}{{ end }}</p><p class="project-period">{{ .start_year }}–{{ .end_year }}<span class="project-state">{{ $status }}</span></p></div>
+      <h3 id="title-{{ .id }}">{{ .title | markdownify }}</h3>
+      <p class="project-sponsor">{{ .sponsor_summary | default (delimit .sponsors " · ") }}</p>
+      <p class="project-investigators">{{ .pi }}, PI{{ with .co_pis }}<br><span>{{ delimit . ", " }} — {{ if eq (len .) 1 }}Co-PI{{ else }}Co-PIs{{ end }}</span>{{ end }}</p>
+      {{ with .description }}<p class="project-description">{{ . | markdownify }}</p>{{ end }}
+      {{ if gt (len .sponsors) 1 }}<details class="project-partners"><summary>View all {{ len .sponsors }} partners</summary><ul>{{ range .sponsors }}<li>{{ . }}</li>{{ end }}</ul></details>{{ end }}
+      <p class="project-funding">{{ with .funding_label }}{{ . }}: {{ end }}${{ lang.FormatNumber 0 .funding_amount }}{{ with .program_share }}<span> · ${{ lang.FormatNumber 0 . }} to my program</span>{{ else }}{{ with .funding_note }}<span> · {{ . }}</span>{{ end }}{{ end }}</p>
+    </article>
+    {{ end }}
+  </div>
+  <div class="project-empty" hidden><h3>No matching projects</h3><p>Try a different keyword or reset the filters to see all projects.</p><button type="button" class="project-reset" data-project-clear>Reset filters</button></div>
+  <p class="project-status-note">Status is based on the project’s end year; awards remain active through that year.</p>
+</section>

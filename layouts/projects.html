@@ -3,7 +3,7 @@
  {{ partial "lab/section-head.html" (dict "level" 1 "label" "Projects & funding" "id" "projects" "title" "Research supported<br>by strong partnerships." "intro" "Projects span resistance monitoring, pest biology, management trials, and sustainable crop protection.") }}
  <div class="stats-grid">{{ range hugo.Data.funding.stats }}<div class="stat"><p class="stat-value">{{ .value }}</p><h3>{{ .label }}</h3><p>{{ .detail }}</p></div>{{ end }}</div>
  <p class="source-note">{{ hugo.Data.funding.note }}</p>
- <div class="portfolio"><h3>Project portfolio</h3><p>{{ hugo.Data.funding.description }}</p></div>
+ {{ partial "lab/project-portfolio.html" . }}
  <details class="partners"><summary>Thanks to our Funding &amp; Research partners <span>{{ len hugo.Data.funding.partners }} organizations</span></summary><ul>{{ range hugo.Data.funding.partners }}<li>{{ . }}</li>{{ end }}</ul></details>
 </section>
 {{ end }}

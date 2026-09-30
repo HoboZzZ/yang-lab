@@ -5,7 +5,7 @@
     <nav id="lab-navigation" class="lab-nav" aria-label="Main navigation">
       {{ range .Site.Menus.main }}
         {{ if eq .Name "People" }}
-        <details class="nav-dropdown"><summary{{ if or (eq $.Layout "people") (eq $.Layout "alumni") }} class="is-current"{{ end }}>People <span class="nav-caret" aria-hidden="true"><svg viewBox="0 0 12 12" width="11" height="11" focusable="false"><path d="M2.2 4.3 6 8 9.8 4.3" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span></summary><div class="nav-submenu"><a href="{{ "people/" | relURL }}"{{ if eq $.Layout "people" }} aria-current="page"{{ end }}>Current Members</a><a href="{{ "people/alumni/" | relURL }}"{{ if eq $.Layout "alumni" }} aria-current="page"{{ end }}>Alumni</a></div></details>
+        <details class="nav-dropdown"><summary{{ if or (eq $.Layout "people") (eq $.Layout "alumni") }} class="is-current"{{ end }}>People <span class="nav-caret" aria-hidden="true"><svg viewBox="0 0 12 12" width="11" height="11" focusable="false"><path d="M2.2 4.3 6 8 9.8 4.3" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span></summary><div class="nav-submenu"><a href="{{ "people/" | relURL }}"{{ if eq $.Layout "people" }} aria-current="page"{{ end }}>Current Members</a><a href="{{ "people/" | relURL }}#alumni">Alumni</a></div></details>
         {{ else }}<a href="{{ .URL | relURL }}"{{ if hasPrefix $.RelPermalink (.URL | relURL) }} aria-current="page"{{ end }}>{{ .Name }}</a>{{ end }}
       {{ end }}
     </nav>

@@ -1,35 +1,5 @@
 {{ define "main" }}
-<section class="lab-section container alumni-page">
-  <p class="eyebrow">People / Alumni</p>
-  <h1>Alumni</h1>
-  <p class="page-intro">Former members of the Yang Lab.</p>
-
-  {{ $groups := slice "Postdoctoral" "Visiting scholar" "Graduate student" "Undergraduate" }}
-  <div class="alumni-columns">
-    {{ range $groups }}
-      {{ $label := . }}
-      {{ $people := where hugo.Data.alumni "group" $label }}
-      <section class="alumni-column">
-        <h2>{{ $label }}</h2>
-        {{ if $people }}
-          <div class="alumni-people">
-            {{ range $people }}
-              <article>
-                <h3>{{ .name }}</h3>
-                {{ with .years }}<p class="alumni-years">{{ . }}</p>{{ end }}
-                <p>{{ .role }}</p>
-                {{ with .currentPosition }}<p>{{ . }}</p>{{ end }}
-                {{ with .url }}<a class="text-link" href="{{ . }}">Profile ↗</a>{{ end }}
-              </article>
-            {{ end }}
-          </div>
-        {{ else }}
-          <p class="alumni-empty">None yet.</p>
-        {{ end }}
-      </section>
-    {{ end }}
-  </div>
-
-  <a class="text-link" href="{{ "people/" | relURL }}">Meet our current members →</a>
-</section>
+{{ $target := printf "%s#alumni" ("people/" | relURL) }}
+<section class="lab-section container alumni-page"><h1>Alumni</h1><p class="page-intro">Alumni are now listed below our current members.</p><a class="text-link" href="{{ $target }}">View alumni →</a></section>
+<script>window.location.replace({{ $target | jsonify | safeJS }});</script>
 {{ end }}

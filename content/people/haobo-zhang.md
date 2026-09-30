@@ -2,7 +2,7 @@
 title: "Haobo Zhang"
 layout: "member"
 member: "haobo-zhang"
-description: "Haobo Zhang — MS student in the Yang Lab at the University of Minnesota."
+description: "Haobo Zhang — MS student in the Corn Entomology Lab at the University of Minnesota."
 email: "zha00134@umn.edu"
 position: ""
 advisors: []

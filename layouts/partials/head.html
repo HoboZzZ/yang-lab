@@ -9,7 +9,7 @@
   } catch (e) {}
 })();
 </script>
-<title>{{ if .IsHome }}Yang Lab · Corn Entomology{{ else }}{{ .Title }} · Yang Lab{{ end }}</title>
+<title>{{ if .IsHome }}{{ .Site.Title }} · {{ .Site.Params.institution }}{{ else }}{{ .Title }} · {{ .Site.Title }}{{ end }}</title>
 <meta name="description" content="{{ .Description | default .Site.Params.description }}">
 {{ if .Site.Params.preview }}<meta name="robots" content="noindex,nofollow">{{ end }}
 <link rel="canonical" href="{{ .Permalink }}">
@@ -24,7 +24,7 @@
 <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
 {{ $lab := resources.Get "css/lab.css" | minify | fingerprint }}
 <link rel="stylesheet" href="{{ $lab.RelPermalink }}" integrity="{{ $lab.Data.Integrity }}">
-{{ with .OutputFormats.Get "rss" }}<link rel="alternate" type="application/rss+xml" href="{{ .RelPermalink }}" title="Yang Lab">{{ end }}
+{{ with .OutputFormats.Get "rss" }}<link rel="alternate" type="application/rss+xml" href="{{ .RelPermalink }}" title="{{ $.Site.Title }}">{{ end }}
 {{ if eq .Layout "projects" }}{{ $projects := resources.Get "css/projects.css" | minify | fingerprint }}<link rel="stylesheet" href="{{ $projects.RelPermalink }}" integrity="{{ $projects.Data.Integrity }}">{{ end }}
 
 {{ if eq .Layout "extension" }}{{ $extension := resources.Get "css/extension.css" | minify | fingerprint }}<link rel="stylesheet" href="{{ $extension.RelPermalink }}" integrity="{{ $extension.Data.Integrity }}">{{ end }}

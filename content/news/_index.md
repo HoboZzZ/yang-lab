@@ -1,4 +1,4 @@
 +++
 title = 'Lab News'
-description = 'Research highlights, team news, and updates from the Yang Lab.'
+description = 'Research highlights, team news, and updates from the Corn Entomology Lab.'
 +++

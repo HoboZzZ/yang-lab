@@ -2,7 +2,7 @@
 title: "Tatum Dwyer"
 layout: "member"
 member: "tatum-dwyer"
-description: "Tatum Dwyer — PhD student in the Yang Lab at the University of Minnesota."
+description: "Tatum Dwyer — PhD student in the Corn Entomology Lab at the University of Minnesota."
 email: "dwyer332@umn.edu"
 position: ""
 advisors:

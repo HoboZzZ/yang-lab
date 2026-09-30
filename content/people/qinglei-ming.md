@@ -2,7 +2,7 @@
 title: "Qinglei Ming"
 layout: "member"
 member: "qinglei-ming"
-description: "Qinglei Ming — Postdoctoral researcher in the Yang Lab at the University of Minnesota."
+description: "Qinglei Ming — Postdoctoral researcher in the Corn Entomology Lab at the University of Minnesota."
 email: "ming0055@umn.edu"
 position: ""
 source_url: "https://fyanglab.cfans.umn.edu/qinglei-ming"

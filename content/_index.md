@@ -1,3 +1,3 @@
 +++
-title = 'Yang Lab | Corn Entomology'
+title = 'Corn Entomology Lab'
 +++

@@ -2,7 +2,7 @@
 title: "Yucheng Wang"
 layout: "member"
 member: "yucheng-wang"
-description: "Yucheng Wang — Postdoctoral researcher in the Yang Lab at the University of Minnesota."
+description: "Yucheng Wang — Postdoctoral researcher in the Corn Entomology Lab at the University of Minnesota."
 email: "wan02613@umn.edu"
 position: ""
 source_url: "https://fyanglab.cfans.umn.edu/yucheng-wang"

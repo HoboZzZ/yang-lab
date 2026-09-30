@@ -2,7 +2,7 @@
 title: "Hunter Ness"
 layout: "member"
 member: "hunter-ness"
-description: "Hunter Ness — MS student in the Yang Lab at the University of Minnesota."
+description: "Hunter Ness — MS student in the Corn Entomology Lab at the University of Minnesota."
 email: "nessx205@umn.edu"
 position: ""
 advisors:

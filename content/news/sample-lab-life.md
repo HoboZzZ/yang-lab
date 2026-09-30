@@ -7,7 +7,7 @@ description = "A space for team photos, new members, and everyday moments from t
 
 [cover]
 image = "images/lab-group.png"
-alt = "Yang Lab team photographed outdoors"
+alt = "Corn Entomology Lab team photographed outdoors"
 hiddenInSingle = false
 +++
 

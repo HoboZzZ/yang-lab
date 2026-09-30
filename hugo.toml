@@ -1,5 +1,5 @@
 baseURL = 'https://HoboZzZ.github.io/yang-lab/'
-title = 'Yang Lab'
+title = 'Corn Entomology Lab'
 theme = 'stacknote'
 languageCode = 'en-US'
 locale = 'en-US'
@@ -7,6 +7,7 @@ enableRobotsTXT = true
 disableKinds = ['taxonomy', 'term']
 
 [params]
+  shortTitle = 'YANG ENTO LAB'
   description = 'Corn entomology at the University of Minnesota. Research on insect resistance, pest biology, and sustainable crop protection.'
   author = 'Fei Yang'
   mainSection = 'news'
@@ -18,8 +19,8 @@ disableKinds = ['taxonomy', 'term']
   homeEyebrow = 'Field questions. Scientific answers.'
   homeIntro = 'We study corn insects and the evolution of resistance to help growers protect their crops and sustain effective pest management.'
   heroImage = 'images/lab-group.png'
-  heroAlt = 'Yang Lab team photographed together outdoors.'
-  heroCaption = 'The Yang Lab'
+  heroAlt = 'Corn Entomology Lab team photographed together outdoors.'
+  heroCaption = 'The Corn Entomology Lab'
   location = 'University of Minnesota · St. Paul'
   email = 'yang8905@umn.edu'
   facultyURL = 'https://entomology.umn.edu/people/fei-yang'

@@ -2,7 +2,7 @@
 <div class="institution-bar container"><span>{{ .Site.Params.institution }}</span><span class="institution-field">{{ .Site.Params.department }}</span></div>
 <header class="lab-header">
   <div class="container header-inner">
-    <a class="lab-wordmark" href="{{ .Site.Home.RelPermalink }}" aria-label="Yang Lab home">YANG ENTO LAB<span class="wordmark-dot">.</span></a>
+    <a class="lab-wordmark" href="{{ .Site.Home.RelPermalink }}" aria-label="{{ .Site.Title }} home">{{ .Site.Params.shortTitle | default .Site.Title }}<span class="wordmark-dot">.</span></a>
     <nav id="lab-navigation" class="lab-nav" aria-label="Main navigation">
       {{ range .Site.Menus.main }}
         {{ if eq .Name "People" }}

@@ -1,9 +1,6 @@
 +++
 title = "Extension"
 layout = "extension"
-video = "Ih6HcgL340s"
-videoTitle = "European corn borer and corn rootworm"
-videoCaption = "Fei Yang · UMN Extension Crops, 2024"
 
 [[links]]
   name = "UMN Extension corn pest management"

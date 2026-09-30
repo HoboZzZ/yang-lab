@@ -27,3 +27,4 @@
 {{ with .OutputFormats.Get "rss" }}<link rel="alternate" type="application/rss+xml" href="{{ .RelPermalink }}" title="Yang Lab">{{ end }}
 {{ if eq .Layout "projects" }}{{ $projects := resources.Get "css/projects.css" | minify | fingerprint }}<link rel="stylesheet" href="{{ $projects.RelPermalink }}" integrity="{{ $projects.Data.Integrity }}">{{ end }}
 
+{{ if eq .Layout "extension" }}{{ $extension := resources.Get "css/extension.css" | minify | fingerprint }}<link rel="stylesheet" href="{{ $extension.RelPermalink }}" integrity="{{ $extension.Data.Integrity }}">{{ end }}

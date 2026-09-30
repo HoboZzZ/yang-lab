@@ -4,6 +4,15 @@
   <div class="research-grid">
     {{ range $i, $item := hugo.Data.research }}
       <article class="research-item">
+        {{ with .image }}
+          {{ with resources.Get . }}
+            {{ $oriented := .Filter images.AutoOrient }}
+            {{ $img := $oriented.Resize "1200x webp q85" }}
+            <img class="research-image" src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="{{ $item.imageAlt | default $item.title }}" loading="lazy">
+          {{ else }}
+            {{ warnf "Research image not found: %s" . }}
+          {{ end }}
+        {{ end }}
         <div class="research-card-top">
           <span class="research-number">{{ printf "%02d" (add $i 1) }}</span>
           <span class="research-tag">{{ .title }}</span>

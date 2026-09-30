@@ -6,7 +6,9 @@
       "Resistance surveillance and F₂ screening",
       "Inheritance and resistance stability",
       "Multi-state and international collaboration"
-    ]
+    ],
+    "image": "images/lab-group.png",
+    "imageAlt": "Yang Lab team photographed together outdoors."
   },
   {
     "title": "Corn rootworm management",
@@ -15,7 +17,9 @@
       "Bt traits, insecticides, and seed treatments",
       "Larval competition and feeding behavior",
       "Egg cold tolerance and diapause"
-    ]
+    ],
+    "image": "",
+    "imageAlt": ""
   },
   {
     "title": "Corn earworm & invasive pests",
@@ -24,7 +28,9 @@
       "Bt and Vip3A resistance",
       "Invasive insect monitoring and risk assessment",
       "Sweet corn pest management"
-    ]
+    ],
+    "image": "",
+    "imageAlt": ""
   },
   {
     "title": "Sustainable pest management",
@@ -33,7 +39,9 @@
       "Statewide corn insect surveillance",
       "Neonicotinoid seed treatments in corn and soybean",
       "Pollinator protection and grower outreach"
-    ]
+    ],
+    "image": "",
+    "imageAlt": ""
   },
   {
     "title": "Resistance mechanisms",
@@ -44,6 +52,8 @@
       "Genomics",
       "RNAi",
       "Gene editing"
-    ]
+    ],
+    "image": "",
+    "imageAlt": ""
   }
 ]

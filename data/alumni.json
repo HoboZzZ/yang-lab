@@ -4,7 +4,6 @@
     "group": "Postdoctoral",
     "role": "Postdoctoral Research Associate",
     "project": "",
-    "project": "",
     "years": "2023–2024",
     "currentPosition": "Assistant Professor, University of Arizona",
     "url": "https://ento.arizona.edu/person/wilfrid-calvin"
@@ -14,8 +13,9 @@
     "group": "Postdoctoral",
     "role": "Postdoctoral Research Associate",
     "years": "2024–2025",
-    "currentPosition": "Extention Educator, University of Nebraska, Lincoln",
-    "url": "https://epd.unl.edu/profile/dwangila2"
+    "currentPosition": "Extension Educator, University of Nebraska, Lincoln",
+    "url": "https://epd.unl.edu/profile/dwangila2",
+    "project": ""
   },
   {
     "name": "Yucheng Wang",
@@ -25,37 +25,20 @@
     "years": "2024–2025",
     "currentPosition": "University of Minnesota, Twin Cities"
   },
-   {
+  {
     "name": "Avery Witherbee",
     "group": "Undergraduate",
     "role": "Undergraduate Researcher",
-    "project": "",
+    "project": "Characterizing the inheritance of Cry2Ab2 resistance in a European corn borer population from southern Minnesota",
     "years": "2024–2026",
     "currentPosition": "University of Notre Dame",
     "url": "https://www.linkedin.com/in/avery-witherbee-46b3752b0/"
-  }, 
-  {
-    "name": "Tatum Dwyer",
-    "group": "Graduate student",
-    "role": "Master student",
-    "project": "",
-    "years": "2024–2026",
-    "currentPosition": "University of Minnesota, Twin Cities",
-    "url": "https://www.linkedin.com/in/tatumdwyer/"
   },
-     {
-    "name": "Avery Witherbee",
-    "group": "Undergraduate",
-    "role": "Undergraduate Researcher",
-    "Project":"Characterizing the inheritance of Cry2Ab2 resistance in a European corn borer population from southern Minnesota"
-    "years": "2024–2026",
-    "currentPosition": "University of Notre Dame",
-    "url": "https://www.linkedin.com/in/avery-witherbee-46b3752b0/"
-  }, 
   {
     "name": "Tatum Dwyer",
     "group": "Graduate student",
     "role": "Master student",
+    "project": "",
     "years": "2024–2026",
     "currentPosition": "University of Minnesota, Twin Cities",
     "url": "https://www.linkedin.com/in/tatumdwyer/"
@@ -64,18 +47,21 @@
     "name": "Clover Sinning",
     "group": "Undergraduate",
     "role": "Undergraduate technician",
-    "years": "2025 Summer"
+    "years": "2025 Summer",
+    "project": ""
   },
   {
     "name": "Morgan Malecha",
     "group": "Undergraduate",
     "role": "Undergraduate technician",
-    "years": "2024-2025 Summer"
+    "years": "2024-2025 Summer",
+    "project": ""
   },
-   {
+  {
     "name": "Abigail R. Ellenbecker",
     "group": "Undergraduate",
     "role": "Undergraduate technician",
-    "years": "2024 Summer"
-  }  
+    "years": "2024 Summer",
+    "project": ""
+  }
 ]

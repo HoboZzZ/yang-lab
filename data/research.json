@@ -34,5 +34,16 @@
       "Neonicotinoid seed treatments in corn and soybean",
       "Pollinator protection and grower outreach"
     ]
+  },
+  {
+    "title": "Resistance mechanisms",
+    "description": "Characterizing the genetic, molecular, biochemical, and physiological mechanisms underlying Bt resistance",
+    "points": [
+      "Mechanisms under Bt resistance",
+      "Bioinformatics",
+      "Genomics",
+      "RNAi",
+      "Gene editing"
+    ]
   }
 ]

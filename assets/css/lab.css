@@ -84,4 +84,7 @@ body,h1,h2,h3,h4{font-variant-numeric:lining-nums}
 .people-group-title{font:600 28px/1.2 var(--font-display);margin-bottom:28px}
 .alumni-page>#alumni-title{font:600 clamp(39px,4.2vw,59px)/1.05 var(--font-display);letter-spacing:-.035em}
 
+.alumni-current{margin-top:8px}
+.alumni-current-label{font-weight:500;color:var(--ink)}
+
 .research-image{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;object-position:center 30%;margin-bottom:4px;flex-shrink:0}

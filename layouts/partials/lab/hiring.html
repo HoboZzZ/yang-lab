@@ -7,6 +7,12 @@
     <h1 id="hiring-title">{{ .title }}</h1>
     <p class="hiring-subtitle">{{ .subtitle }}</p>
     <p class="hiring-location">{{ .location }}</p>
+    {{ if or .anticipated_start_date .starting_salary }}
+    <dl class="hiring-facts">
+      {{ with .anticipated_start_date }}<div><dt>Anticipated Start Date</dt><dd>{{ . }}</dd></div>{{ end }}
+      {{ with .starting_salary }}<div><dt>Starting Salary</dt><dd>{{ . }}</dd></div>{{ end }}
+    </dl>
+    {{ end }}
   </div>
   <div class="hiring-layout">
     <div class="hiring-content">

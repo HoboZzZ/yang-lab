@@ -6,6 +6,7 @@
     {{ range hugo.Data.people }}
     {{ $person := . }}{{ $profile := false }}
     {{ with .profileSlug }}{{ $profile = site.GetPage (printf "people/%s" .) }}{{ end }}
+    {{ $nameURL := .url }}{{ with $profile }}{{ $nameURL = .RelPermalink }}{{ end }}
     <article class="person">
       {{ with resources.Get .image }}
         {{ $oriented := .Filter images.AutoOrient }}{{ $img := $oriented.Resize "600x webp q85" }}
@@ -16,7 +17,7 @@
         </div>
       {{ end }}
       <p class="person-role">{{ .role }}</p>
-      <h3>{{ if $profile }}<a class="person-name-link" href="{{ $profile.RelPermalink }}">{{ end }}{{ .name }}{{ if $profile }}</a>{{ end }}</h3>
+      <h3>{{ if $nameURL }}<a class="person-name-link" href="{{ $nameURL }}">{{ end }}{{ .name }}{{ if $nameURL }}</a>{{ end }}</h3>
       {{ partial "lab/person-interests.html" . }}
       {{ partial "lab/person-project.html" . }}
       {{ partial "lab/person-links.html" . }}

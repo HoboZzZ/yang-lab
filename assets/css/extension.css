@@ -6,7 +6,7 @@
 .extension-collection-head>a{flex-shrink:0}
 .extension-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 48px}
 .extension-year{border-top:1px solid var(--line-soft)}
-.extension-year summary{display:flex;align-items:center;gap:18px;list-style:none;cursor:pointer;padding:20px 0;font:600 32px/1.2 var(--font-display)}
+.extension-year summary{display:flex;align-items:center;gap:18px;list-style:none;cursor:pointer;padding:20px 0;font:500 28px/1.2 var(--font-body);font-variant-numeric:lining-nums tabular-nums}
 .extension-year summary::-webkit-details-marker{display:none}
 .extension-year summary::after{content:'+';margin-left:auto;color:var(--accent-dark);font:400 26px/1 var(--font-body)}
 .extension-year[open] summary::after{content:'−'}

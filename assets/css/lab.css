@@ -73,3 +73,7 @@ html[data-theme="dark"] .person-photo{background:#2a2420}
 @media(prefers-reduced-motion:reduce){.research-item{transition:none}.research-item:hover{transform:none}}
 
 .citation-authors strong{font-weight:700;color:var(--ink)}
+
+/* Keep numerals on the baseline, including years within display headings. */
+body,h1,h2,h3,h4{font-variant-numeric:lining-nums}
+:where(time,.extension-meta,.extension-year-count,.extension-format-title span,.alumni-years,.project-period,.project-funding,.project-count){font-variant-numeric:lining-nums tabular-nums}

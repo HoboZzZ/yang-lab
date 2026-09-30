@@ -1,0 +1,45 @@
+.hiring-section{padding-top:64px}
+.hiring-intro{padding-bottom:36px;border-bottom:1px solid var(--line-soft);margin-bottom:38px}
+.hiring-intro .eyebrow{margin-bottom:16px}
+.hiring-intro h1{font:600 clamp(44px,5.6vw,76px)/1.05 var(--font-display);letter-spacing:-.03em;text-wrap:balance}
+.hiring-subtitle{font:400 clamp(20px,2.2vw,28px)/1.4 var(--font-body);margin-top:16px;max-width:750px;text-wrap:pretty}
+.hiring-location{font-size:13px;color:var(--muted);margin-top:20px}
+.hiring-layout{display:grid;grid-template-columns:minmax(0,1fr) 280px;gap:clamp(40px,6vw,90px);align-items:start}
+.hiring-content{min-width:0;max-width:850px;font-size:16px;line-height:1.8;overflow-wrap:anywhere}
+.hiring-content>p{margin-bottom:22px;color:var(--muted)}
+.hiring-content .hiring-lead{font-size:20px;line-height:1.6;color:var(--ink)}
+.hiring-chapter{border-top:1px solid var(--line-soft);scroll-margin-top:110px}
+.hiring-chapter:last-child{border-bottom:1px solid var(--line-soft)}
+.hiring-content>.hiring-chapter:first-of-type{margin-top:34px}
+.hiring-chapter summary{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:72px;padding:19px 0;cursor:pointer;list-style:none;touch-action:manipulation}
+.hiring-chapter summary::-webkit-details-marker{display:none}
+.hiring-chapter summary:hover h2{color:var(--accent-dark)}
+.hiring-chapter h2{font:500 21px/1.4 var(--font-body);margin:0;text-wrap:balance}
+.hiring-disclosure{width:18px;height:18px;position:relative;flex:none;color:var(--accent-dark)}
+.hiring-disclosure::before,.hiring-disclosure::after{content:'';position:absolute;background:currentColor}
+.hiring-disclosure::before{height:1px;width:14px;top:8px;left:2px}
+.hiring-disclosure::after{width:1px;height:14px;top:2px;left:8px}
+.hiring-chapter[open] .hiring-disclosure::after{display:none}
+.hiring-chapter-body{padding-bottom:26px}
+.hiring-responsibilities{list-style:none;padding:0;margin:0}
+.hiring-responsibilities li{display:grid;grid-template-columns:64px minmax(0,1fr);gap:24px;padding:22px 0;border-top:1px solid var(--line-soft)}
+.hiring-percent{font:500 24px/1.4 var(--font-body);font-variant-numeric:lining-nums tabular-nums;color:var(--accent-dark)}
+.hiring-responsibilities h3{font:500 17px/1.5 var(--font-body);margin:0 0 8px;text-wrap:pretty}
+.hiring-responsibilities p{color:var(--muted);margin:0}
+.hiring-list{padding-left:22px;margin:20px 0 0;color:var(--muted)}
+.hiring-list li{padding-left:7px;margin-bottom:14px}
+.hiring-list li::marker{color:var(--accent-dark)}
+.hiring-chapter-body>p a{text-decoration:underline;text-underline-offset:4px;color:var(--accent-dark)}
+.hiring-sidebar{min-width:0;align-self:stretch}
+.hiring-sidebar-inner{position:sticky;top:112px;border-top:2px solid var(--accent);padding-top:22px}
+.hiring-sidebar .eyebrow{margin-bottom:14px}
+.hiring-sidebar-note{font-size:14px;color:var(--muted);margin-bottom:22px}
+.hiring-apply{font-size:14px;min-height:48px;gap:20px;touch-action:manipulation}
+.hiring-chapter .hiring-apply{margin-top:24px}
+.hiring-toc{border-top:1px solid var(--line-soft);margin-top:30px;padding-top:20px}
+.hiring-toc p{font-size:11px;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);margin-bottom:9px}
+.hiring-toc a{display:block;padding:10px 0;font-size:14px;line-height:1.5}
+.hiring-toc a:hover{color:var(--accent-dark);text-decoration:underline;text-underline-offset:4px}
+@media(max-width:1000px){.hiring-layout{grid-template-columns:minmax(0,1fr) 240px;gap:36px}}
+@media(max-width:800px){.hiring-section{padding-top:40px}.hiring-layout{display:flex;flex-direction:column;gap:30px}.hiring-sidebar{order:-1;width:100%}.hiring-sidebar-inner{position:static;padding-top:18px}.hiring-sidebar-note{max-width:540px;margin-bottom:16px}.hiring-toc{display:none}.hiring-intro{padding-bottom:28px;margin-bottom:28px}.hiring-content .hiring-lead{font-size:18px}.hiring-chapter summary{min-height:64px;padding-block:16px}.hiring-chapter h2{font-size:18px}.hiring-responsibilities li{grid-template-columns:52px minmax(0,1fr);gap:16px}.hiring-percent{font-size:22px}}
+@media print{.hiring-sidebar,.hiring-apply{display:none!important}.hiring-layout{display:block}.hiring-content{max-width:none}.hiring-intro{margin-bottom:22px;padding-bottom:20px}.hiring-chapter h2{break-after:avoid}.hiring-responsibilities li{break-inside:avoid}.hiring-chapter summary{break-after:avoid}.hiring-disclosure{display:none}}

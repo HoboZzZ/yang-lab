@@ -1,0 +1,10 @@
+{{ with hugo.Data.hiring }}
+  {{ if .enabled }}
+  <aside class="hiring-banner" aria-label="Hiring announcement">
+    <a class="container hiring-banner-link" href="{{ "contact/" | relURL }}#{{ .id }}">
+      <span>{{ .banner_text }}</span>
+      <span class="hiring-banner-cta">{{ .banner_label }} <span aria-hidden="true">→</span></span>
+    </a>
+  </aside>
+  {{ end }}
+{{ end }}

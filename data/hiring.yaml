@@ -1,0 +1,50 @@
+enabled: true
+id: "postdoctoral-associate"
+title: "Postdoctoral Associate"
+subtitle: "Genetic & molecular mechanisms of Bt resistance"
+banner_text: "We’re hiring: Postdoctoral Associate · Bt resistance"
+banner_label: "View position"
+location: "University of Minnesota · St. Paul"
+summary: "We are looking for a highly motivated Postdoctoral Associate to investigate the genetic basis and molecular mechanisms of Bt resistance in ECB and CEW."
+overview: "The successful candidate will integrate classical genetic crosses, Bt bioassays, toxin-receptor binding studies, genomic and transcriptomic analyses, and functional validation to identify resistance-associated genes and receptor mutations. The position will also contribute to the development of molecular markers for resistance monitoring and to applied IPM and IRM research in field corn and sweet corn."
+responsibilities:
+  - percent: 65
+    title: "Research"
+    description: "Design, conduct, analyze, and document laboratory, greenhouse, and field studies on Bt resistance. Major activities may include resistance monitoring with F1 or F2 screens and molecular markers; inheritance and genetic-mapping studies; diet and plant-tissue bioassays; preparation of brush border membrane vesicles; Bt toxin-receptor binding assays; identification of receptor mutations and other resistance-associated variants; gene-expression analyses; and functional validation of candidate resistance genes."
+  - percent: 20
+    title: "Scientific communication and proposal development"
+    description: "Prepare peer-reviewed manuscripts, technical reports, conference presentations, and competitive proposals for extramural funding in IPM, IRM, and insect molecular biology."
+  - percent: 10
+    title: "Insect colony development"
+    description: "Establish, maintain, and document susceptible and Bt-resistant insect colonies and coordinate colony quality-control procedures."
+  - percent: 5
+    title: "Laboratory support and mentoring"
+    description: "Assist with laboratory organization, biosafety and regulatory compliance, and mentoring of graduate and undergraduate researchers."
+required_qualifications:
+  - "Ph.D. or equivalent doctoral degree in entomology, insect science, molecular biology, genetics, biochemistry, biotechnology, or a closely related field, completed by the position start date."
+  - "Demonstrated research experience in insect molecular biology, genetics, toxicology, physiology, or insecticide or Bt resistance."
+  - "Hands-on experience with core molecular methods, such as DNA and RNA extraction, PCR, RTPCR or RT-qPCR, gel electrophoresis, cloning, sequencing, or gene-expression analysis."
+  - "Experience designing reproducible experiments and analyzing biological data using appropriate statistical methods."
+  - "Evidence of scholarly productivity through peer-reviewed publications, scientific presentations, or comparable research outputs."
+  - "Strong written and oral communication skills and the ability to prepare scientific manuscripts and reports."
+  - "Ability to work independently, manage multiple research activities, maintain accurate records, and collaborate effectively with faculty, staff, students, and external partners."
+  - "Ability to work safely in laboratory, greenhouse, and corn-field environments and to meet University of Minnesota employment eligibility requirements."
+preferred_qualifications:
+  - "Research experience investigating genetic, molecular, biochemical, or physiological mechanisms of resistance to Bt toxins."
+  - "Experience preparing brush border membrane vesicles and conducting qualitative or quantitative Bt toxin-receptor binding assays."
+  - "Experience identifying resistance-associated mutations in candidate Bt receptor genes, including ATP-binding cassette transporters, cadherins, aminopeptidases, alkaline phosphatases, or other midgut proteins."
+  - "Experience with targeted sequencing, whole-genome or transcriptome sequencing, variant discovery, genotyping, bioinformatics, or molecular-marker development."
+  - "Experience using RNAi, CRISPR-Cas9, heterologous expression, or related approaches to functionally validate candidate resistance genes or mutations."
+  - "Experience characterizing the inheritance or genetic architecture of resistance through reciprocal crosses, backcrosses, linkage analysis, genetic mapping, or quantitative-genetic approaches."
+  - "Experience conducting diet-incorporation, diet-overlay, or plant-tissue bioassays with purified Bt proteins, Bt corn tissues, or conventional insecticides."
+  - "Experience rearing lepidopteran insects and maintaining susceptible and resistant colonies, particularly ECB, CEW, or related species."
+  - "Knowledge of insect midgut physiology, Bt modes of action, toxin activation, receptor interactions, pore formation, or cross-resistance."
+  - "Proficiency with R, Python, SAS, or relevant genomic-analysis software, and experience with greenhouse or field research, grant writing, and student mentoring."
+application_materials:
+  - "A current curriculum vitae."
+  - "A cover letter describing the applicant's interest in the position, relevant qualifications, and experience related to insect resistance, molecular genetics, biochemistry, or Bt modes of action."
+  - "A two-page research statement summarizing previous research accomplishments and future interests relevant to the genetic or molecular mechanisms of Bt resistance."
+  - "Three representative peer-reviewed scientific papers."
+  - "Names, institutional affiliations, email addresses, and telephone numbers for three professional references."
+application_email: "yang8905@umn.edu"
+application_subject: "Corn Lab Postdoc Application"

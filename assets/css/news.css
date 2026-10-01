@@ -12,6 +12,15 @@
 .news-entry-tag{font-size:10px;font-weight:500;letter-spacing:.1em;text-transform:uppercase;color:var(--accent-dark)}
 .news-entry-title{font:600 clamp(28px,3vw,36px)/1.15 var(--font-display);letter-spacing:-.02em;text-wrap:balance;overflow-wrap:anywhere;margin-top:10px}
 .news-entry-description{font-size:15px;line-height:1.65;color:var(--muted);margin-top:12px;max-width:58ch;overflow-wrap:anywhere}
+.news-entry-body{min-width:0}
+.news-entry--featured{margin-top:40px;padding-bottom:36px}
+.news-entry--featured .news-entry-link{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:clamp(28px,4vw,64px);align-items:center}
+.news-entry--featured .news-entry-body:only-child{grid-column:1/-1}
+.news-entry--featured .news-photo{margin-bottom:0}
+.news-entry--featured .news-entry-title{font-size:clamp(32px,4vw,48px);margin-top:14px}
+.news-entry--featured .news-entry-description{font-size:16px;margin-top:18px;max-width:40ch}
+.news-entry--featured+.news-grid{margin-top:36px}
+@media(max-width:700px){.news-entry--featured{margin-top:30px;padding-bottom:24px}.news-entry--featured .news-entry-link{display:block}.news-entry--featured .news-photo{margin-bottom:18px}.news-entry--featured .news-entry-title{font-size:30px;margin-top:10px}.news-entry--featured .news-entry-description{font-size:15px;margin-top:12px}.news-entry--featured+.news-grid{margin-top:32px}}
 .news-entry-link:hover .news-entry-title,.news-entry-link:focus-visible .news-entry-title{color:var(--accent-dark);text-decoration:underline;text-underline-offset:5px;text-decoration-thickness:1px}
 .news-grid>.news-empty{grid-column:1/-1}
 .news-post{max-width:1060px;padding-bottom:64px}

@@ -4,6 +4,6 @@
  <div class="stats-grid">{{ range hugo.Data.funding.stats }}<div class="stat"><p class="stat-value">{{ .value }}</p><h3>{{ .label }}</h3><p>{{ .detail }}</p></div>{{ end }}</div>
  {{ with hugo.Data.funding.note }}<p class="source-note">{{ . }}</p>{{ end }}
  {{ partial "lab/project-portfolio.html" . }}
- <details class="partners"><summary>Thanks to our Funding &amp; Research partners <span>{{ len hugo.Data.funding.partners }} organizations</span></summary><ul>{{ range hugo.Data.funding.partners }}<li>{{ . }}</li>{{ end }}</ul></details>
+ {{ partial "lab/funding-partners.html" . }}
 </section>
 {{ end }}

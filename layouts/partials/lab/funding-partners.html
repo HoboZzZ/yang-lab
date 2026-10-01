@@ -1,0 +1,17 @@
+<details class="partners" id="funding-partners">
+  <summary>Funding &amp; Research Partners <span>{{ len hugo.Data.funding.partners }} organizations</span></summary>
+  <ul class="partner-logo-grid">
+    {{ range hugo.Data.funding.partners }}
+    <li>
+      <a class="partner-logo-link{{ if eq .logo_background "dark" }} partner-logo-link--dark{{ end }}" href="{{ .url }}" aria-label="Visit {{ .name }}" title="{{ .name }}">
+        {{ $logo := false }}{{ with .logo }}{{ $logo = resources.Get . }}{{ end }}
+        {{ if $logo }}
+        <img src="{{ $logo.RelPermalink }}" width="240" height="96" alt="{{ .name }}" loading="lazy" decoding="async">
+        {{ else }}
+        <span class="partner-name">{{ .name }}</span>
+        {{ end }}
+      </a>
+    </li>
+    {{ end }}
+  </ul>
+</details>

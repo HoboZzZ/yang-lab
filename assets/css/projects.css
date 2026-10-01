@@ -36,3 +36,13 @@
 @media(max-width:600px){.project-portfolio{margin-top:45px}.portfolio-heading h2{font-size:38px}.project-filters{grid-template-columns:minmax(0,1fr);gap:14px}.project-status{gap:24px}.project-meta{flex-direction:column;gap:8px}.project-period{text-align:left}.project-state{display:inline;margin-left:12px}.funded-project{padding-block:25px}.funded-project h3{font-size:29px}.project-partners ul{grid-template-columns:1fr}.project-funding{line-height:1.8}}
 @media(prefers-reduced-motion:reduce){.funded-project,.funded-project h3{transition:none}}
 @media print{.project-filters,.project-reset,.project-status-note{display:none!important}.funded-project{break-inside:avoid}.funded-project h3{font-size:24px}}
+.partners .partner-logo-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;padding:8px 0 24px;margin:0}
+.partner-logo-grid li{min-width:0;padding:0;border:0}
+.partner-logo-link{display:flex;align-items:center;justify-content:center;min-height:144px;height:100%;padding:24px;background:#fff;color:#34362f;text-align:center;text-decoration:none;transition:background-color .18s ease;touch-action:manipulation}
+.partner-logo-link img{display:block;width:100%;height:88px;object-fit:contain}
+.partner-logo-link:hover{background:#fffdf8;text-decoration:none}
+.partner-logo-link--dark{background:#34362f;color:#fff}.partner-logo-link--dark:hover{background:#45473f}
+.partner-logo-link:focus-visible{outline:3px solid var(--focus);outline-offset:3px}
+.partner-name{font:500 15px/1.5 var(--font-body);overflow-wrap:anywhere;text-wrap:pretty}
+@media(max-width:800px){.partners .partner-logo-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.partner-logo-link{min-height:128px;padding:18px}.partner-logo-link img{height:76px}.partner-name{font-size:14px}}
+@media(prefers-reduced-motion:reduce){.partner-logo-link{transition:none}}

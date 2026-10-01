@@ -14,21 +14,101 @@
   "note": "",
   "description": "European corn borer projects monitor Bt resistance across Minnesota, the U.S., and Canada. Corn rootworm projects evaluate Bt traits, insecticides, seed treatments, larval competition, and cold tolerance. Additional work addresses invasive Old World bollworm risk, statewide pest surveillance, and reduced neonicotinoid use.",
   "partners": [
-    "USDA Agriculture and Food Research Initiative",
-    "Corteva Agriscience",
-    "Minnesota Corn Research and Promotion Council",
-    "Minnesota Invasive Terrestrial Plants and Pests Center (MITPPC)",
-    "Minnesota Department of Agriculture",
-    "Minnesota Agricultural Experiment Station, Rapid Agricultural Response Fund Program",
-    "Bayer CropScience",
-    "FMC",
-    "Wyffels",
-    "BASF",
-    "Pahl’s Farm",
-    "Valent",
-    "Profarm",
-    "Syngenta",
-    "MWFPA",
-    "AMVAC"
+    {
+      "name": "USDA Agriculture and Food Research Initiative",
+      "url": "https://www.nifa.usda.gov/grants/programs/competitive-AFRI-nonAFRI",
+      "logo": "images/partners/usda.svg",
+      "logo_source": "https://usda.azureedge.us/themes/custom/usda_uswds/img/usda-symbol.svg"
+    },
+    {
+      "name": "Corteva Agriscience",
+      "url": "https://www.corteva.com/",
+      "logo": "images/partners/corteva.png",
+      "logo_source": "https://images.engage.corteva.com/EloquaImages/clients/DuPontAgricultureNA/%7B43e1c32f-a47c-48f3-9f90-3003216cba82%7D_corteva_logo_thumbnail.png"
+    },
+    {
+      "name": "Minnesota Corn Research and Promotion Council",
+      "url": "https://www.mncorn.org/about/about-mcrpc/",
+      "logo": "images/partners/mncorn.jpg",
+      "logo_source": "https://www.mncorn.org/wp-content/uploads/2016/10/MCRPC_4c-JPEG-HR.zip"
+    },
+    {
+      "name": "Minnesota Invasive Terrestrial Plants and Pests Center (MITPPC)",
+      "url": "https://mitppc.umn.edu/",
+      "logo": "images/partners/mitppc.png",
+      "logo_source": "https://drive.google.com/uc?export=download&id=1W7rxPvWhf2K31H9J4WlSRe9z8wcwUyHm"
+    },
+    {
+      "name": "Minnesota Department of Agriculture",
+      "url": "https://www.mda.state.mn.us/",
+      "logo": "images/partners/mda.png",
+      "logo_source": "https://www.mda.state.mn.us/themes/custom/mda/images/logo.png"
+    },
+    {
+      "name": "Minnesota Agricultural Experiment Station, Rapid Agricultural Response Fund Program",
+      "url": "https://maes.umn.edu/research/rarf",
+      "logo": "images/partners/maes.png",
+      "logo_source": "https://maes.umn.edu/sites/maes.umn.edu/files/2020-07/MAES.png"
+    },
+    {
+      "name": "Bayer CropScience",
+      "url": "https://www.bayer.com/en-us/united-states/products/crop-science",
+      "logo": "images/partners/bayer.svg",
+      "logo_source": "https://bag-d-001.sitecorecontenthub.cloud/api/public/content/1194f787d1c64416aca40be7bc769da9?v=e304e15f&isSvg=true"
+    },
+    {
+      "name": "FMC",
+      "url": "https://www.fmc.com/en",
+      "logo": "images/partners/fmc.svg",
+      "logo_source": "https://www.fmc.com/themes/custom/fmc_corp/images/logo-fmc-tagline-en.svg"
+    },
+    {
+      "name": "Wyffels",
+      "url": "https://www.wyffels.com/",
+      "logo": "images/partners/wyffels.png",
+      "logo_source": "https://www.wyffels.com/assets/img/wyffels-logo-global-menu.png"
+    },
+    {
+      "name": "BASF",
+      "url": "https://agriculture.basf.com/us/en",
+      "logo": "images/partners/basf.png",
+      "logo_source": "https://brandportal.basf.com/api/imaging/focalarea/original/210x/dam/jcr%3A4df6ab80-22c6-337b-b99b-aae38d0d42e6/BASF_Logo_black.png"
+    },
+    {
+      "name": "Pahl’s Farm",
+      "url": "https://www.pahls.com/pahl-farms/",
+      "logo": "images/partners/pahls.png",
+      "logo_source": "https://www.pahls.com/wp-content/uploads/2021/11/pahls-market.png"
+    },
+    {
+      "name": "Valent",
+      "url": "https://www.valent.com/our-story",
+      "logo": "images/partners/valent.svg",
+      "logo_source": "https://www.valent.com/our-story#logo"
+    },
+    {
+      "name": "Profarm",
+      "url": "https://profarm.com/about-us/company-overview/",
+      "logo": "images/partners/profarm.webp",
+      "logo_source": "https://profarm.com/wp-content/uploads/2025/04/logo_mobile2.webp"
+    },
+    {
+      "name": "Syngenta",
+      "url": "https://www.syngenta-us.com/about-us/",
+      "logo": "images/partners/syngenta.svg",
+      "logo_source": "https://www.syngenta-us.com/templates/images/syngenta-us-logo.svg"
+    },
+    {
+      "name": "MWFPA",
+      "url": "https://www.mwfpa.org/aboutus",
+      "logo": "images/partners/mwfpa.png",
+      "logo_source": "https://static.wixstatic.com/media/fb2de9_5e8fb6407678410cb45c9b4cf14ea6c7~mv2.png"
+    },
+    {
+      "name": "AMVAC",
+      "url": "https://www.amvac.com/",
+      "logo": "images/partners/amvac.svg",
+      "logo_source": "https://www.amvac.com/themes/custom/amvac/_ui/skin/dist/svg/amvac-logo.svg"
+    }
   ]
 }

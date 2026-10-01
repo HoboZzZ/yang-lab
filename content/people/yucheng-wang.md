@@ -5,6 +5,10 @@ member: "yucheng-wang"
 description: "Yucheng Wang — Postdoctoral researcher in the Corn Entomology Lab at the University of Minnesota."
 email: "wan02613@umn.edu"
 position: ""
+research_interests:
+  - "Corn insect biology"
+  - "Environmental effects on pests"
+  - "Sustainable pest management"
 source_url: "https://fyanglab.cfans.umn.edu/yucheng-wang"
 education: []
 experience: []

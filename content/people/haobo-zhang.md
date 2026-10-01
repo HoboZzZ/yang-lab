@@ -6,6 +6,9 @@ description: "Haobo Zhang — MS student in the Corn Entomology Lab at the Unive
 email: "zha00134@umn.edu"
 position: ""
 advisors: []
+research_interests:
+  - "Bt resistance monitoring"
+  - "Resistance genetics"
 source_url: "https://fyanglab.cfans.umn.edu/haobo-zhang"
 education:
   - degree: "B.S., Plant Protection"

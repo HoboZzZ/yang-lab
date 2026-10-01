@@ -24,9 +24,9 @@
         {{ .Content }}
       </section>
       {{ end }}
-      {{ if or $person.interests .Params.education }}
-      <div class="member-details{{ if not (and $person.interests .Params.education) }} member-details--single{{ end }}">
-        {{ with $person.interests }}
+      {{ if or .Params.research_interests .Params.education }}
+      <div class="member-details{{ if not (and .Params.research_interests .Params.education) }} member-details--single{{ end }}">
+        {{ with .Params.research_interests }}
         <section aria-labelledby="interests-title">
           <h2 id="interests-title">Research Interests</h2>
           <ul class="member-interests">{{ range . }}<li>{{ . }}</li>{{ end }}</ul>

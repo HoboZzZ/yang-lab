@@ -7,6 +7,9 @@ email: "dwyer332@umn.edu"
 position: ""
 advisors:
   - "Fei Yang"
+research_interests:
+  - "European corn borer"
+  - "Bt resistance genetics"
 source_url: "https://fyanglab.cfans.umn.edu/tatum-dwyer-0"
 education:
   - degree: "B.A., Integrative Biology"

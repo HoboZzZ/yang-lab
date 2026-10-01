@@ -5,6 +5,9 @@ member: "loi-shah"
 description: "Loi Shah — Undergraduate researcher in the Corn Entomology Lab at the University of Minnesota."
 email: ""
 position: ""
+research_interests:
+  - "European corn borer"
+  - "Bt resistance fitness costs"
 source_url: "https://fyanglab.cfans.umn.edu/loi-shah"
 education:
   - degree: "B.S., Environmental Science, Policy & Management; minor in Insect Science (in progress)"

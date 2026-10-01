@@ -11,12 +11,10 @@
 {{ partial "lab/hiring.html" . }}
 <div class="join-us-inquiries container">
   {{ range hugo.Data.join_us.inquiries }}
-  {{ $inquiryURL := printf "mailto:%s?subject=%s" $.Site.Params.email (replace (.subject | urlquery) "+" "%20") }}
   <section class="join-us-inquiry" id="{{ .id }}" aria-labelledby="{{ .id }}-title">
     <h2 id="{{ .id }}-title">{{ .title }}</h2>
     <div class="join-us-inquiry-content">
       {{ with .description }}<p>{{ . }}</p>{{ end }}
-      <a class="text-link" href="{{ $inquiryURL | safeURL }}" aria-label="Email Fei Yang about {{ .title }}">Email Fei Yang ↗</a>
     </div>
   </section>
   {{ end }}

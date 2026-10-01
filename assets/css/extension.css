@@ -31,11 +31,11 @@
 .extension-resources ul{display:flex;flex-wrap:wrap;gap:8px 28px;list-style:none;padding:0;margin-top:12px}
 @media(max-width:700px){.extension-grid{grid-template-columns:1fr}.extension-collection{margin-top:48px}.extension-collection-head{align-items:start;flex-direction:column;gap:8px}.extension-entry{padding:24px 0}.extension-resources ul{flex-direction:column;gap:4px}}
 @media(prefers-reduced-motion:reduce){.extension-entry :is(h3,h4) a{transition:none}}
-#crop-news .extension-entry h3 {
-  font-family: var(--font-body);
-  font-size: clamp(20px, 2vw, 26px);
-  font-weight: 500;
-  line-height: 1.4;
-  letter-spacing: normal;
-  font-variant-numeric: lining-nums;
-}
+#crop-news .extension-grid{grid-template-columns:1fr}
+#crop-news .extension-entry{display:grid;grid-template-columns:132px minmax(0,1fr);gap:24px;padding:24px 0;align-items:start}
+#crop-news .extension-meta{font-size:13px;letter-spacing:.03em;line-height:1.6;padding-top:4px}
+.crop-news-content{min-width:0}
+#crop-news .extension-entry h3{font:500 clamp(20px,2vw,24px)/1.4 var(--font-body);letter-spacing:normal;font-variant-numeric:lining-nums;margin:0 0 8px;text-wrap:pretty}
+#crop-news .extension-byline{margin:0;font-size:15px;line-height:1.6;overflow-wrap:anywhere}
+.crop-news-arrow{color:var(--accent-dark);font-size:.8em;white-space:nowrap}
+@media(max-width:700px){#crop-news .extension-entry{grid-template-columns:1fr;gap:8px;padding:22px 0}#crop-news .extension-meta{padding-top:0}}

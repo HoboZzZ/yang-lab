@@ -7,7 +7,7 @@ enableRobotsTXT = true
 disableKinds = ['taxonomy', 'term']
 
 [params]
-  shortTitle = 'YANG ENTO LAB'
+  shortTitle = 'CORN ENTO LAB'
   description = 'Corn entomology at the University of Minnesota. Research on insect resistance, pest biology, and sustainable crop protection.'
   author = 'Fei Yang'
   mainSection = 'news'

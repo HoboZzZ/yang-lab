@@ -16,8 +16,7 @@
    {{ range $entries }}
    <article class="extension-entry">
     <p class="extension-meta"><time datetime="{{ .date }}">{{ time.Format "Jan 2, 2006" .date }}</time></p>
-    <h3><a href="{{ .url }}">{{ .title }}</a></h3><p class="extension-byline">{{ .authors }}</p>
-    <a class="text-link" href="{{ .url }}" aria-label="Read article: {{ .title }}">Read article ↗</a>
+    <div class="crop-news-content"><h3><a href="{{ .url }}">{{ .title }} <span class="crop-news-arrow" aria-hidden="true">↗</span></a></h3><p class="extension-byline">{{ .authors }}</p></div>
    </article>
    {{ end }}
   </div>

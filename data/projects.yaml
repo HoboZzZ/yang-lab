@@ -8,7 +8,7 @@
   start_year: 2023
   end_year: 2027
   funding_amount: 410000
-  funding_note: All to my program
+  funding_note: Full award to the lab
   themes: [European Corn Borer, Bt Resistance]
 
 - id: ecb-f2-screening
@@ -18,7 +18,7 @@
   start_year: 2025
   end_year: 2028
   funding_amount: 438458
-  funding_note: All to my program
+  funding_note: Full award to the lab
   themes: [European Corn Borer, Bt Resistance, F2 Screening]
 
 - id: invasive-armigera
@@ -29,7 +29,7 @@
   start_year: 2026
   end_year: 2030
   funding_amount: 587389
-  funding_note: All to my program
+  funding_note: Full award to the lab
   themes: [Invasive Insect Pests, '*Helicoverpa armigera*']
 
 - id: rootworm-ecology
@@ -39,7 +39,7 @@
   start_year: 2023
   end_year: 2037
   funding_amount: 311520
-  funding_note: All to my program
+  funding_note: Full award to the lab
   themes: [Corn Rootworm, Insect Ecology]
 
 - id: billion-dollar-pest
@@ -61,7 +61,7 @@
   start_year: 2024
   end_year: 2027
   funding_amount: 165660
-  funding_note: All to my program
+  funding_note: Full award to the lab
   themes: [Insect Monitoring, IPM]
 
 - id: rootworm-seed-treatment
@@ -71,7 +71,7 @@
   start_year: 2024
   end_year: 2026
   funding_amount: 147880
-  funding_note: All to my program
+  funding_note: Full award to the lab
   themes: [Corn Rootworm, Seed Treatment, IPM]
 
 - id: bayer-ecb
@@ -81,7 +81,7 @@
   start_year: 2025
   end_year: 2027
   funding_amount: 119753
-  funding_note: All to my program
+  funding_note: Full award to the lab
   themes: [European Corn Borer, Bt Resistance]
 
 - id: rapid-response-ecb
@@ -91,7 +91,7 @@
   start_year: 2025
   end_year: 2027
   funding_amount: 199482
-  funding_note: All to my program
+  funding_note: Full award to the lab
   themes: [European Corn Borer, Bt Resistance]
 
 - id: pollinator-protection
@@ -102,7 +102,7 @@
   start_year: 2024
   end_year: 2026
   funding_amount: 208753
-  funding_note: All to my program
+  funding_note: Full award to the lab
   themes: [Pollinator Protection, Seed Treatment, IPM]
 
 - id: applied-field-research
@@ -114,6 +114,6 @@
   end_year: 2027
   funding_amount: 156169
   funding_label: Combined funding
-  funding_note: All to my program
+  funding_note: Full award to the lab
   description: Applied field trials evaluating the efficacy of foliar insecticides, soil insecticides, seed treatments, and Bt hybrids against corn rootworm, corn earworm, seed corn maggots, and other corn insect pests.
   themes: [Applied Field Research, IPM, Corn Insect Pests]

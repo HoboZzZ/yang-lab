@@ -32,6 +32,9 @@ disableKinds = ['taxonomy', 'term']
 [caches.images]
   dir = ':cacheDir/images'
 
+[markup.goldmark.parser]
+  wrapStandAloneImageWithinParagraph = false
+
 [[menus.main]]
   name = 'Research'
   url = '/research/'

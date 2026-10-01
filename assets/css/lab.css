@@ -121,9 +121,9 @@ body,h1,h2,h3,h4{font-variant-numeric:lining-nums}
 .research-image--diagram{object-fit:contain;object-position:center;background:#fff;padding:8px}
 
 .person-tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
-.person-tag{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;padding:0;border:1px solid var(--line-soft);color:var(--ink);text-decoration:none}
-.person-tag svg{width:16px;height:16px;fill:currentColor;display:block}
-.person-tag:hover{color:var(--accent-dark);border-color:var(--accent-dark);background:var(--accent-soft)}
+.person-tag{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;padding:0;border:0;box-shadow:none;background:transparent;color:var(--ink);text-decoration:none;touch-action:manipulation;transition:color .2s ease}
+.person-tag svg{width:18px;height:18px;fill:currentColor;display:block}
+.person-tag:hover{color:var(--accent-dark);background:transparent}
 .person-tag:has(span){width:auto;height:auto;min-height:26px;padding:4px 8px}
 .person-tag span{font-size:10px;letter-spacing:.08em;line-height:1.2;text-transform:uppercase;color:var(--accent-dark)}
 .person-photo-link{display:block;width:100%;height:100%;touch-action:manipulation}

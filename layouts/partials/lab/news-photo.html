@@ -1,0 +1,16 @@
+{{- $page := .page -}}
+{{- $eager := .eager | default false -}}
+{{- $informative := .informative | default false -}}
+{{- $photo := .photo | default $page.Params.cover -}}
+{{- if not $photo.image -}}
+  {{- with $page.Params.gallery }}{{ $photo = index . 0 }}{{ end -}}
+{{- end -}}
+{{- with $photo.image -}}
+  {{- $cover := partial "lab/news-photo-data.html" (dict "page" $page "photo" $photo) -}}
+  {{- $alt := cond $informative $cover.alt "" -}}
+  <div class="{{ $.class | default "news-photo" }}">
+    {{- if $.zoom }}<a class="news-photo-link" href="{{ $cover.full | safeURL }}" data-caption="{{ $cover.caption }}" data-alt="{{ $cover.alt }}" aria-label="Enlarge photo: {{ $cover.alt }}">{{ end -}}
+    <img src="{{ $cover.src | safeURL }}"{{ with $cover.small }} srcset="{{ .RelPermalink }} {{ .Width }}w, {{ $cover.medium.RelPermalink }} {{ $cover.medium.Width }}w, {{ $cover.large.RelPermalink }} {{ $cover.large.Width }}w" sizes="{{ $.sizes | default "(max-width: 700px) 100vw, (max-width: 1440px) 50vw, 650px" }}"{{ end }}{{ with $cover.width }} width="{{ . }}"{{ end }}{{ with $cover.height }} height="{{ . }}"{{ end }} alt="{{ $alt }}" loading="{{ if $eager }}eager{{ else }}lazy{{ end }}"{{ if $eager }} fetchpriority="high"{{ end }} decoding="async">
+    {{- if $.zoom }}</a>{{ end -}}
+  </div>
+{{- end -}}

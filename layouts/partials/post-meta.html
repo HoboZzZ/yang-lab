@@ -1,1 +1,7 @@
-{{ if .Draft }}<span>Sample draft · Layout preview</span>{{ else }}<time datetime="{{ .Date.Format "2006-01-02" }}">{{ time.Format ":date_medium" .Date }}</time><span aria-hidden="true">·</span><span>{{ i18n "minRead" (dict "Count" .ReadingTime) }}</span>{{ end }}
+{{ if .Draft }}<span>Sample draft · Layout preview</span>{{ else }}
+<time datetime="{{ .Date.Format "2006-01-02" }}">{{ time.Format ":date_medium" .Date }}</time>
+{{ if ne .Section "news" }}
+<span aria-hidden="true">·</span>
+<span>{{ i18n "minRead" (dict "Count" .ReadingTime) }}</span>
+{{ end }}
+{{ end }}

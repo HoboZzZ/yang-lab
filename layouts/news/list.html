@@ -1,6 +1,6 @@
 {{ define "main" }}
 <section class="lab-section container news-index"><p class="eyebrow">Updates from the lab</p><h1>Lab News</h1><p class="page-intro">Research highlights, team news, and moments from the field.</p>
 {{ if where .RegularPages "Draft" true }}<p class="news-preview-note">Layout preview · These sample drafts are not published news.</p>{{ end }}
-<div class="list-grid">{{ range .Paginator.Pages }}{{ partial "post-card.html" (dict "page" . "variant" "list") }}{{ else }}<div class="news-empty"><p>Updates from the lab are on their way.</p></div>{{ end }}</div>
+<div class="news-grid">{{ range (.Paginate .RegularPages.ByDate.Reverse).Pages }}{{ partial "lab/news-entry.html" . }}{{ else }}<div class="news-empty"><p>Updates from the lab are on their way.</p></div>{{ end }}</div>
 {{ template "_internal/pagination.html" . }}</section>
 {{ end }}

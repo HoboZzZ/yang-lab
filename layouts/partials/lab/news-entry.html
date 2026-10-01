@@ -1,0 +1,11 @@
+<article class="news-entry">
+  <a class="news-entry-link" href="{{ .RelPermalink }}">
+    {{ partial "lab/news-photo.html" (dict "page" .) }}
+    <div class="news-entry-meta">
+      {{ with .Params.tags }}<span class="news-entry-tag">{{ index . 0 }}</span>{{ end }}
+      {{ partial "post-meta.html" . }}
+    </div>
+    <h2 class="news-entry-title">{{ .Title }}</h2>
+    {{ with .Description | default .Params.summary }}<p class="news-entry-description">{{ . | plainify }}</p>{{ end }}
+  </a>
+</article>

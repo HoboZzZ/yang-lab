@@ -1,0 +1,43 @@
+{{ define "main" }}
+{{- $showToc := and (ne .Site.Params.showToc false) (in .TableOfContents "<li>") -}}
+<div class="post-layout news-post{{ if $showToc }} has-toc{{ end }}">
+  <article class="post">
+    <header class="post__header">
+      {{ with .Params.tags }}<div class="post__tag">{{ index . 0 }}</div>{{ end }}
+      <h1 class="post__title">{{ .Title }}</h1>
+      <div class="post__meta">{{ partial "post-meta.html" . }}</div>
+      {{ with .Description }}<p class="news-post-intro">{{ . }}</p>{{ end }}
+    </header>
+    {{ $photos := slice }}
+    {{ if and .Params.cover.image (not .Params.cover.hiddenInSingle) }}{{ $photos = $photos | append .Params.cover }}{{ end }}
+    {{ range .Params.gallery }}{{ if .image }}{{ $photos = $photos | append . }}{{ end }}{{ end }}
+    {{ with $photos }}
+    {{ $single := eq (len .) 1 }}
+    {{ $sizes := "(max-width: 700px) 100vw, 450px" }}
+    {{ if $single }}{{ $sizes = "(max-width: 800px) 100vw, 900px" }}{{ else if ge (len .) 3 }}{{ $sizes = "(max-width: 700px) 100vw, (max-width: 1000px) 50vw, 300px" }}{{ end }}
+    <div class="news-gallery{{ if $single }} news-gallery--single{{ else if ge (len .) 3 }} news-gallery--many{{ end }}" aria-label="Photos from {{ $.Title }}">
+      {{ range $index, $photo := . }}
+      <figure>
+        {{ partial "lab/news-photo.html" (dict "page" $ "photo" . "informative" true "zoom" true "eager" (eq $index 0) "sizes" $sizes) }}
+        {{ with .caption }}<figcaption>{{ . | markdownify }}</figcaption>{{ end }}
+      </figure>
+      {{ end }}
+    </div>
+    {{ end }}
+    {{ with .Content }}<div class="post__body">{{ . }}</div>{{ end }}
+    <a class="news-back-link" href="{{ "news/" | relURL }}">← All Lab News</a>
+    {{ if or .PrevInSection .NextInSection }}
+    <nav class="post-nav" aria-label="{{ i18n "articleNavigation" }}">
+      {{ with .PrevInSection }}<a class="post-nav__link" href="{{ .RelPermalink }}"><span>{{ i18n "previousArticle" }}</span><strong>{{ .Title }}</strong></a>{{ end }}
+      {{ with .NextInSection }}<a class="post-nav__link post-nav__link--next" href="{{ .RelPermalink }}"><span>{{ i18n "nextArticle" }}</span><strong>{{ .Title }}</strong></a>{{ end }}
+    </nav>
+    {{ end }}
+  </article>
+  {{ if $showToc }}
+  <aside class="post-toc"><details open><summary>{{ i18n "tableOfContents" }}</summary>{{ .TableOfContents }}</details></aside>
+  {{ end }}
+</div>
+{{ partial "lab/news-lightbox.html" . }}
+{{ $galleryJS := resources.Get "js/news-gallery.js" | minify | fingerprint }}
+<script src="{{ $galleryJS.RelPermalink }}" integrity="{{ $galleryJS.Data.Integrity }}" defer></script>
+{{ end }}

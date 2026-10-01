@@ -1,0 +1,13 @@
+{{- /* Browsers honor orientation metadata without changing the original file. */ -}}
+{{- $width := .Width -}}
+{{- $height := .Height -}}
+{{- if reflect.IsImageResourceWithMeta . -}}
+  {{- with .Meta -}}
+    {{- if in (slice 5 6 7 8) .Orientation -}}
+      {{- $originalWidth := $width -}}
+      {{- $width = $height -}}
+      {{- $height = $originalWidth -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+{{- return (dict "width" $width "height" $height) -}}

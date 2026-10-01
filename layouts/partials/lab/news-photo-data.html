@@ -10,7 +10,8 @@
   {{- if not $resource }}{{ $resource = $page.Resources.Get $src }}{{ end -}}
   {{- with $resource -}}
     {{- if reflect.IsImageResourceProcessable . -}}
-      {{- $data = merge $data (dict "src" .RelPermalink "full" .RelPermalink "width" .Width "height" .Height) -}}
+      {{- $dimensions := partial "lab/image-dimensions.html" . -}}
+      {{- $data = merge $data (dict "src" .RelPermalink "full" .RelPermalink "width" $dimensions.width "height" $dimensions.height) -}}
     {{- else -}}
       {{- $data = merge $data (dict "src" .RelPermalink "full" .RelPermalink) -}}
     {{- end -}}

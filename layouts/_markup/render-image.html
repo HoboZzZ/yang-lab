@@ -9,8 +9,9 @@
     {{- with or (.Page.Resources.Get $url.Path) (resources.Get $assetPath) -}}
       {{- $src = .RelPermalink -}}
       {{- if reflect.IsImageResourceProcessable . -}}
-        {{- $width = .Width -}}
-        {{- $height = .Height -}}
+        {{- $dimensions := partial "lab/image-dimensions.html" . -}}
+        {{- $width = $dimensions.width -}}
+        {{- $height = $dimensions.height -}}
       {{- end -}}
       {{- with $url.RawQuery }}{{ $src = printf "%s?%s" $src . }}{{ end -}}
       {{- with $url.Fragment }}{{ $src = printf "%s#%s" $src . }}{{ end -}}

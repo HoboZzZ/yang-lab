@@ -1,0 +1,17 @@
+{{- /* News covers use their original files, including on the home page. */ -}}
+{{- $src := .Params.cover.image | default "" -}}
+{{- $data := dict "src" $src "remote" false "found" false "socialURL" ($src | absURL) -}}
+{{- if eq .Section "news" -}}
+  {{- $photo := partial "lab/news-photo-data.html" (dict "page" . "photo" .Params.cover) -}}
+  {{- $data = dict "src" $photo.src "remote" false "found" false "socialURL" ($photo.full | absURL) -}}
+{{- else if or (hasPrefix $src "http://") (hasPrefix $src "https://") -}}
+  {{- $data = merge $data (dict "remote" true "found" true "socialURL" $src) -}}
+{{- else -}}
+  {{- with resources.Get $src -}}
+    {{- $small := .Resize "480x webp q82" -}}
+    {{- $medium := .Resize "800x webp q82" -}}
+    {{- $large := .Resize "1200x webp q82" -}}
+    {{- $data = merge $data (dict "found" true "small" $small "medium" $medium "large" $large "socialURL" $large.Permalink) -}}
+  {{- end -}}
+{{- end -}}
+{{- return $data -}}

@@ -10,11 +10,7 @@
   {{- if not $resource }}{{ $resource = $page.Resources.Get $src }}{{ end -}}
   {{- with $resource -}}
     {{- if reflect.IsImageResourceProcessable . -}}
-      {{- $small := .Fit "480x640 webp q82" -}}
-      {{- $medium := .Fit "800x1067 webp q82" -}}
-      {{- $large := .Fit "1200x1600 webp q82" -}}
-      {{- $full := .Fit "1600x1600 webp q85" -}}
-      {{- $data = merge $data (dict "src" $medium.RelPermalink "full" $full.RelPermalink "small" $small "medium" $medium "large" $large "width" $medium.Width "height" $medium.Height) -}}
+      {{- $data = merge $data (dict "src" .RelPermalink "full" .RelPermalink "width" .Width "height" .Height) -}}
     {{- else -}}
       {{- $data = merge $data (dict "src" .RelPermalink "full" .RelPermalink) -}}
     {{- end -}}

@@ -2,14 +2,17 @@
   <div class="news-lightbox-top">
     <h2 id="news-lightbox-title" class="visually-hidden">News photo viewer</h2>
     <span class="news-lightbox-count" aria-live="polite" aria-atomic="true"></span>
-    <button type="button" class="news-lightbox-close" aria-label="Close photo viewer" autofocus>Close <span aria-hidden="true">×</span></button>
+    <div class="news-lightbox-toolbar">
+      <button type="button" class="news-lightbox-zoom" aria-label="Zoom to original size" aria-pressed="false"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><circle cx="10" cy="10" r="6"/><path d="m15 15 6 6M7 10h6M10 7v6"/></svg></button>
+      <button type="button" class="news-lightbox-close" aria-label="Close photo viewer" autofocus><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m5 5 14 14M19 5 5 19"/></svg></button>
+    </div>
   </div>
   <figure class="news-lightbox-figure">
-    <img alt="" width="1600" height="1200">
+    <div class="news-lightbox-stage"><img alt="" width="1600" height="1200"></div>
     <figcaption class="news-lightbox-caption" aria-live="polite" aria-atomic="true"></figcaption>
   </figure>
   <div class="news-lightbox-controls">
-    <button type="button" class="news-lightbox-prev" aria-label="Previous photo">← Previous</button>
-    <button type="button" class="news-lightbox-next" aria-label="Next photo">Next →</button>
+    <button type="button" class="news-lightbox-prev" aria-label="Previous photo"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m14 5-7 7 7 7"/></svg></button>
+    <button type="button" class="news-lightbox-next" aria-label="Next photo"><svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="m10 5 7 7-7 7"/></svg></button>
   </div>
 </dialog>

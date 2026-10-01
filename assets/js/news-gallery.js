@@ -22,11 +22,22 @@
   const caption = dialog.querySelector('.news-lightbox-caption');
   const previous = dialog.querySelector('.news-lightbox-prev');
   const next = dialog.querySelector('.news-lightbox-next');
+  const zoom = dialog.querySelector('.news-lightbox-zoom');
+  const stage = dialog.querySelector('.news-lightbox-stage');
   let current = 0;
   let opener;
   let bodyOverflow;
+  let touchStart;
+
+  function setZoom(enabled) {
+    dialog.classList.toggle('is-zoomed', enabled);
+    zoom.setAttribute('aria-pressed', String(enabled));
+    zoom.setAttribute('aria-label', enabled ? 'Fit photo to screen' : 'Zoom to original size');
+    stage.scrollTop = stage.scrollLeft = 0;
+  }
 
   function show(index) {
+    setZoom(false);
     current = (index + links.length) % links.length;
     const link = links[current];
     const thumbnail = link.querySelector('img');
@@ -55,6 +66,19 @@
   dialog.querySelector('.news-lightbox-close').addEventListener('click', () => dialog.close());
   previous.addEventListener('click', () => show(current - 1));
   next.addEventListener('click', () => show(current + 1));
+  zoom.addEventListener('click', () => setZoom(!dialog.classList.contains('is-zoomed')));
+  image.addEventListener('dblclick', () => setZoom(!dialog.classList.contains('is-zoomed')));
+  stage.addEventListener('touchstart', event => {
+    touchStart = event.touches.length === 1 ? { x: event.touches[0].clientX, y: event.touches[0].clientY } : null;
+  }, { passive: true });
+  stage.addEventListener('touchend', event => {
+    if (!touchStart || dialog.classList.contains('is-zoomed') || links.length < 2) return;
+    const end = event.changedTouches[0];
+    const dx = end.clientX - touchStart.x;
+    const dy = end.clientY - touchStart.y;
+    touchStart = null;
+    if (Math.abs(dx) > 60 && Math.abs(dx) > Math.abs(dy) * 1.5) show(current + (dx < 0 ? 1 : -1));
+  }, { passive: true });
   dialog.addEventListener('keydown', event => {
     if (links.length < 2) return;
     if (event.key === 'ArrowLeft' || event.key === 'ArrowRight') {

@@ -1,5 +1,9 @@
 /* Photo-led news, using the lab's existing typography and color variables. */
 .news-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:48px 40px;align-items:start;margin-top:40px}
+/* Progressive enhancement: Masonry fills the shorter column; grid remains the no-JS fallback. */
+.news-grid.is-masonry{display:block;position:relative}
+.news-grid.is-masonry>.news-entry{width:calc((100% - 40px)/2);margin-bottom:36px}
+@media(max-width:700px){.news-grid.is-masonry>.news-entry{width:100%;margin-bottom:32px}}
 .news-entry{min-width:0;border-bottom:1px solid var(--line-soft);padding-bottom:28px}
 .news-entry-link{display:block;touch-action:manipulation;scroll-margin-top:160px}
 .news-photo img{display:block;width:100%;height:auto;max-height:none;aspect-ratio:auto;object-fit:contain;border-radius:0}

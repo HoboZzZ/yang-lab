@@ -1,4 +1,8 @@
 {{ $script := resources.Get "js/lab.js" | minify | fingerprint }}<script src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}" defer></script>
 {{ if eq .Layout "projects" }}{{ $projects := resources.Get "js/projects.js" | minify | fingerprint }}<script src="{{ $projects.RelPermalink }}" integrity="{{ $projects.Data.Integrity }}" defer></script>{{ end }}
 {{ if eq .Layout "contact" }}{{ $hiring := resources.Get "js/hiring.js" | minify | fingerprint }}<script src="{{ $hiring.RelPermalink }}" integrity="{{ $hiring.Data.Integrity }}" defer></script>{{ end }}
+{{ if and (eq .Section "news") (eq .Kind "section") }}
+{{ $masonry := resources.Get "js/vendor/masonry.pkgd.min.js" | fingerprint }}<script src="{{ $masonry.RelPermalink }}" integrity="{{ $masonry.Data.Integrity }}" defer></script>
+{{ $newsLayout := resources.Get "js/news-layout.js" | minify | fingerprint }}<script src="{{ $newsLayout.RelPermalink }}" integrity="{{ $newsLayout.Data.Integrity }}" defer></script>
+{{ end }}
 

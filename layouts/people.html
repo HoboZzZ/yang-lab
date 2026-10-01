@@ -11,9 +11,9 @@
       {{ with resources.Get .image }}
         {{ $oriented := .Filter images.AutoOrient }}{{ $img := $oriented.Resize "600x webp q85" }}
         <div class="person-photo">
-          {{ if $profile }}<a class="person-photo-link" href="{{ $profile.RelPermalink }}" aria-label="View {{ $person.name }}’s profile">{{ end }}
+          {{ if $nameURL }}<a class="person-photo-link" href="{{ $nameURL }}" aria-label="View {{ $person.name }}’s profile">{{ end }}
           <img src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="Portrait of {{ $person.name }}" loading="lazy">
-          {{ if $profile }}</a>{{ end }}
+          {{ if $nameURL }}</a>{{ end }}
         </div>
       {{ end }}
       <p class="person-role">{{ .role }}</p>

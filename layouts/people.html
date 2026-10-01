@@ -1,7 +1,6 @@
 {{ define "main" }}
-<section id="people" class="lab-section people-section" aria-labelledby="people-title"><div class="container">
-  {{ partial "lab/section-head.html" (dict "level" 1 "label" "People" "id" "people" "title" "The people behind<br>the questions." "intro" "Meet the researchers and students of the Corn Entomology Lab.") }}
-  <h2 id="current-members" class="people-group-title">Current Members</h2>
+<section id="people" class="lab-section people-section" aria-labelledby="current-members"><div class="container">
+  <h1 id="current-members" class="people-page-title">Current Members</h1>
   {{ $definitions := slice
     (dict "key" "principal-investigator" "title" "PI")
     (dict "key" "postdoctoral" "title" "Postdocs")
@@ -28,7 +27,7 @@
   <div class="people-current-groups">
     {{ range $groups }}
     <section id="{{ .key }}" class="people-current-group" aria-labelledby="{{ .key }}-title">
-      <h3 id="{{ .key }}-title">{{ .title }}</h3>
+      <h2 id="{{ .key }}-title">{{ .title }}</h2>
       <div class="people-grid">
         {{ range .members }}{{ partial "lab/person-card.html" . }}{{ end }}
       </div>

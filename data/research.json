@@ -30,8 +30,9 @@
       "Invasive insect monitoring and risk assessment",
       "Sweet corn pest management"
     ],
-    "image": "",
-    "imageAlt": ""
+    "image": "images/research/cew-owb-monitoring.png",
+    "imageAlt": "Corn earworm and Old World bollworm monitoring workflow: moth collection and preservation, DNA extraction, molecular species identification, CYP337B3 resistance allele screening, sequencing, and data analysis.",
+    "imageFit": "contain"
   },
   {
     "title": "Sustainable pest management",

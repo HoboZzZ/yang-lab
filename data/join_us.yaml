@@ -1,0 +1,11 @@
+title: "Join Us"
+intro: "Explore research opportunities in corn entomology, Bt resistance, and sustainable pest management."
+inquiries:
+  - id: "graduate-students"
+    title: "Graduate Students"
+    description: "Prospective graduate students interested in corn insect ecology, Bt resistance, and sustainable pest management are welcome to contact Fei Yang to discuss potential research opportunities. Please include a brief introduction, your research interests, and your anticipated start date."
+    subject: "Graduate Research Inquiry"
+  - id: "undergraduates"
+    title: "Undergraduates"
+    description: "Undergraduates interested in gaining experience in insect research are welcome to contact Fei Yang about potential laboratory and field opportunities. Please briefly describe your major, research interests, and availability."
+    subject: "Undergraduate Research Inquiry"

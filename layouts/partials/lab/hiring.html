@@ -3,8 +3,7 @@
 {{ $applicationURL := printf "mailto:%s?subject=%s" .application_email (replace (.application_subject | urlquery) "+" "%20") }}
 <section class="hiring-section lab-section container" id="{{ .id }}" aria-labelledby="hiring-title">
   <div class="hiring-intro">
-    <p class="eyebrow">Join Us / Open Position</p>
-    <h1 id="hiring-title">{{ .title }}</h1>
+    <h2 id="hiring-title">{{ .title }}</h2>
     <p class="hiring-subtitle">{{ .subtitle }}</p>
     <p class="hiring-location">{{ .location }}</p>
     {{ if or .anticipated_start_date .starting_salary }}
@@ -19,29 +18,29 @@
       <p class="hiring-lead">{{ .summary }}</p>
       <p>{{ .overview }}</p>
       <details class="hiring-chapter" id="hiring-responsibilities">
-        <summary><h2 id="responsibilities-title">Primary Responsibilities</h2><span class="hiring-disclosure" aria-hidden="true"></span></summary>
+        <summary><h3 id="responsibilities-title">Primary Responsibilities</h3><span class="hiring-disclosure" aria-hidden="true"></span></summary>
         <div class="hiring-chapter-body">
         <ol class="hiring-responsibilities">
           {{ range .responsibilities }}
-          <li><span class="hiring-percent">{{ .percent }}%</span><div><h3>{{ .title }}</h3><p>{{ .description }}</p></div></li>
+          <li><span class="hiring-percent">{{ .percent }}%</span><div><h4>{{ .title }}</h4><p>{{ .description }}</p></div></li>
           {{ end }}
         </ol>
         </div>
       </details>
       <details class="hiring-chapter" id="hiring-required">
-        <summary><h2 id="required-title">Required Qualifications</h2><span class="hiring-disclosure" aria-hidden="true"></span></summary>
+        <summary><h3 id="required-title">Required Qualifications</h3><span class="hiring-disclosure" aria-hidden="true"></span></summary>
         <div class="hiring-chapter-body">
         <ul class="hiring-list">{{ range .required_qualifications }}<li>{{ . }}</li>{{ end }}</ul>
         </div>
       </details>
       <details class="hiring-chapter" id="hiring-preferred">
-        <summary><h2 id="preferred-title">Preferred Qualifications</h2><span class="hiring-disclosure" aria-hidden="true"></span></summary>
+        <summary><h3 id="preferred-title">Preferred Qualifications</h3><span class="hiring-disclosure" aria-hidden="true"></span></summary>
         <div class="hiring-chapter-body">
         <ul class="hiring-list">{{ range .preferred_qualifications }}<li>{{ . }}</li>{{ end }}</ul>
         </div>
       </details>
       <details class="hiring-chapter" id="hiring-application">
-        <summary><h2 id="application-title">How to Apply</h2><span class="hiring-disclosure" aria-hidden="true"></span></summary>
+        <summary><h3 id="application-title">How to Apply</h3><span class="hiring-disclosure" aria-hidden="true"></span></summary>
         <div class="hiring-chapter-body">
         <p>Send the following materials to <a href="{{ $applicationURL | safeURL }}">{{ .application_email }}</a> with the subject <strong>{{ .application_subject }}</strong>.</p>
         <ul class="hiring-list">{{ range .application_materials }}<li>{{ . }}</li>{{ end }}</ul>
@@ -51,11 +50,8 @@
     </div>
     <aside class="hiring-sidebar" aria-label="Application and position sections">
       <div class="hiring-sidebar-inner">
-        <p class="eyebrow">Apply to Corn Entomology Lab</p>
-        <p class="hiring-sidebar-note">Interested in the position? Review the requirements and prepare your application materials.</p>
         <a class="btn btn--primary hiring-apply" href="#hiring-application">How to Apply <span aria-hidden="true">↓</span></a>
         <nav class="hiring-toc" aria-label="On this page">
-          <p>On this page</p>
           <a href="#hiring-responsibilities">Responsibilities</a>
           <a href="#hiring-required">Required Qualifications</a>
           <a href="#hiring-preferred">Preferred Qualifications</a>

@@ -1,7 +1,19 @@
 .hiring-section{padding-top:64px}
+.join-us-intro{padding-top:64px}
+.join-us-intro h1{font:600 clamp(39px,4.2vw,59px)/1.05 var(--font-display);letter-spacing:-.035em}
+.join-us-intro>p{margin-top:22px;max-width:700px;font-size:18px;color:var(--muted);text-wrap:pretty}
+.join-us-jump{display:flex;flex-wrap:wrap;gap:8px 28px;margin-top:22px}
+.join-us-jump a{display:inline-flex;align-items:center;min-height:44px;font-size:16px;color:var(--accent-dark);text-decoration:underline;text-underline-offset:5px;touch-action:manipulation}
+.join-us-inquiries{padding-bottom:64px}
+.join-us-inquiry{display:grid;grid-template-columns:minmax(200px,1fr) minmax(0,2.5fr);gap:36px;border-top:1px solid var(--line-soft);padding:36px 0;scroll-margin-top:160px}
+.join-us-inquiry h2{font:600 clamp(30px,3vw,40px)/1.2 var(--font-display);text-wrap:balance}
+.join-us-inquiry-content{min-width:0;max-width:760px;font-size:17px;line-height:1.75;color:var(--muted);overflow-wrap:anywhere}
+.join-us-inquiry .text-link{font-size:16px;margin-top:16px}
+.hiring-section[id]{scroll-margin-top:160px}
+@media(max-width:800px){.join-us-intro{padding-top:40px}.join-us-intro>p{font-size:17px}.join-us-inquiry{grid-template-columns:1fr;gap:18px;padding:28px 0}.join-us-inquiries{padding-bottom:40px}}
 .hiring-intro{padding-bottom:36px;border-bottom:1px solid var(--line-soft);margin-bottom:38px}
 .hiring-intro .eyebrow{margin-bottom:16px}
-.hiring-intro h1{font:600 clamp(44px,5.6vw,76px)/1.05 var(--font-display);letter-spacing:-.03em;text-wrap:balance}
+.hiring-intro h2{font:600 clamp(36px,4vw,48px)/1.05 var(--font-display);letter-spacing:-.03em;text-wrap:balance}
 .hiring-subtitle{font:400 clamp(20px,2.2vw,28px)/1.4 var(--font-body);margin-top:16px;max-width:750px;text-wrap:pretty}
 .hiring-location{font-size:13px;color:var(--muted);margin-top:20px}
 .hiring-facts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px 40px;margin:28px 0 0;max-width:1050px}
@@ -17,8 +29,8 @@
 .hiring-content>.hiring-chapter:first-of-type{margin-top:34px}
 .hiring-chapter summary{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:72px;padding:19px 0;cursor:pointer;list-style:none;touch-action:manipulation}
 .hiring-chapter summary::-webkit-details-marker{display:none}
-.hiring-chapter summary:hover h2{color:var(--accent-dark)}
-.hiring-chapter h2{font:500 21px/1.4 var(--font-body);margin:0;text-wrap:balance}
+.hiring-chapter summary:hover h3{color:var(--accent-dark)}
+.hiring-chapter h3{font:500 21px/1.4 var(--font-body);margin:0;text-wrap:balance}
 .hiring-disclosure{width:18px;height:18px;position:relative;flex:none;color:var(--accent-dark)}
 .hiring-disclosure::before,.hiring-disclosure::after{content:'';position:absolute;background:currentColor}
 .hiring-disclosure::before{height:1px;width:14px;top:8px;left:2px}
@@ -28,7 +40,7 @@
 .hiring-responsibilities{list-style:none;padding:0;margin:0}
 .hiring-responsibilities li{display:grid;grid-template-columns:64px minmax(0,1fr);gap:24px;padding:22px 0;border-top:1px solid var(--line-soft)}
 .hiring-percent{font:500 24px/1.4 var(--font-body);font-variant-numeric:lining-nums tabular-nums;color:var(--accent-dark)}
-.hiring-responsibilities h3{font:500 17px/1.5 var(--font-body);margin:0 0 8px;text-wrap:pretty}
+.hiring-responsibilities h4{font:500 17px/1.5 var(--font-body);margin:0 0 8px;text-wrap:pretty}
 .hiring-responsibilities p{color:var(--muted);margin:0}
 .hiring-list{padding-left:22px;margin:20px 0 0;color:var(--muted)}
 .hiring-list li{padding-left:7px;margin-bottom:14px}
@@ -45,5 +57,5 @@
 .hiring-toc a{display:block;padding:10px 0;font-size:14px;line-height:1.5}
 .hiring-toc a:hover{color:var(--accent-dark);text-decoration:underline;text-underline-offset:4px}
 @media(max-width:1000px){.hiring-layout{grid-template-columns:minmax(0,1fr) 240px;gap:36px}}
-@media(max-width:800px){.hiring-section{padding-top:40px}.hiring-layout{display:flex;flex-direction:column;gap:30px}.hiring-sidebar{order:-1;width:100%}.hiring-sidebar-inner{position:static;padding-top:18px}.hiring-sidebar-note{max-width:540px;margin-bottom:16px}.hiring-toc{display:none}.hiring-intro{padding-bottom:28px;margin-bottom:28px}.hiring-content .hiring-lead{font-size:18px}.hiring-chapter summary{min-height:64px;padding-block:16px}.hiring-chapter h2{font-size:18px}.hiring-responsibilities li{grid-template-columns:52px minmax(0,1fr);gap:16px}.hiring-percent{font-size:22px}}
-@media print{.hiring-sidebar,.hiring-apply{display:none!important}.hiring-layout{display:block}.hiring-content{max-width:none}.hiring-intro{margin-bottom:22px;padding-bottom:20px}.hiring-chapter h2{break-after:avoid}.hiring-responsibilities li{break-inside:avoid}.hiring-chapter summary{break-after:avoid}.hiring-disclosure{display:none}}
+@media(max-width:800px){.hiring-section{padding-top:40px}.hiring-layout{display:flex;flex-direction:column;gap:30px}.hiring-sidebar{order:-1;width:100%}.hiring-sidebar-inner{position:static;padding-top:18px}.hiring-sidebar-note{max-width:540px;margin-bottom:16px}.hiring-toc{display:none}.hiring-intro{padding-bottom:28px;margin-bottom:28px}.hiring-content .hiring-lead{font-size:18px}.hiring-chapter summary{min-height:64px;padding-block:16px}.hiring-chapter h3{font-size:18px}.hiring-responsibilities li{grid-template-columns:52px minmax(0,1fr);gap:16px}.hiring-percent{font-size:22px}}
+@media print{.hiring-sidebar,.hiring-apply{display:none!important}.hiring-layout{display:block}.hiring-content{max-width:none}.hiring-intro{margin-bottom:22px;padding-bottom:20px}.hiring-chapter h3{break-after:avoid}.hiring-responsibilities li{break-inside:avoid}.hiring-chapter summary{break-after:avoid}.hiring-disclosure{display:none}}

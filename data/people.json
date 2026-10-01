@@ -1,6 +1,7 @@
 [
   {
     "name": "Fei Yang",
+    "group": "principal-investigator",
     "role": "Principal investigator",
     "project": "",
     "image": "images/people/fei-yang.png",
@@ -32,6 +33,7 @@
   },
   {
     "name": "Yucheng Wang",
+    "group": "postdoctoral",
     "role": "Postdoctoral researcher",
     "project": "",
     "image": "images/people/yucheng-wang.jpeg",
@@ -52,6 +54,7 @@
   },
   {
     "name": "Qinglei Ming",
+    "group": "postdoctoral",
     "role": "Postdoctoral researcher",
     "image": "images/people/qinglei-ming.png",
     "url": "",
@@ -71,6 +74,7 @@
   },
   {
     "name": "Yuchun Wang",
+    "group": "staff",
     "role": "Lab technician",
     "project": "",
     "image": "images/people/yuchun-wang.jpeg",
@@ -85,6 +89,7 @@
   },
   {
     "name": "Tatum Dwyer",
+    "group": "graduate",
     "role": "PhD student",
     "project": "",
     "image": "images/people/tatum-dwyer.png",
@@ -108,6 +113,7 @@
   },
   {
     "name": "Hunter Ness",
+    "group": "graduate",
     "role": "MS student",
     "project": "",
     "image": "images/people/hunter-ness.png",
@@ -128,6 +134,7 @@
   },
   {
     "name": "Haobo Zhang",
+    "group": "graduate",
     "role": "MS student",
     "image": "images/people/haobo-zhang.png",
     "url": "",
@@ -146,6 +153,7 @@
   },
   {
     "name": "Loi Shah",
+    "group": "undergraduate",
     "role": "Undergraduate researcher",
     "project": "",
     "image": "images/people/loi-shah.png",

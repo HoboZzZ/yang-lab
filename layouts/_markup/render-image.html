@@ -1,0 +1,21 @@
+{{- $src := .Destination -}}
+{{- $width := 0 -}}
+{{- $height := 0 -}}
+{{- /* Resolve news photos from assets without processing the original file. */ -}}
+{{- if eq .Page.Section "news" -}}
+  {{- $url := urls.Parse .Destination -}}
+  {{- if and (not $url.IsAbs) (not $url.Host) -}}
+    {{- $assetPath := replaceRE `^(\.\./|\./|/)+` "" $url.Path -}}
+    {{- with or (.Page.Resources.Get $url.Path) (resources.Get $assetPath) -}}
+      {{- $src = .RelPermalink -}}
+      {{- if reflect.IsImageResourceProcessable . -}}
+        {{- $width = .Width -}}
+        {{- $height = .Height -}}
+      {{- end -}}
+      {{- with $url.RawQuery }}{{ $src = printf "%s?%s" $src . }}{{ end -}}
+      {{- with $url.Fragment }}{{ $src = printf "%s#%s" $src . }}{{ end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+<img src="{{ $src | safeURL }}" alt="{{ .PlainText }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ with $width }} width="{{ . }}"{{ end }}{{ with $height }} height="{{ . }}"{{ end }} loading="lazy" decoding="async">
+{{- /* Keep inline Markdown images free of trailing whitespace. */ -}}

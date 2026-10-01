@@ -4,6 +4,9 @@
 .news-grid.is-masonry{display:block;position:relative}
 .news-grid.is-masonry>.news-entry{width:calc((100% - 40px)/2);margin-bottom:36px}
 @media(max-width:700px){.news-grid.is-masonry>.news-entry{width:100%;margin-bottom:32px}}
+/* Compact ordinary news; the latest horizontal feature keeps its existing size. */
+@media(min-width:701px){.news-grid .news-entry{padding-bottom:24px}.news-grid.is-masonry>.news-entry{margin-bottom:32px}.news-grid .news-entry .news-photo{margin-bottom:16px}.news-grid .news-entry-title{font-size:clamp(25px,2.4vw,30px)}.news-grid .news-entry-description{font-size:14px;margin-top:10px}}
+@media(min-width:1100px){.news-grid{grid-template-columns:repeat(3,minmax(0,1fr))}.news-grid.is-masonry>.news-entry{width:calc((100% - 80px)/3)}.news-grid--pair{max-width:calc((200% - 40px)/3);margin-inline:auto;grid-template-columns:repeat(2,minmax(0,1fr))}.news-grid--pair.is-masonry>.news-entry{width:calc((100% - 40px)/2)}}
 .news-entry{min-width:0;border-bottom:1px solid var(--line-soft);padding-bottom:28px}
 .news-entry-link{display:block;touch-action:manipulation;scroll-margin-top:160px}
 .news-photo img{display:block;width:100%;height:auto;max-height:none;aspect-ratio:auto;object-fit:contain;border-radius:0}

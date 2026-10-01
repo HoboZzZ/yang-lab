@@ -8,7 +8,7 @@
   {{ $pages = after 1 $pages }}
 {{ end }}
 {{ if $pages }}
-<div class="news-grid" data-news-masonry>{{ range $pages }}{{ partial "lab/news-entry.html" (dict "page" .) }}{{ end }}</div>
+<div class="news-grid{{ if eq (len $pages) 2 }} news-grid--pair{{ end }}" data-news-masonry>{{ range $pages }}{{ partial "lab/news-entry.html" (dict "page" .) }}{{ end }}</div>
 {{ else if not .RegularPages }}<div class="news-empty"><p>Updates from the lab are on their way.</p></div>{{ end }}
 {{ template "_internal/pagination.html" . }}</section>
 {{ end }}

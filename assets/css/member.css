@@ -7,8 +7,9 @@
 .member-role{font-size:15px;line-height:1.6;color:var(--muted);margin-top:12px}
 .member-affiliation{font-size:14px;color:var(--muted);margin-top:7px}
 .member-advisors{font-size:12px;color:var(--muted);margin-top:14px}
-.member-links .person-tags{justify-content:center;margin-top:20px;gap:8px}
-.member-links .person-tag{width:44px;height:44px;touch-action:manipulation}
+.member-links .person-tags{justify-content:center;margin-top:12px;gap:10px}
+.member-links .person-tag{width:32px;height:32px;border:0;border-radius:0;box-shadow:none;background:transparent;color:var(--ink);touch-action:manipulation;transition:color .2s ease}
+.member-links .person-tag:hover{color:var(--accent-dark);background:transparent}
 .member-links .person-tag svg{width:18px;height:18px}
 .member-links .person-link{margin-top:20px}
 .member-email{display:inline-block;font-size:14px;color:var(--accent-dark);margin-top:16px;overflow-wrap:anywhere;text-decoration:underline;text-underline-offset:4px}

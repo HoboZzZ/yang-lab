@@ -14,8 +14,8 @@
       <p class="member-role">{{ .Params.position | default $person.role }}</p>
       <p class="member-affiliation">{{ .Site.Params.institution }}</p>
       {{ with .Params.advisors }}<p class="member-advisors">{{ if gt (len .) 1 }}Advisors{{ else }}Advisor{{ end }}: {{ delimit . " & " }}</p>{{ end }}
-      <div class="member-links">{{ partial "lab/person-links.html" $person }}</div>
       {{ with .Params.email }}<a class="member-email" href="mailto:{{ . }}">{{ . }}</a>{{ end }}
+      <div class="member-links">{{ partial "lab/person-links.html" $person }}</div>
     </div>
     <div class="member-body">
       {{ if strings.TrimSpace .Content }}

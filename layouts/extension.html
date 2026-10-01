@@ -3,7 +3,7 @@
  {{ partial "lab/section-head.html" (dict "level" 1 "label" "Extension" "id" "extension" "title" "From research<br>to the field." "intro" "Timely pest updates, scouting guidance, and research-based conversations for growers and agricultural professionals.") }}
  <nav class="extension-jump" aria-label="Extension sections"><a class="text-link" href="#crop-news">Read Crop News ↓</a><a class="text-link" href="#strategic-farming">Watch Strategic Farming ↓</a><a class="text-link" href="#field-notes">Listen to Field Notes ↓</a></nav>
  <section id="crop-news" class="extension-collection" aria-labelledby="crop-news-title">
-  <header class="extension-collection-head"><div><h2 id="crop-news-title">Crop News</h2><p>{{ len hugo.Data.extension.articles }} articles and monitoring reports by Fei Yang and collaborators, organized by year.</p></div><a class="text-link" href="https://blog-crop-news.extension.umn.edu/">Visit Minnesota Crop News ↗</a></header>
+  <header class="extension-collection-head"><div><h2 id="crop-news-title">Crop News</h2></div><a class="text-link" href="https://blog-crop-news.extension.umn.edu/">Visit Minnesota Crop News ↗</a></header>
   {{ $articles := sort hugo.Data.extension.articles "date" "desc" }}
   {{ $years := slice }}
   {{ range $articles }}{{ $years = $years | append (time.Format "2006" .date) }}{{ end }}
@@ -24,7 +24,7 @@
   {{ end }}
  </section>
  <section id="strategic-farming" class="extension-collection" aria-labelledby="strategic-farming-title">
-  <header class="extension-collection-head"><div><h2 id="strategic-farming-title">Strategic Farming</h2><p>Watch and listen to UMN Extension conversations featuring Fei Yang.</p></div><a class="text-link" href="https://extension.umn.edu/courses-and-events/strategic-farming">Explore the series ↗</a></header>
+  <header class="extension-collection-head"><div><h2 id="strategic-farming-title">Strategic Farming</h2></div><a class="text-link" href="https://extension.umn.edu/courses-and-events/strategic-farming">Explore the series ↗</a></header>
   <h3 class="extension-format-title">Let's talk crops! <span>{{ len hugo.Data.extension.videos }} videos</span></h3>
   <div class="extension-grid">
    {{ range sort hugo.Data.extension.videos "date" "desc" }}

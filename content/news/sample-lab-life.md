@@ -13,6 +13,10 @@ hiddenInSingle = false
 
 **Sample draft for layout preview. This is not a report of an actual event.**
 
+#To add photos in main text, use this
+
+![Photo decription](images/Lab_News/photo.jpg "caption")
+
 A space for team photos, new members, and everyday moments from the lab.
 
 Replace this example with the lab’s own news, photograph, and publication date. Set `draft = false` when the article is ready to publish.

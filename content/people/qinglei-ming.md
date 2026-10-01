@@ -21,7 +21,4 @@ research_projects:
     description: "Evaluating the crop safety of these foliar insecticide treatments."
 publication_dois: []
 ---
-
-Qinglei Ming works at the intersection of insect behavior, chemical ecology, and integrated pest management, with experience in field and stored-product pests, including *Helicoverpa* and *Tribolium* species.
-
-His current work addresses corn pest resistance monitoring, European corn borer resistance to Bt proteins, and insecticide performance in sweet corn.
+My research integrates insect behavior, chemical ecology, and integrated pest management across both field and stored-product systems. I have worked on major pests including *Helicoverpa* spp and *Tribolium* spp. Currently, my research focuses on resistance monitoring and management in corn systems, including Bt resistance in the European corn borer and insecticide efficacy in sweet corn production.

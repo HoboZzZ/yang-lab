@@ -15,7 +15,7 @@
   <div class="extension-grid">
    {{ range $entries }}
    <article class="extension-entry">
-    <p class="extension-meta">Crop News · <time datetime="{{ .date }}">{{ time.Format "Jan 2, 2006" .date }}</time></p>
+    <p class="extension-meta"><time datetime="{{ .date }}">{{ time.Format "Jan 2, 2006" .date }}</time></p>
     <h3><a href="{{ .url }}">{{ .title }}</a></h3><p class="extension-byline">{{ .authors }}</p>
     <a class="text-link" href="{{ .url }}" aria-label="Read article: {{ .title }}">Read article ↗</a>
    </article>
@@ -31,7 +31,7 @@
    {{ range sort hugo.Data.extension.videos "date" "desc" }}
    <article class="extension-entry">
     <div class="extension-player"><iframe src="https://www.youtube-nocookie.com/embed/{{ .youtube_id }}" title="Strategic Farming: {{ .title }}" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
-    <p class="extension-meta">Webinar · <time datetime="{{ .date }}">{{ time.Format "Jan 2, 2006" .date }}</time></p>
+    <p class="extension-meta"><time datetime="{{ .date }}">{{ time.Format "Jan 2, 2006" .date }}</time></p>
     <h4><a href="https://www.youtube.com/watch?v={{ .youtube_id }}">{{ .title }}</a></h4><p class="extension-byline">{{ .speakers }} · UMN Extension Crops</p>
     <div class="extension-video-actions"><a class="text-link" href="https://www.youtube.com/watch?v={{ .youtube_id }}" aria-label="Watch on YouTube: {{ .title }}">Watch on YouTube ↗</a><a class="text-link" href="{{ .source }}" aria-label="Read session recap: {{ .title }}">Read session recap ↗</a></div>
    </article>
@@ -39,11 +39,11 @@
   </div>
   <section id="field-notes" class="extension-podcasts" aria-labelledby="field-notes-title">
    <h3 id="field-notes-title" class="extension-format-title">Field Notes <span>{{ len hugo.Data.extension.podcasts }} podcast episodes</span></h3>
-   <p class="extension-byline">In-season conversations featuring Fei Yang. Listen here or open the official episode page.</p>
+
    <div class="extension-grid">
     {{ range sort hugo.Data.extension.podcasts "date" "desc" }}
     <article class="extension-entry">
-     <p class="extension-meta">Podcast · Episode {{ .episode }} · <time datetime="{{ .date }}">{{ time.Format "Jan 2, 2006" .date }}</time></p>
+     <p class="extension-meta">Episode {{ .episode }} · <time datetime="{{ .date }}">{{ time.Format "Jan 2, 2006" .date }}</time></p>
      <h4 id="podcast-{{ .episode }}"><a href="{{ .url }}">{{ .title }}</a></h4>
      <p class="extension-byline">Featuring Fei Yang · {{ .duration }}</p>
      <audio class="extension-audio" controls preload="none" aria-labelledby="podcast-{{ .episode }}"><source src="{{ .audio_url }}" type="audio/mpeg">Listen on the official episode page below.</audio>

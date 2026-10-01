@@ -4,7 +4,6 @@
     {{ partial "lab/news-photo.html" (dict "page" $page "eager" (.featured | default false)) }}
     <div class="news-entry-body">
     <div class="news-entry-meta">
-      {{ with $page.Params.tags }}<span class="news-entry-tag">{{ index . 0 }}</span>{{ end }}
       {{ partial "post-meta.html" $page }}
     </div>
     <h2 class="news-entry-title">{{ $page.Title }}</h2>

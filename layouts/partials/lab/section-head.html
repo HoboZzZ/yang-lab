@@ -1,1 +1,1 @@
-<div class="lab-section-head"><div><p class="eyebrow">{{ .label }}</p>{{ if eq (.level | default 2) 1 }}<h1 id="{{ .id }}-title">{{ .title | safeHTML }}</h1>{{ else }}<h2 id="{{ .id }}-title">{{ .title | safeHTML }}</h2>{{ end }}</div>{{ with .intro }}<p class="section-intro">{{ . }}</p>{{ end }}</div>
+<div class="lab-section-head"><div>{{ if eq (.level | default 2) 1 }}<h1 id="{{ .id }}-title">{{ .title | safeHTML }}</h1>{{ else }}<h2 id="{{ .id }}-title">{{ .title | safeHTML }}</h2>{{ end }}</div>{{ with .intro }}<p class="section-intro">{{ . }}</p>{{ end }}</div>

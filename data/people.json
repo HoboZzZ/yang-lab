@@ -25,11 +25,7 @@
         "url": "https://www.linkedin.com/in/fei-yang-3508368a/"
       }
     ],
-    "interests": [
-      "Bt resistance",
-      "IRM",
-      "IPM"
-    ]
+    "interests": [""]
   },
   {
     "name": "Yucheng Wang",
@@ -45,11 +41,7 @@
         "url": "https://scholar.google.com/citations?user=11_48SYAAAAJ&hl=en"
       }
     ],
-    "interests": [
-      "Corn insect biology",
-      "Environmental effects on pests",
-      "Sustainable pest management"
-    ],
+    "interests": [""],
     "profileSlug": "yucheng-wang"
   },
   {
@@ -65,11 +57,7 @@
         "url": "https://scholar.google.com/citations?user=mDU7PIMAAAAJ&hl=en"
       }
     ],
-    "interests": [
-      "Crop insect pests",
-      "IPM",
-      "IRM"
-    ],
+    "interests": [""],
     "profileSlug": "qinglei-ming"
   },
   {
@@ -81,10 +69,7 @@
     "url": "",
     "cv": "",
     "links": [],
-    "interests": [
-      "Bt resistance fitness costs",
-      "European corn borer monitoring"
-    ],
+    "interests": [""],
     "profileSlug": "yuchun-wang"
   },
   {
@@ -105,10 +90,7 @@
         "url": "https://www.linkedin.com/in/tatumdwyer/"
       }
     ],
-    "interests": [
-      "European corn borer",
-      "Bt resistance genetics"
-    ],
+    "interests": [""],
     "profileSlug": "tatum-dwyer"
   },
   {
@@ -125,11 +107,7 @@
         "url": "https://www.linkedin.com/in/hunter-ness-751889293/"
       }
     ],
-    "interests": [
-      "Corn and soybean soil pests",
-      "Seed treatments",
-      "Bt crops"
-    ],
+    "interests": [""],
     "profileSlug": "hunter-ness"
   },
   {
@@ -145,10 +123,7 @@
         "url": "https://www.linkedin.com/in/haobo-zhang-0462a332a/"
       }
     ],
-    "interests": [
-      "Bt resistance monitoring",
-      "Resistance genetics"
-    ],
+    "interests": [""],
     "profileSlug": "haobo-zhang"
   },
   {
@@ -160,10 +135,7 @@
     "url": "",
     "cv": "",
     "links": [],
-    "interests": [
-      "European corn borer",
-      "Bt resistance fitness costs"
-    ],
+    "interests": [""],
     "profileSlug": "loi-shah"
   }
 ]

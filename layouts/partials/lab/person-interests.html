@@ -1,4 +1,9 @@
-{{ with .interests }}
+{{ $interests := slice }}
+{{ range .interests }}
+  {{ $interest := strings.TrimSpace . }}
+  {{ if $interest }}{{ $interests = $interests | append $interest }}{{ end }}
+{{ end }}
+{{ with $interests }}
   <ul class="person-interests" aria-label="Research interests" role="list">
     {{ range $index, $interest := . }}
       <li>{{ if $index }}<span class="person-interest-separator" aria-hidden="true"> · </span>{{ end }}{{ $interest }}</li>

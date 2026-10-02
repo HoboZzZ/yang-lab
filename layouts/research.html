@@ -17,7 +17,7 @@
           <span class="research-number">{{ printf "%02d" (add $i 1) }}</span>
           <span class="research-tag">{{ .title }}</span>
         </div>
-        <h3>{{ .description }}</h3>
+        <h3>{{ .description | markdownify }}</h3>
         <ul class="research-chips">
           {{ range .points }}<li>{{ . }}</li>{{ end }}
         </ul>

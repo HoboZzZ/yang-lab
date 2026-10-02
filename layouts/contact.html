@@ -14,7 +14,7 @@
   <section class="join-us-inquiry" id="{{ .id }}" aria-labelledby="{{ .id }}-title">
     <h2 id="{{ .id }}-title">{{ .title }}</h2>
     <div class="join-us-inquiry-content">
-      {{ with .description }}<p>{{ . }}</p>{{ end }}
+      {{ with .description }}{{ $.RenderString (dict "display" "block") . }}{{ end }}
     </div>
   </section>
   {{ end }}

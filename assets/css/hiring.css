@@ -8,6 +8,7 @@
 .join-us-inquiry{display:grid;grid-template-columns:minmax(200px,1fr) minmax(0,2.5fr);gap:36px;border-top:1px solid var(--line-soft);padding:36px 0;scroll-margin-top:160px}
 .join-us-inquiry h2{font:600 clamp(30px,3vw,40px)/1.2 var(--font-display);text-wrap:balance}
 .join-us-inquiry-content{min-width:0;max-width:760px;font-size:17px;line-height:1.75;color:var(--muted);overflow-wrap:anywhere}
+.join-us-inquiry-content p+p{margin-top:20px}
 .join-us-inquiry .text-link{font-size:16px;margin-top:16px}
 .hiring-section[id]{scroll-margin-top:160px}
 @media(max-width:800px){.join-us-intro{padding-top:40px}.join-us-intro>p{font-size:17px}.join-us-inquiry{grid-template-columns:1fr;gap:18px;padding:28px 0}.join-us-inquiries{padding-bottom:40px}}

@@ -19,8 +19,9 @@
       "Larval competition and feeding behavior",
       "Egg cold tolerance and diapause"
     ],
-    "image": "",
-    "imageAlt": ""
+    "image": "images/research/corn-rootworm.jpg",
+    "imageAlt": "Close-up photograph of a corn rootworm beetle.",
+    "imageFit": "cover"
   },
   {
     "title": "Corn earworm & invasive pests",
@@ -42,8 +43,9 @@
       "Neonicotinoid seed treatments in corn and soybean",
       "Pollinator protection and grower outreach"
     ],
-    "image": "",
-    "imageAlt": ""
+    "image": "images/research/field-pest-management.jpg",
+    "imageAlt": "Potted corn plants and trial containers beside a corn field.",
+    "imageFit": "cover"
   },
   {
     "title": "Resistance mechanisms",

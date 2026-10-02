@@ -57,7 +57,8 @@
       "RNAi",
       "Gene editing"
     ],
-    "image": "",
-    "imageAlt": ""
+    "image": "images/research/resistance-mechanisms.png",
+    "imageAlt": "Research workflow connecting field problems, insect monitoring, laboratory diagnostics, biology and genomics, DNA markers, and pest and resistance management.",
+    "imageFit": "contain"
   }
 ]

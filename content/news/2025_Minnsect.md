@@ -2,7 +2,7 @@
 title = "Minnsect Show @ 2025"
 date = 2025-04-18
 draft = false
-tags = ["Lab life"]
+tags = ["Outreach"]
 description = ""
 
 [cover]

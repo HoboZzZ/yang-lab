@@ -2,7 +2,7 @@
 title = "Grower Meeting @ 2025"
 date = 2025-07-31
 draft = false
-tags = ["Lab life"]
+tags = ["Outreach"]
 description = ""
 
 [cover]

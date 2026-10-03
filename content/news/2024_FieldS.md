@@ -2,7 +2,7 @@
 title = "Field School @ 2024"
 date = 2024-07-31
 draft = false
-tags = ["Lab life"]
+tags = ["Outreach"]
 description = ""
 
 [cover]

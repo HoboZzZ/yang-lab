@@ -2,2886 +2,336 @@
   "items": [
     {
       "year": 2026,
-      "authors": "Dwyer, T., Wang, Y., Head, G.P., Yang, F.",
-      "author_list": [
-        {
-          "name": "Dwyer, T.",
-          "roles": [
-            "graduate"
-          ]
-        },
-        {
-          "name": "Wang, Y.",
-          "roles": [
-            "postdoc"
-          ]
-        },
-        {
-          "name": "Head, G.P.",
-          "roles": []
-        },
-        {
-          "name": "Yang, F.",
-          "roles": [
-            "corresponding"
-          ]
-        }
-      ],
-      "title": "Inheritance and stability of\n                    Cry2Ab2\n                    resistance in an\n                    \n                      Ostrinia nubilalis\n                    \n                    strain originating from Wisconsin, U.S.",
-      "journal": "Pest Management Science",
-      "doi": "10.1002/ps.71336",
-      "url": "https://doi.org/10.1002/ps.71336",
-      "note": "",
-      "source_url": "https://doi.org/10.1002/ps.71336",
-      "published_online_year": 2026,
-      "author_mark_source": "lab-publication-list"
+      "authors": "Dwyer, T., Head, G.P., Hamilton, K.L., Peltier, A., and Yang, F.",
+      "title": "Detection of Cry2Ab2 resistance alleles in European corn borer populations from Minnesota and Wisconsin",
+      "journal": "Journal of Economic Entomology, 119: 2899–2907",
+      "doi": "10.1093/jee/toag153",
+      "url": "https://doi.org/10.1093/jee/toag153",
+      "note": "Invited paper for Special Collection"
     },
     {
       "year": 2026,
-      "authors": "Dwyer, T., Head, G.P., Hamilton, K.L., de Bortoli, C.P., Calvin, W., Jurat-Fuentes, J.L., Yang, F.",
-      "author_list": [
-        {
-          "name": "Dwyer, T.",
-          "roles": [
-            "graduate"
-          ]
-        },
-        {
-          "name": "Head, G.P.",
-          "roles": []
-        },
-        {
-          "name": "Hamilton, K.L.",
-          "roles": []
-        },
-        {
-          "name": "de Bortoli, C.P.",
-          "roles": []
-        },
-        {
-          "name": "Calvin, W.",
-          "roles": [
-            "postdoc"
-          ]
-        },
-        {
-          "name": "Jurat-Fuentes, J.L.",
-          "roles": []
-        },
-        {
-          "name": "Yang, F.",
-          "roles": [
-            "corresponding"
-          ]
-        }
-      ],
-      "title": "Susceptibility of field populations of Ostrinia nubilalis from Minnesota and Wisconsin to Cry1Ab, Cry1Fa, and Cry1A.105 Bt proteins",
-      "journal": "Crop Protection, 209: 107727",
-      "doi": "10.1016/j.cropro.2026.107727",
-      "url": "https://doi.org/10.1016/j.cropro.2026.107727",
-      "note": "",
-      "source_url": "https://doi.org/10.1016/j.cropro.2026.107727",
-      "published_print_year": 2026,
-      "author_mark_source": "lab-publication-list"
-    },
-    {
-      "year": 2026,
-      "authors": "Kennedy, H., Kerns, D.L., Head, G.P., Yang, F.",
-      "author_list": [
-        {
-          "name": "Kennedy, H.",
-          "roles": []
-        },
-        {
-          "name": "Kerns, D.L.",
-          "roles": []
-        },
-        {
-          "name": "Head, G.P.",
-          "roles": []
-        },
-        {
-          "name": "Yang, F.",
-          "roles": [
-            "corresponding"
-          ]
-        }
-      ],
-      "title": "Fitness costs associated with\n                    Vip3Aa\n                    resistance on various hosts in\n                    \n                      Helicoverpa zea",
-      "journal": "Pest Management Science, 82: 7526-7534",
-      "doi": "10.1002/ps.70816",
-      "url": "https://doi.org/10.1002/ps.70816",
-      "note": "",
-      "source_url": "https://doi.org/10.1002/ps.70816",
-      "published_online_year": 2026,
-      "published_print_year": 2026,
-      "author_mark_source": "lab-publication-list"
-    },
-    {
-      "year": 2026,
-      "authors": "Wang, Y., Kerns, D.L., Head, G.P., Kerns, D., Tabashnik, B.E., Yang, F.",
-      "author_list": [
-        {
-          "name": "Wang, Y.",
-          "roles": [
-            "postdoc"
-          ]
-        },
-        {
-          "name": "Kerns, D.L.",
-          "roles": []
-        },
-        {
-          "name": "Head, G.P.",
-          "roles": []
-        },
-        {
-          "name": "Kerns, D.",
-          "roles": []
-        },
-        {
-          "name": "Tabashnik, B.E.",
-          "roles": []
-        },
-        {
-          "name": "Yang, F.",
-          "roles": [
-            "corresponding"
-          ]
-        }
-      ],
-      "title": "Evaluating cross-resistance and synergy between Vip3Aa and Cry proteins from Bt in six strains of Helicoverpa zea derived via F2 screens",
+      "authors": "Wang, Y., Kerns, D.L., Head, G.P., Kerns, D., Tabashnik, B.E., and Yang, F.",
+      "title": "Evaluating cross-resistance and synergy between Vip3Aa and Cry Bt proteins in strains of Helicoverpa zea derived from F2 screens",
       "journal": "Crop Health, 4: 11",
       "doi": "10.1007/s44297-026-00073-8",
       "url": "https://doi.org/10.1007/s44297-026-00073-8",
-      "note": "",
-      "source_url": "https://doi.org/10.1007/s44297-026-00073-8",
-      "published_online_year": 2026,
-      "author_mark_source": "lab-publication-list"
+      "note": ""
     },
     {
       "year": 2026,
-      "authors": "Dwyer, T., Head, G.P., Hamilton, K.L., Peltier, A., Yang, F.",
-      "author_list": [
-        {
-          "name": "Dwyer, T.",
-          "roles": [
-            "graduate"
-          ]
-        },
-        {
-          "name": "Head, G.P.",
-          "roles": []
-        },
-        {
-          "name": "Hamilton, K.L.",
-          "roles": []
-        },
-        {
-          "name": "Peltier, A.",
-          "roles": []
-        },
-        {
-          "name": "Yang, F.",
-          "roles": [
-            "corresponding"
-          ]
-        }
-      ],
-      "title": "Detection of Cry2Ab2 resistance alleles in field populations of\n                    Ostrinia nubilalis\n                    (Lepidoptera: Crambidae) from Minnesota and Wisconsin via F2 screens",
-      "journal": "Journal of Economic Entomology, 119: 2899-2907",
-      "doi": "10.1093/jee/toag153",
-      "url": "https://doi.org/10.1093/jee/toag153",
-      "note": "Invited paper for Special Collection",
-      "source_url": "https://doi.org/10.1093/jee/toag153",
-      "published_online_year": 2026,
-      "published_print_year": 2026,
-      "author_mark_source": "lab-publication-list"
+      "authors": "Kennedy, H., Kerns, D.L., Head, G.P. and Yang, F.",
+      "title": "Fitness costs associated with Vip3Aa resistance on various hosts in Helicoverpa zea",
+      "journal": "Pest Management Science, 82: 7526-7534",
+      "doi": "10.1002/ps.70816",
+      "url": "https://doi.org/10.1002/ps.70816",
+      "note": ""
     },
     {
       "year": 2026,
-      "authors": "Wangila, D.S., Wang, Y., Pekarcik, A.J., Yang, F.",
-      "author_list": [
-        {
-          "name": "Wangila, D.S.",
-          "roles": [
-            "postdoc"
-          ]
-        },
-        {
-          "name": "Wang, Y.",
-          "roles": [
-            "postdoc"
-          ]
-        },
-        {
-          "name": "Pekarcik, A.J.",
-          "roles": []
-        },
-        {
-          "name": "Yang, F.",
-          "roles": [
-            "corresponding"
-          ]
-        }
-      ],
+      "authors": "Dwyer, T., Wang, Y., Head, G.P., and Yang, F.",
+      "title": "Inheritance and stability of Cry2Ab2 resistance in an Ostrinia nubilalis strain originating from Wisconsin, U.S",
+      "journal": "Pest Management Science",
+      "doi": "10.1002/ps.71336",
+      "url": "https://doi.org/10.1002/ps.71336",
+      "note": ""
+    },
+    {
+      "year": 2026,
+      "authors": "Wangila, D.S., Wang, Y., Pekarcik, A.J. and Yang, F.",
       "title": "Interspecific Larval Competition of Two Diabrotica Species (Northern and Western Corn Rootworm) in Corn Roots: Implications for Pest Management",
       "journal": "Plants, 15: 367",
       "doi": "10.3390/plants15030367",
       "url": "https://doi.org/10.3390/plants15030367",
-      "note": "",
-      "source_url": "https://doi.org/10.3390/plants15030367",
-      "published_online_year": 2026,
-      "author_mark_source": "lab-publication-list"
+      "note": ""
+    },
+    {
+      "year": 2026,
+      "authors": "Dwyer, T., Head, G.P., Hamilton, K.L., de Bortoli, C.P., Calvin, W., Jurat-Fuentes, J.L. and Yang, F.",
+      "title": "Susceptibility of field populations of Ostrinia nubilalis from Minnesota and Wisconsin to Cry1Ab, Cry1Fa, and Cry1A.105 Bt proteins",
+      "journal": "Crop Protection, 209: 107727",
+      "doi": "10.1016/j.cropro.2026.107727",
+      "url": "https://doi.org/10.1016/j.cropro.2026.107727",
+      "note": ""
     },
     {
       "year": 2025,
-      "authors": "Wang, Y., Potter, B., Vollmer, T., Yang, F.",
-      "author_list": [
-        {
-          "name": "Wang, Y.",
-          "roles": [
-            "postdoc"
-          ]
-        },
-        {
-          "name": "Potter, B.",
-          "roles": []
-        },
-        {
-          "name": "Vollmer, T.",
-          "roles": []
-        },
-        {
-          "name": "Yang, F.",
-          "roles": [
-            "corresponding"
-          ]
-        }
-      ],
-      "title": "Evaluation of soil-applied insecticides for control of corn rootworm in Minnesota from 2020 – 2024",
-      "journal": "Crop Protection, 196: 107268",
-      "doi": "10.1016/j.cropro.2025.107268",
-      "url": "https://doi.org/10.1016/j.cropro.2025.107268",
-      "note": "",
-      "source_url": "https://doi.org/10.1016/j.cropro.2025.107268",
-      "published_print_year": 2025,
-      "author_mark_source": "lab-publication-list"
-    },
-    {
-      "year": 2025,
-      "authors": "Wangila, D.S., Yang, F.",
-      "author_list": [
-        {
-          "name": "Wangila, D.S.",
-          "roles": [
-            "postdoc"
-          ]
-        },
-        {
-          "name": "Yang, F.",
-          "roles": [
-            "corresponding"
-          ]
-        }
-      ],
-      "title": "Efficacy of insecticides for management of corn earworm in sweet corn in Minnesota, 2024",
-      "journal": "Arthropod Management Tests, 50: tsaf056",
-      "doi": "10.1093/amt/tsaf056",
-      "url": "https://doi.org/10.1093/amt/tsaf056",
-      "note": "",
-      "source_url": "https://doi.org/10.1093/amt/tsaf056",
-      "published_online_year": 2025,
-      "published_print_year": 2025,
-      "author_mark_source": "lab-publication-list"
-    },
-    {
-      "year": 2025,
-      "authors": "Salgado, L.D., Groves, R.L., Owens, D., Waters, T.D., Burkness, E.C., Hutchison, W.D., Yang, F., Nault, B.A.",
-      "author_list": [
-        {
-          "name": "Salgado, L.D.",
-          "roles": []
-        },
-        {
-          "name": "Groves, R.L.",
-          "roles": []
-        },
-        {
-          "name": "Owens, D.",
-          "roles": []
-        },
-        {
-          "name": "Waters, T.D.",
-          "roles": []
-        },
-        {
-          "name": "Burkness, E.C.",
-          "roles": []
-        },
-        {
-          "name": "Hutchison, W.D.",
-          "roles": []
-        },
-        {
-          "name": "Yang, F.",
-          "roles": []
-        },
-        {
-          "name": "Nault, B.A.",
-          "roles": []
-        }
-      ],
-      "title": "Performance of novel alternatives to neonicotinoid insecticide seed treatments for managing maggots (Diptera: Anthomyiidae) in large-seeded vegetable crops",
-      "journal": "Crop Protection, 197: 107355",
-      "doi": "10.1016/j.cropro.2025.107355",
-      "url": "https://doi.org/10.1016/j.cropro.2025.107355",
-      "note": "",
-      "source_url": "https://doi.org/10.1016/j.cropro.2025.107355",
-      "published_print_year": 2025,
-      "author_mark_source": "lab-publication-list"
-    },
-    {
-      "year": 2025,
-      "authors": "Roy, R., Abdelgaffar, H., Kerns, D., Huff, M., Staton, M., Yang, F., Huang, F., Jurat‐Fuentes, J.L.",
-      "author_list": [
-        {
-          "name": "Roy, R.",
-          "roles": []
-        },
-        {
-          "name": "Abdelgaffar, H.",
-          "roles": []
-        },
-        {
-          "name": "Kerns, D.",
-          "roles": []
-        },
-        {
-          "name": "Huff, M.",
-          "roles": []
-        },
-        {
-          "name": "Staton, M.",
-          "roles": []
-        },
-        {
-          "name": "Yang, F.",
-          "roles": []
-        },
-        {
-          "name": "Huang, F.",
-          "roles": []
-        },
-        {
-          "name": "Jurat‐Fuentes, J.L.",
-          "roles": []
-        }
-      ],
-      "title": "Reduced processing and toxin binding associated with resistance to\n                    Vip3Aa\n                    in a strain of fall armyworm (\n                    \n                      Spodoptera frugiperda\n                    \n                    ) from Louisiana",
-      "journal": "Pest Management Science, 81: 4097-4107",
-      "doi": "10.1002/ps.8775",
-      "url": "https://doi.org/10.1002/ps.8775",
-      "note": "",
-      "source_url": "https://doi.org/10.1002/ps.8775",
-      "published_online_year": 2025,
-      "published_print_year": 2025,
-      "author_mark_source": "lab-publication-list"
-    },
-    {
-      "year": 2025,
-      "authors": "Ross, S., Yang, F., Santiago‐González, J.C., Abdelgaffar, H., Kerns, D.D., Jurat‐Fuentes, J.L., Sun, X., Collett, D., Kerns, D.L.",
-      "author_list": [
-        {
-          "name": "Ross, S.",
-          "roles": []
-        },
-        {
-          "name": "Yang, F.",
-          "roles": [
-            "corresponding"
-          ]
-        },
-        {
-          "name": "Santiago‐González, J.C.",
-          "roles": []
-        },
-        {
-          "name": "Abdelgaffar, H.",
-          "roles": []
-        },
-        {
-          "name": "Kerns, D.D.",
-          "roles": []
-        },
-        {
-          "name": "Jurat‐Fuentes, J.L.",
-          "roles": []
-        },
-        {
-          "name": "Sun, X.",
-          "roles": []
-        },
-        {
-          "name": "Collett, D.",
-          "roles": []
-        },
-        {
-          "name": "Kerns, D.L.",
-          "roles": []
-        }
-      ],
+      "authors": "Ross, S., Yang, F., Santiago‐González, J.C., Abdelgaffar, H., Kerns, D.D., Jurat‐Fuentes, J.L., Sun, X., Collett, D. and Kerns, D.L.",
       "title": "Evaluation of GS‐omega/kappa‐Hxtx‐Hv1a and Bt toxins against Bt‐resistant and ‐susceptible strains of Helicoverpa zea (Boddie) and Spodoptera frugiperda (J.E. Smith)",
       "journal": "Pest Management Science, 81: 3565-3572",
       "doi": "10.1002/ps.8725",
       "url": "https://doi.org/10.1002/ps.8725",
-      "note": "",
-      "source_url": "https://doi.org/10.1002/ps.8725",
-      "published_online_year": 2025,
-      "published_print_year": 2025,
-      "author_mark_source": "lab-publication-list"
+      "note": ""
+    },
+    {
+      "year": 2025,
+      "authors": "Wang, Y., Potter, B., Vollmer, T. and Yang, F.",
+      "title": "Evaluation of soil-applied insecticides for control of corn rootworm in Minnesota from 2020 – 2024",
+      "journal": "Crop Protection, 196: 107268",
+      "doi": "10.1016/j.cropro.2025.107268",
+      "url": "https://doi.org/10.1016/j.cropro.2025.107268",
+      "note": ""
+    },
+    {
+      "year": 2025,
+      "authors": "Salgado, L.D., Groves, R.L., Owens, D., Waters, T.D., Burkness, E.C., Hutchison, W.D., Yang, F. and Nault, B.A.",
+      "title": "Performance of novel alternatives to neonicotinoid insecticide seed treatments for managing maggots (Diptera: Anthomyiidae) in large-seeded vegetable crops",
+      "journal": "Crop Protection, 197: 107355",
+      "doi": "10.1016/j.cropro.2025.107355",
+      "url": "https://doi.org/10.1016/j.cropro.2025.107355",
+      "note": ""
+    },
+    {
+      "year": 2025,
+      "authors": "Roy, R., Abdelgaffar, H., Kerns, D., Huff, M., Staton, M., Yang, F., Huang, F. and Jurat‐Fuentes, J.L.",
+      "title": "Reduced processing and toxin binding associated with resistance to Vip3Aa in a strain of fall armyworm ( Spodoptera frugiperda ) from Louisiana",
+      "journal": "Pest Management Science, 81: 4097-4107",
+      "doi": "10.1002/ps.8775",
+      "url": "https://doi.org/10.1002/ps.8775",
+      "note": ""
     },
     {
       "year": 2024,
-      "authors": "Legan, A.W., Allan, C.W., Jensen, Z.N., Degain, B.A., Yang, F., Kerns, D.L., Benowitz, K.M., Fabrick, J.A., Li, X., Carrière, Y., Matzkin, L.M., Tabashnik, B.E.",
-      "author_list": [
-        {
-          "name": "Legan, A.W.",
-          "roles": []
-        },
-        {
-          "name": "Allan, C.W.",
-          "roles": []
-        },
-        {
-          "name": "Jensen, Z.N.",
-          "roles": []
-        },
-        {
-          "name": "Degain, B.A.",
-          "roles": []
-        },
-        {
-          "name": "Yang, F.",
-          "roles": []
-        },
-        {
-          "name": "Kerns, D.L.",
-          "roles": []
-        },
-        {
-          "name": "Benowitz, K.M.",
-          "roles": []
-        },
-        {
-          "name": "Fabrick, J.A.",
-          "roles": []
-        },
-        {
-          "name": "Li, X.",
-          "roles": []
-        },
-        {
-          "name": "Carrière, Y.",
-          "roles": []
-        },
-        {
-          "name": "Matzkin, L.M.",
-          "roles": []
-        },
-        {
-          "name": "Tabashnik, B.E.",
-          "roles": []
-        }
-      ],
-      "title": "Mismatch between lab-generated and field-evolved resistance to transgenic Bt crops in\n                    Helicoverpa zea",
-      "journal": "Proceedings of the National Academy of Sciences, 121: e2416091121",
-      "doi": "10.1073/pnas.2416091121",
-      "url": "https://doi.org/10.1073/pnas.2416091121",
-      "note": "",
-      "source_url": "https://doi.org/10.1073/pnas.2416091121",
-      "published_online_year": 2024,
-      "published_print_year": 2024,
-      "author_mark_source": "lab-publication-list"
-    },
-    {
-      "year": 2024,
-      "authors": "Wang, Y.C., Chang, Y.W., Yang, F., Gong, W.R., Hu, J., Du, Y.Z.",
-      "author_list": [
-        {
-          "name": "Wang, Y.C.",
-          "roles": []
-        },
-        {
-          "name": "Chang, Y.W.",
-          "roles": []
-        },
-        {
-          "name": "Yang, F.",
-          "roles": []
-        },
-        {
-          "name": "Gong, W.R.",
-          "roles": []
-        },
-        {
-          "name": "Hu, J.",
-          "roles": []
-        },
-        {
-          "name": "Du, Y.Z.",
-          "roles": []
-        }
-      ],
+      "authors": "Wang, Y.C., Chang, Y.W., Yang, F., Gong, W.R., Hu, J. and Du, Y.Z.",
       "title": "A potential trade-off between reproduction and enhancement of thermotolerance in Liriomyza trifolii populations driven by thermal acclimation",
       "journal": "Journal of Thermal Biology, 125: 103988",
       "doi": "10.1016/j.jtherbio.2024.103988",
       "url": "https://doi.org/10.1016/j.jtherbio.2024.103988",
-      "note": "",
-      "source_url": "https://doi.org/10.1016/j.jtherbio.2024.103988",
-      "published_print_year": 2024,
-      "author_mark_source": "lab-publication-list"
+      "note": ""
     },
     {
       "year": 2024,
-      "authors": "Arthur, B.P., Suh, C.P.C., McKnight, B.M., Parajulee, M.N., Yang, F., Chappell, T.M., Kerns, D.L.",
-      "author_list": [
-        {
-          "name": "Arthur, B.P.",
-          "roles": []
-        },
-        {
-          "name": "Suh, C.P.C.",
-          "roles": []
-        },
-        {
-          "name": "McKnight, B.M.",
-          "roles": []
-        },
-        {
-          "name": "Parajulee, M.N.",
-          "roles": []
-        },
-        {
-          "name": "Yang, F.",
-          "roles": []
-        },
-        {
-          "name": "Chappell, T.M.",
-          "roles": []
-        },
-        {
-          "name": "Kerns, D.L.",
-          "roles": []
-        }
-      ],
-      "title": "Evaluation of Cotton Fleahopper (Pseudatomoscelis seriatus (Reuter)) Feeding on Mpp51Aa2-Traited Cotton Utilizing Electrical Penetration Graph (EPG) Waveforms",
+      "authors": "Yang, F., Head, G.P., Kerns, D.D., Jurat‐Fuentes, J.L., Santiago‐González, J.C. and Kerns, D.L.",
+      "title": "Diverse genetic basis of Vip3Aa resistance in five independent field‐derived strains of Helicoverpa zea in the US",
+      "journal": "Pest Management Science, 80: 2796-2803",
+      "doi": "10.1002/ps.7988",
+      "url": "https://doi.org/10.1002/ps.7988",
+      "note": ""
+    },
+    {
+      "year": 2024,
+      "authors": "Arthur, B.P., Suh, C.P.C., McKnight, B.M., Parajulee, M.N., Yang, F., Chappell, T.M. and Kerns, D.L.",
+      "title": "Evaluation of Cotton Fleahopper (Pseudatomoscelis seriatus (Reuter)) Feeding on Mpp51Aa2-Traited Cotton Utilizing Electrical Penetration Graph (EPG) Waveforms",
       "journal": "Insects, 15: 316",
       "doi": "10.3390/insects15050316",
       "url": "https://doi.org/10.3390/insects15050316",
-      "note": "",
-      "source_url": "https://doi.org/10.3390/insects15050316",
-      "published_online_year": 2024,
-      "author_mark_source": "lab-publication-list"
+      "note": ""
     },
     {
       "year": 2024,
-      "authors": "Calvin, W., Yang, F., Kennedy, H., Marçon, P.G., Kerns, D.L.",
-      "author_list": [
-        {
-          "name": "Calvin, W.",
-          "roles": [
-            "postdoc"
-          ]
-        },
-        {
-          "name": "Yang, F.",
-          "roles": [
-            "corresponding"
-          ]
-        },
-        {
-          "name": "Kennedy, H.",
-          "roles": []
-        },
-        {
-          "name": "Marçon, P.G.",
-          "roles": []
-        },
-        {
-          "name": "Kerns, D.L.",
-          "roles": []
-        }
-      ],
+      "authors": "Legan, A.W., Allan, C.W., Jensen, Z.N., Degain, B.A., Yang, F., Kerns, D.L., Benowitz, K.M., Fabrick, J.A., Li, X., Carrière, Y., Matzkin, L.M. and Tabashnik, B.E.",
+      "title": "Mismatch between lab-generated and field-evolved resistance to transgenic Bt crops in Helicoverpa zea",
+      "journal": "Proceedings of the National Academy of Sciences, 121",
+      "doi": "10.1073/pnas.2416091121",
+      "url": "https://doi.org/10.1073/pnas.2416091121",
+      "note": ""
+    },
+    {
+      "year": 2024,
+      "authors": "Calvin, W., Yang, F., Kennedy, H., Marçon, P.G. and Kerns, D.L.",
       "title": "Susceptibility of Field and Laboratory Bt-Susceptible and Resistant Strains of Helicoverpa zea (Boddie) to HearNPV",
       "journal": "Plants, 13: 529",
       "doi": "10.3390/plants13040529",
       "url": "https://doi.org/10.3390/plants13040529",
-      "note": "",
-      "source_url": "https://doi.org/10.3390/plants13040529",
-      "published_online_year": 2024,
-      "author_mark_source": "lab-publication-list"
-    },
-    {
-      "year": 2024,
-      "authors": "Yang, F., Head, G.P., Kerns, D.D., Jurat‐Fuentes, J.L., Santiago‐González, J.C., Kerns, D.L.",
-      "author_list": [
-        {
-          "name": "Yang, F.",
-          "roles": [
-            "corresponding"
-          ]
-        },
-        {
-          "name": "Head, G.P.",
-          "roles": []
-        },
-        {
-          "name": "Kerns, D.D.",
-          "roles": []
-        },
-        {
-          "name": "Jurat‐Fuentes, J.L.",
-          "roles": []
-        },
-        {
-          "name": "Santiago‐González, J.C.",
-          "roles": []
-        },
-        {
-          "name": "Kerns, D.L.",
-          "roles": []
-        }
-      ],
-      "title": "Diverse genetic basis of\n                    Vip3Aa\n                    resistance in five independent field‐derived strains of\n                    \n                      Helicoverpa zea\n                    \n                    in the US",
-      "journal": "Pest Management Science, 80: 2796-2803",
-      "doi": "10.1002/ps.7988",
-      "url": "https://doi.org/10.1002/ps.7988",
-      "note": "",
-      "source_url": "https://doi.org/10.1002/ps.7988",
-      "published_online_year": 2024,
-      "published_print_year": 2024,
-      "author_mark_source": "lab-publication-list"
-    },
-    {
-      "year": 2024,
-      "authors": "Hutchison, W.D., Calvin, W., Wold-Burkness, S., Yang, F.",
-      "author_list": [
-        {
-          "name": "Hutchison, W.D.",
-          "roles": []
-        },
-        {
-          "name": "Calvin, W.",
-          "roles": [
-            "postdoc"
-          ]
-        },
-        {
-          "name": "Wold-Burkness, S.",
-          "roles": []
-        },
-        {
-          "name": "Yang, F.",
-          "roles": []
-        }
-      ],
-      "title": "Insecticidal control of corn earworm in Minnesota sweet corn, 2023",
-      "journal": "Arthropod Management Tests, 49: tsae005",
-      "doi": "10.1093/amt/tsae005",
-      "url": "https://doi.org/10.1093/amt/tsae005",
-      "note": "",
-      "source_url": "https://doi.org/10.1093/amt/tsae005",
-      "published_online_year": 2024,
-      "published_print_year": 2024,
-      "author_mark_source": "lab-publication-list"
+      "note": ""
     },
     {
       "year": 2023,
-      "authors": "Arthur, B.P., Suh, C.P.C., McKnight, B.M., Parajulee, M.N., Yang, F., Kerns, D.L.",
-      "author_list": [
-        {
-          "name": "Arthur, B.P.",
-          "roles": []
-        },
-        {
-          "name": "Suh, C.P.C.",
-          "roles": []
-        },
-        {
-          "name": "McKnight, B.M.",
-          "roles": []
-        },
-        {
-          "name": "Parajulee, M.N.",
-          "roles": []
-        },
-        {
-          "name": "Yang, F.",
-          "roles": []
-        },
-        {
-          "name": "Kerns, D.L.",
-          "roles": []
-        }
-      ],
-      "title": "Choice and No-Choice Feeding Assays of Cotton Fleahoppers (Pseudatomoscelis seriatus) on Cotton Expressing the Mpp51Aa2 Protein",
-      "journal": "Agronomy, 14: 84",
-      "doi": "10.3390/agronomy14010084",
-      "url": "https://doi.org/10.3390/agronomy14010084",
-      "note": "",
-      "source_url": "https://doi.org/10.3390/agronomy14010084",
-      "published_online_year": 2023,
-      "author_mark_source": "lab-publication-list"
-    },
-    {
-      "year": 2023,
-      "authors": "Kerns, D.D., Yang, F., Kerns, D.L., Stewart, S.D., Jurat-Fuentes, J.L.",
-      "author_list": [
-        {
-          "name": "Kerns, D.D.",
-          "roles": []
-        },
-        {
-          "name": "Yang, F.",
-          "roles": []
-        },
-        {
-          "name": "Kerns, D.L.",
-          "roles": []
-        },
-        {
-          "name": "Stewart, S.D.",
-          "roles": []
-        },
-        {
-          "name": "Jurat-Fuentes, J.L.",
-          "roles": []
-        }
-      ],
-      "title": "Reduced toxin binding associated with resistance to Vip3Aa in the corn earworm (\n                    Helicoverpa zea\n                    )",
-      "journal": "Applied and Environmental Microbiology, 89: e01644-23",
-      "doi": "10.1128/aem.01644-23",
-      "url": "https://doi.org/10.1128/aem.01644-23",
-      "note": "",
-      "source_url": "https://doi.org/10.1128/aem.01644-23",
-      "published_print_year": 2023,
-      "author_mark_source": "lab-publication-list"
-    },
-    {
-      "year": 2023,
-      "authors": "Arthur, B.P., Suh, C.P., McKnight, B.M., Parajulee, M.N., Yang, F., Kerns, D.L.",
-      "author_list": [
-        {
-          "name": "Arthur, B.P.",
-          "roles": []
-        },
-        {
-          "name": "Suh, C.P.",
-          "roles": []
-        },
-        {
-          "name": "McKnight, B.M.",
-          "roles": []
-        },
-        {
-          "name": "Parajulee, M.N.",
-          "roles": []
-        },
-        {
-          "name": "Yang, F.",
-          "roles": []
-        },
-        {
-          "name": "Kerns, D.L.",
-          "roles": []
-        }
-      ],
-      "title": "Field Evaluation of Cotton Expressing Mpp51Aa2 as a Management Tool for Cotton Fleahoppers, Pseudatomoscelis seriatus (Reuter)",
-      "journal": "Toxins, 15: 644",
-      "doi": "10.3390/toxins15110644",
-      "url": "https://doi.org/10.3390/toxins15110644",
-      "note": "",
-      "source_url": "https://doi.org/10.3390/toxins15110644",
-      "published_online_year": 2023,
-      "author_mark_source": "lab-publication-list"
-    },
-    {
-      "year": 2023,
-      "authors": "Calvin, W., Yang, F., Gore, J., Greene, J.K., Kerns, D.L.",
-      "author_list": [
-        {
-          "name": "Calvin, W.",
-          "roles": []
-        },
-        {
-          "name": "Yang, F.",
-          "roles": []
-        },
-        {
-          "name": "Gore, J.",
-          "roles": []
-        },
-        {
-          "name": "Greene, J.K.",
-          "roles": []
-        },
-        {
-          "name": "Kerns, D.L.",
-          "roles": []
-        }
-      ],
-      "title": "Profitability of cotton, Gossypium hirsutum (L.), when controlling bollworm, Helicoverpa zea (Boddie), with variable treatment thresholds",
-      "journal": "Crop Protection, 173: 106368",
-      "doi": "10.1016/j.cropro.2023.106368",
-      "url": "https://doi.org/10.1016/j.cropro.2023.106368",
-      "note": "",
-      "source_url": "https://doi.org/10.1016/j.cropro.2023.106368",
-      "published_print_year": 2023,
-      "author_mark_source": "lab-publication-list"
-    },
-    {
-      "year": 2023,
-      "authors": "Kennedy, H., Kerns, D.L., Head, G.P., Yang, F.",
-      "author_list": [
-        {
-          "name": "Kennedy, H.",
-          "roles": []
-        },
-        {
-          "name": "Kerns, D.L.",
-          "roles": []
-        },
-        {
-          "name": "Head, G.P.",
-          "roles": []
-        },
-        {
-          "name": "Yang, F.",
-          "roles": [
-            "corresponding"
-          ]
-        }
-      ],
-      "title": "Cross‐resistance and redundant killing of\n                    Vip3Aa\n                    resistant populations of\n                    \n                      Helicoverpa zea\n                    \n                    on purified Bt proteins and pyramided Bt crops",
-      "journal": "Pest Management Science, 79: 5173-5179",
-      "doi": "10.1002/ps.7720",
-      "url": "https://doi.org/10.1002/ps.7720",
-      "note": "",
-      "source_url": "https://doi.org/10.1002/ps.7720",
-      "published_online_year": 2023,
-      "published_print_year": 2023,
-      "author_mark_source": "lab-publication-list"
-    },
-    {
-      "year": 2023,
-      "authors": "Santiago-González, J.C., Kerns, D.L., Yang, F.",
-      "author_list": [
-        {
-          "name": "Santiago-González, J.C.",
-          "roles": []
-        },
-        {
-          "name": "Kerns, D.L.",
-          "roles": []
-        },
-        {
-          "name": "Yang, F.",
-          "roles": [
-            "corresponding"
-          ]
-        }
-      ],
-      "title": "Resistance Allele Frequency of Helicoverpa zea to Vip3Aa Bacillus thuringiensis Protein in the Southeastern U.S.",
-      "journal": "Insects, 14: 161",
-      "doi": "10.3390/insects14020161",
-      "url": "https://doi.org/10.3390/insects14020161",
-      "note": "Invited paper",
-      "source_url": "https://doi.org/10.3390/insects14020161",
-      "published_online_year": 2023,
-      "author_mark_source": "lab-publication-list"
-    },
-    {
-      "year": 2023,
-      "authors": "Santiago-González, J.C., Kerns, D.L., Head, G.P., Yang, F.",
-      "author_list": [
-        {
-          "name": "Santiago-González, J.C.",
-          "roles": []
-        },
-        {
-          "name": "Kerns, D.L.",
-          "roles": []
-        },
-        {
-          "name": "Head, G.P.",
-          "roles": []
-        },
-        {
-          "name": "Yang, F.",
-          "roles": [
-            "corresponding"
-          ]
-        }
-      ],
+      "authors": "Santiago-González, J.C., Kerns, D.L., Head, G.P. and Yang, F.",
       "title": "A Modified F2 Screen for Estimating Cry1Ac and Cry2Ab Resistance Allele Frequencies in Helicoverpa zea (Lepidoptera: Noctuidae)",
       "journal": "Journal of Economic Entomology, 116: 289-296",
       "doi": "10.1093/jee/toac181",
       "url": "https://doi.org/10.1093/jee/toac181",
-      "note": "Invited paper",
-      "source_url": "https://doi.org/10.1093/jee/toac181",
-      "published_online_year": 2023,
-      "published_print_year": 2023,
-      "author_mark_source": "lab-publication-list"
+      "note": ""
+    },
+    {
+      "year": 2023,
+      "authors": "Santiago-González, J.C., Kerns, D.L., Head, G.P., and Yang, F.",
+      "title": "A modified F2 screening method for estimating the Cry1Ac and Cry2Ab2 resistance allele frequency of Helicoverpa zea in four southern States of the U.S",
+      "journal": "Journal of Economic Entomology",
+      "doi": "",
+      "url": "",
+      "note": "Invited paper"
+    },
+    {
+      "year": 2023,
+      "authors": "Arthur, B.P., Suh, C.P.C., McKnight, B.M., Parajulee, M.N., Yang, F. and Kerns, D.L.",
+      "title": "Choice and No-Choice Feeding Assays of Cotton Fleahoppers (Pseudatomoscelis seriatus) on Cotton Expressing the Mpp51Aa2 Protein",
+      "journal": "Agronomy, 14: 84",
+      "doi": "10.3390/agronomy14010084",
+      "url": "https://doi.org/10.3390/agronomy14010084",
+      "note": ""
+    },
+    {
+      "year": 2023,
+      "authors": "Kennedy, H., Kerns, D.L., Head, G.P. and Yang, F.",
+      "title": "Cross‐resistance and redundant killing of Vip3Aa resistant populations of Helicoverpa zea on purified Bt proteins and pyramided Bt crops",
+      "journal": "Pest Management Science, 79: 5173-5179",
+      "doi": "10.1002/ps.7720",
+      "url": "https://doi.org/10.1002/ps.7720",
+      "note": ""
+    },
+    {
+      "year": 2023,
+      "authors": "Arthur, B.P., Suh, C.P., McKnight, B.M., Parajulee, M.N., Yang, F. and Kerns, D.L.",
+      "title": "Field Evaluation of Cotton Expressing Mpp51Aa2 as a Management Tool for Cotton Fleahoppers, Pseudatomoscelis seriatus (Reuter)",
+      "journal": "Toxins, 15: 644",
+      "doi": "10.3390/toxins15110644",
+      "url": "https://doi.org/10.3390/toxins15110644",
+      "note": ""
+    },
+    {
+      "year": 2023,
+      "authors": "Calvin, W., Yang, F., Gore, J., Greene, J.K. and Kerns, D.L.",
+      "title": "Profitability of cotton, Gossypium hirsutum (L.), when controlling bollworm, Helicoverpa zea (Boddie), with variable treatment thresholds",
+      "journal": "Crop Protection, 173: 106368",
+      "doi": "10.1016/j.cropro.2023.106368",
+      "url": "https://doi.org/10.1016/j.cropro.2023.106368",
+      "note": ""
+    },
+    {
+      "year": 2023,
+      "authors": "Kerns, D.D., Yang, F., Kerns, D.L., Stewart, S.D. and Jurat-Fuentes, J.L.",
+      "title": "Reduced toxin binding associated with resistance to Vip3Aa in the corn earworm ( Helicoverpa zea )",
+      "journal": "Applied and Environmental Microbiology, 89",
+      "doi": "10.1128/aem.01644-23",
+      "url": "https://doi.org/10.1128/aem.01644-23",
+      "note": ""
+    },
+    {
+      "year": 2023,
+      "authors": "Santiago-González, J.C., Kerns, D.L. and Yang, F.",
+      "title": "Resistance Allele Frequency of Helicoverpa zea to Vip3Aa Bacillus thuringiensis Protein in the Southeastern U.S",
+      "journal": "Insects, 14: 161",
+      "doi": "10.3390/insects14020161",
+      "url": "https://doi.org/10.3390/insects14020161",
+      "note": "Invited paper"
     },
     {
       "year": 2022,
-      "authors": "Yang, F., Wang, Z., Kerns, D.L.",
-      "author_list": [
-        {
-          "name": "Yang, F.",
-          "roles": [
-            "corresponding"
-          ]
-        },
-        {
-          "name": "Wang, Z.",
-          "roles": []
-        },
-        {
-          "name": "Kerns, D.L.",
-          "roles": []
-        }
-      ],
-      "title": "Resistance of Spodoptera frugiperda to Cry1, Cry2, and Vip3Aa Proteins in Bt Corn and Cotton in the Americas: Implications for the Rest of the World",
-      "journal": "Journal of Economic Entomology, 115: 1752-1760",
-      "doi": "10.1093/jee/toac099",
-      "url": "https://doi.org/10.1093/jee/toac099",
-      "note": "Invited Review",
-      "source_url": "https://doi.org/10.1093/jee/toac099",
-      "published_online_year": 2022,
-      "published_print_year": 2022,
-      "author_mark_source": "lab-publication-list"
-    },
-    {
-      "year": 2022,
-      "authors": "Li, S.G., Dong, C.L., Zhu, F., Yang, F., Lu, M.X., Du, Y.Z.",
-      "author_list": [
-        {
-          "name": "Li, S.G.",
-          "roles": []
-        },
-        {
-          "name": "Dong, C.L.",
-          "roles": []
-        },
-        {
-          "name": "Zhu, F.",
-          "roles": []
-        },
-        {
-          "name": "Yang, F.",
-          "roles": []
-        },
-        {
-          "name": "Lu, M.X.",
-          "roles": []
-        },
-        {
-          "name": "Du, Y.Z.",
-          "roles": []
-        }
-      ],
+      "authors": "Li, S.G., Dong, C.L., Zhu, F., Yang, F., Lu, M.X. and Du, Y.Z.",
       "title": "Development and Temperature-induced Expression of a HSP90 Gene Lacking Introns in Cotesia chilonis (Hymenoptera: Braconidae)",
       "journal": "Annals of the Entomological Society of America, 115: 391-399",
       "doi": "10.1093/aesa/saac015",
       "url": "https://doi.org/10.1093/aesa/saac015",
-      "note": "",
-      "source_url": "https://doi.org/10.1093/aesa/saac015",
-      "published_online_year": 2022,
-      "published_print_year": 2022,
-      "author_mark_source": "lab-publication-list"
+      "note": ""
     },
     {
       "year": 2022,
-      "authors": "Yang, F., Kerns, D.L., Little, N., Brown, S.A., Stewart, S.D., Catchot, A.L., Cook, D.R., Gore, J., Crow, W.D., Lorenz, G.M., Towles, T., Tabashnik, B.E.",
-      "author_list": [
-        {
-          "name": "Yang, F.",
-          "roles": [
-            "corresponding"
-          ]
-        },
-        {
-          "name": "Kerns, D.L.",
-          "roles": []
-        },
-        {
-          "name": "Little, N.",
-          "roles": []
-        },
-        {
-          "name": "Brown, S.A.",
-          "roles": []
-        },
-        {
-          "name": "Stewart, S.D.",
-          "roles": []
-        },
-        {
-          "name": "Catchot, A.L.",
-          "roles": []
-        },
-        {
-          "name": "Cook, D.R.",
-          "roles": []
-        },
-        {
-          "name": "Gore, J.",
-          "roles": []
-        },
-        {
-          "name": "Crow, W.D.",
-          "roles": []
-        },
-        {
-          "name": "Lorenz, G.M.",
-          "roles": []
-        },
-        {
-          "name": "Towles, T.",
-          "roles": []
-        },
-        {
-          "name": "Tabashnik, B.E.",
-          "roles": []
-        }
-      ],
-      "title": "Practical resistance to Cry toxins and efficacy of Vip3Aa in Bt cotton against Helicoverpa zea",
-      "journal": "Pest Management Science, 78: 5234-5242",
-      "doi": "10.1002/ps.7142",
-      "url": "https://doi.org/10.1002/ps.7142",
-      "note": "",
-      "source_url": "https://doi.org/10.1002/ps.7142",
-      "published_online_year": 2022,
-      "published_print_year": 2022,
-      "author_mark_source": "lab-publication-list"
-    },
-    {
-      "year": 2022,
-      "authors": "Zhang, Y., Zeng, L., Wei, Y., Zhang, M., Pan, W., Sword, G.A., Yang, F., Chen, F., Wan, G.",
-      "author_list": [
-        {
-          "name": "Zhang, Y.",
-          "roles": []
-        },
-        {
-          "name": "Zeng, L.",
-          "roles": []
-        },
-        {
-          "name": "Wei, Y.",
-          "roles": []
-        },
-        {
-          "name": "Zhang, M.",
-          "roles": []
-        },
-        {
-          "name": "Pan, W.",
-          "roles": []
-        },
-        {
-          "name": "Sword, G.A.",
-          "roles": []
-        },
-        {
-          "name": "Yang, F.",
-          "roles": []
-        },
-        {
-          "name": "Chen, F.",
-          "roles": []
-        },
-        {
-          "name": "Wan, G.",
-          "roles": []
-        }
-      ],
-      "title": "Reliable reference genes for gene expression analyses under the hypomagnetic field in a migratory insect",
-      "journal": "Frontiers in Physiology, 13: 954228",
-      "doi": "10.3389/fphys.2022.954228",
-      "url": "https://doi.org/10.3389/fphys.2022.954228",
-      "note": "",
-      "source_url": "https://doi.org/10.3389/fphys.2022.954228",
-      "published_online_year": 2022,
-      "author_mark_source": "lab-publication-list"
-    },
-    {
-      "year": 2022,
-      "authors": "Santiago‐González, J.C., Kerns, D.L., Head, G.P., Yang, F.",
-      "author_list": [
-        {
-          "name": "Santiago‐González, J.C.",
-          "roles": []
-        },
-        {
-          "name": "Kerns, D.L.",
-          "roles": []
-        },
-        {
-          "name": "Head, G.P.",
-          "roles": []
-        },
-        {
-          "name": "Yang, F.",
-          "roles": [
-            "corresponding"
-          ]
-        }
-      ],
+      "authors": "Santiago‐González, J.C., Kerns, D.L., Head, G.P. and Yang, F.",
       "title": "Effective dominance and redundant killing of single‐ and dual‐gene resistant populations of Helicoverpa zea on pyramided Bt corn and cotton",
       "journal": "Pest Management Science, 78: 4333-4339",
       "doi": "10.1002/ps.7052",
       "url": "https://doi.org/10.1002/ps.7052",
-      "note": "",
-      "source_url": "https://doi.org/10.1002/ps.7052",
-      "published_online_year": 2022,
-      "published_print_year": 2022,
-      "author_mark_source": "lab-publication-list"
+      "note": ""
     },
     {
       "year": 2022,
-      "authors": "Yuan, J.W., Song, H.X., Chang, Y.W., Yang, F., Du, Y.Z.",
-      "author_list": [
-        {
-          "name": "Yuan, J.W.",
-          "roles": []
-        },
-        {
-          "name": "Song, H.X.",
-          "roles": []
-        },
-        {
-          "name": "Chang, Y.W.",
-          "roles": []
-        },
-        {
-          "name": "Yang, F.",
-          "roles": []
-        },
-        {
-          "name": "Du, Y.Z.",
-          "roles": []
-        }
-      ],
-      "title": "Transcriptome analysis and screening of putative sex-determining genes in the invasive pest, Frankliniella occidentalis (Thysanoptera: Thripidae)",
-      "journal": "Comparative Biochemistry and Physiology Part D: Genomics and Proteomics, 43: 101008",
-      "doi": "10.1016/j.cbd.2022.101008",
-      "url": "https://doi.org/10.1016/j.cbd.2022.101008",
-      "note": "",
-      "source_url": "https://doi.org/10.1016/j.cbd.2022.101008",
-      "published_print_year": 2022,
-      "author_mark_source": "lab-publication-list"
-    },
-    {
-      "year": 2022,
-      "authors": "Yuan, J.W., Song, H.X., Chang, Y.W., Yang, F., Xie, H.F., Gong, W.R., Du, Y.Z.",
-      "author_list": [
-        {
-          "name": "Yuan, J.W.",
-          "roles": []
-        },
-        {
-          "name": "Song, H.X.",
-          "roles": []
-        },
-        {
-          "name": "Chang, Y.W.",
-          "roles": []
-        },
-        {
-          "name": "Yang, F.",
-          "roles": []
-        },
-        {
-          "name": "Xie, H.F.",
-          "roles": []
-        },
-        {
-          "name": "Gong, W.R.",
-          "roles": []
-        },
-        {
-          "name": "Du, Y.Z.",
-          "roles": []
-        }
-      ],
-      "title": "Identification, expression analysis and functional verification of two genes encoding small heat shock proteins in the western flower thrips, Frankliniella occidentalis (Pergande)",
-      "journal": "International Journal of Biological Macromolecules, 211: 74-84",
-      "doi": "10.1016/j.ijbiomac.2022.05.056",
-      "url": "https://doi.org/10.1016/j.ijbiomac.2022.05.056",
-      "note": "",
-      "source_url": "https://doi.org/10.1016/j.ijbiomac.2022.05.056",
-      "published_print_year": 2022,
-      "author_mark_source": "lab-publication-list"
-    },
-    {
-      "year": 2022,
-      "authors": "Yang, F., Kennedy, H., Santiago‐González, J.C., Kerns, D.L.",
-      "author_list": [
-        {
-          "name": "Yang, F.",
-          "roles": [
-            "corresponding"
-          ]
-        },
-        {
-          "name": "Kennedy, H.",
-          "roles": []
-        },
-        {
-          "name": "Santiago‐González, J.C.",
-          "roles": []
-        },
-        {
-          "name": "Kerns, D.L.",
-          "roles": []
-        }
-      ],
+      "authors": "Yang, F., Kennedy, H., Santiago‐González, J.C. and Kerns, D.L.",
       "title": "Effects of cross‐pollination among non‐Bt and pyramided Bt corn expressing cry proteins in seed mixtures on resistance development of dual‐gene resistant Helicoverpa zea",
       "journal": "Pest Management Science, 78: 3260-3265",
       "doi": "10.1002/ps.6945",
       "url": "https://doi.org/10.1002/ps.6945",
-      "note": "",
-      "source_url": "https://doi.org/10.1002/ps.6945",
-      "published_online_year": 2022,
-      "published_print_year": 2022,
-      "author_mark_source": "lab-publication-list"
+      "note": ""
+    },
+    {
+      "year": 2022,
+      "authors": "Yuan, J.W., Song, H.X., Chang, Y.W., Yang, F., Xie, H.F., Gong, W.R. and Du, Y.Z.",
+      "title": "Identification, expression analysis and functional verification of two genes encoding small heat shock proteins in the western flower thrips, Frankliniella occidentalis (Pergande)",
+      "journal": "International Journal of Biological Macromolecules, 211: 74-84",
+      "doi": "10.1016/j.ijbiomac.2022.05.056",
+      "url": "https://doi.org/10.1016/j.ijbiomac.2022.05.056",
+      "note": ""
+    },
+    {
+      "year": 2022,
+      "authors": "Yang, F., Kerns, D.L., Little, N., Brown, S.A., Stewart, S.D., Catchot, A.L., Cook, D.R., Gore, J., Crow, W.D., Lorenz, G.M., Towles, T. and Tabashnik, B.E.",
+      "title": "Practical resistance to Cry toxins and efficacy of Vip3Aa in Bt cotton against Helicoverpa zea",
+      "journal": "Pest Management Science, 78: 5234-5242",
+      "doi": "10.1002/ps.7142",
+      "url": "https://doi.org/10.1002/ps.7142",
+      "note": ""
+    },
+    {
+      "year": 2022,
+      "authors": "Yang, F., Wang, Z. and Kerns, D.L.",
+      "title": "Resistance of Spodoptera frugiperda to Cry1, Cry2, and Vip3Aa Proteins in Bt Corn and Cotton in the Americas: Implications for the Rest of the World",
+      "journal": "Journal of Economic Entomology, 115: 1752-1760",
+      "doi": "10.1093/jee/toac099",
+      "url": "https://doi.org/10.1093/jee/toac099",
+      "note": ""
+    },
+    {
+      "year": 2022,
+      "authors": "Yuan, J.W., Song, H.X., Chang, Y.W., Yang, F. and Du, Y.Z.",
+      "title": "Transcriptome analysis and screening of putative sex-determining genes in the invasive pest, Frankliniella occidentalis (Thysanoptera: Thripidae)",
+      "journal": "Comparative Biochemistry and Physiology Part D: Genomics and Proteomics, 43: 101008",
+      "doi": "10.1016/j.cbd.2022.101008",
+      "url": "https://doi.org/10.1016/j.cbd.2022.101008",
+      "note": ""
     },
     {
       "year": 2021,
-      "authors": "Kerns, D.D., Yang, F., Kerns, D.L., Stewart, S.D.",
-      "author_list": [
-        {
-          "name": "Kerns, D.D.",
-          "roles": []
-        },
-        {
-          "name": "Yang, F.",
-          "roles": []
-        },
-        {
-          "name": "Kerns, D.L.",
-          "roles": []
-        },
-        {
-          "name": "Stewart, S.D.",
-          "roles": []
-        }
-      ],
-      "title": "Evaluation of Bt resistance in Helicoverpa zea (Lepidoptera: Noctuidae) strains using various Bt cotton plant tissues",
-      "journal": "Pest Management Science, 78: 95-103",
-      "doi": "10.1002/ps.6611",
-      "url": "https://doi.org/10.1002/ps.6611",
-      "note": "",
-      "source_url": "https://doi.org/10.1002/ps.6611",
-      "published_online_year": 2021,
-      "published_print_year": 2022,
-      "author_mark_source": "lab-publication-list"
-    },
-    {
-      "year": 2021,
-      "authors": "Yang, F., Kerns, D.L., Little, N.S., Santiago González, J.C., Tabashnik, B.E.",
-      "author_list": [
-        {
-          "name": "Yang, F.",
-          "roles": [
-            "corresponding"
-          ]
-        },
-        {
-          "name": "Kerns, D.L.",
-          "roles": []
-        },
-        {
-          "name": "Little, N.S.",
-          "roles": []
-        },
-        {
-          "name": "Santiago González, J.C.",
-          "roles": []
-        },
-        {
-          "name": "Tabashnik, B.E.",
-          "roles": []
-        }
-      ],
-      "title": "Early Warning of Resistance to Bt Toxin Vip3Aa in Helicoverpa zea",
-      "journal": "Toxins, 13: 618",
-      "doi": "10.3390/toxins13090618",
-      "url": "https://doi.org/10.3390/toxins13090618",
-      "note": "",
-      "source_url": "https://doi.org/10.3390/toxins13090618",
-      "published_online_year": 2021,
-      "author_mark_source": "lab-publication-list"
-    },
-    {
-      "year": 2021,
-      "authors": "Yang, F., Santiago González, J.C., Sword, G.A., Kerns, D.L.",
-      "author_list": [
-        {
-          "name": "Yang, F.",
-          "roles": [
-            "corresponding"
-          ]
-        },
-        {
-          "name": "Santiago González, J.C.",
-          "roles": []
-        },
-        {
-          "name": "Sword, G.A.",
-          "roles": []
-        },
-        {
-          "name": "Kerns, D.L.",
-          "roles": []
-        }
-      ],
-      "title": "Genetic basis of resistance to the\n                    Vip3Aa\n                    Bt protein in\n                    \n                      Helicoverpa zea",
-      "journal": "Pest Management Science, 77: 1530-1535",
-      "doi": "10.1002/ps.6176",
-      "url": "https://doi.org/10.1002/ps.6176",
-      "note": "",
-      "source_url": "https://doi.org/10.1002/ps.6176",
-      "published_online_year": 2020,
-      "published_print_year": 2021,
-      "author_mark_source": "lab-publication-list"
-    },
-    {
-      "year": 2021,
-      "authors": "Yang, F., Santiago González, J.C., Head, G.P., Price, P.A., Kerns, D.L.",
-      "author_list": [
-        {
-          "name": "Yang, F.",
-          "roles": [
-            "corresponding"
-          ]
-        },
-        {
-          "name": "Santiago González, J.C.",
-          "roles": []
-        },
-        {
-          "name": "Head, G.P.",
-          "roles": []
-        },
-        {
-          "name": "Price, P.A.",
-          "roles": []
-        },
-        {
-          "name": "Kerns, D.L.",
-          "roles": []
-        }
-      ],
-      "title": "Multiple and non-recessive resistance to Bt proteins in a Cry2Ab2-resistant population of Helicoverpa zea",
-      "journal": "Crop Protection, 145: 105650",
-      "doi": "10.1016/j.cropro.2021.105650",
-      "url": "https://doi.org/10.1016/j.cropro.2021.105650",
-      "note": "",
-      "source_url": "https://doi.org/10.1016/j.cropro.2021.105650",
-      "published_print_year": 2021,
-      "author_mark_source": "lab-publication-list"
-    },
-    {
-      "year": 2021,
-      "authors": "Yang, F., Williams, J., Huang, F., Kerns, D.L.",
-      "author_list": [
-        {
-          "name": "Yang, F.",
-          "roles": [
-            "corresponding"
-          ]
-        },
-        {
-          "name": "Williams, J.",
-          "roles": []
-        },
-        {
-          "name": "Huang, F.",
-          "roles": []
-        },
-        {
-          "name": "Kerns, D.L.",
-          "roles": []
-        }
-      ],
-      "title": "Genetic basis and cross-resistance of Vip3Aa resistance in Spodoptera frugiperda (lepidoptera: Noctuidae) derived from Texas, USA",
-      "journal": "Crop Protection, 147: 105702",
-      "doi": "10.1016/j.cropro.2021.105702",
-      "url": "https://doi.org/10.1016/j.cropro.2021.105702",
-      "note": "",
-      "source_url": "https://doi.org/10.1016/j.cropro.2021.105702",
-      "published_print_year": 2021,
-      "author_mark_source": "lab-publication-list"
-    },
-    {
-      "year": 2021,
-      "authors": "Calvin, W., Yang, F., Brown, S.A., Catchot, A.L., Crow, W.D., Cook, D.R., Gore, J., Kurtz, R., Lorenz, G.M., Seiter, N.J., Stewart, S.D., Towles, T., Kerns, D.L.",
-      "author_list": [
-        {
-          "name": "Calvin, W.",
-          "roles": []
-        },
-        {
-          "name": "Yang, F.",
-          "roles": []
-        },
-        {
-          "name": "Brown, S.A.",
-          "roles": []
-        },
-        {
-          "name": "Catchot, A.L.",
-          "roles": []
-        },
-        {
-          "name": "Crow, W.D.",
-          "roles": []
-        },
-        {
-          "name": "Cook, D.R.",
-          "roles": []
-        },
-        {
-          "name": "Gore, J.",
-          "roles": []
-        },
-        {
-          "name": "Kurtz, R.",
-          "roles": []
-        },
-        {
-          "name": "Lorenz, G.M.",
-          "roles": []
-        },
-        {
-          "name": "Seiter, N.J.",
-          "roles": []
-        },
-        {
-          "name": "Stewart, S.D.",
-          "roles": []
-        },
-        {
-          "name": "Towles, T.",
-          "roles": []
-        },
-        {
-          "name": "Kerns, D.L.",
-          "roles": []
-        }
-      ],
+      "authors": "Calvin, W., Yang, F., Brown, S.A., Catchot, A.L., Crow, W.D., Cook, D.R., Gore, J., Kurtz, R., Lorenz, G.M., Seiter, N.J., Stewart, S.D., Towles, T. and Kerns, D.L.",
       "title": "Development of Economic Thresholds Toward Bollworm (Lepidoptera: Noctuidae), Management in Bt Cotton, and Assessment of the Benefits From Treating Bt Cotton With Insecticide",
       "journal": "Journal of Economic Entomology, 114: 2493-2504",
       "doi": "10.1093/jee/toab173",
       "url": "https://doi.org/10.1093/jee/toab173",
-      "note": "",
-      "source_url": "https://doi.org/10.1093/jee/toab173",
-      "published_online_year": 2021,
-      "published_print_year": 2021,
-      "author_mark_source": "lab-publication-list"
+      "note": ""
     },
     {
       "year": 2021,
-      "authors": "Santiago González, J.C., Kerns, D.L., Head, G.P., Yang, F.",
-      "author_list": [
-        {
-          "name": "Santiago González, J.C.",
-          "roles": []
-        },
-        {
-          "name": "Kerns, D.L.",
-          "roles": []
-        },
-        {
-          "name": "Head, G.P.",
-          "roles": []
-        },
-        {
-          "name": "Yang, F.",
-          "roles": [
-            "corresponding"
-          ]
-        }
-      ],
-      "title": "Status of Cry1Ac and Cry2Ab2 resistance in field populations of Helicoverpa zea in Texas, USA",
-      "journal": "Insect Science, 29: 487-495",
-      "doi": "10.1111/1744-7917.12947",
-      "url": "https://doi.org/10.1111/1744-7917.12947",
-      "note": "",
-      "source_url": "https://doi.org/10.1111/1744-7917.12947",
-      "published_online_year": 2021,
-      "published_print_year": 2022,
-      "author_mark_source": "lab-publication-list"
+      "authors": "Yang, F., Kerns, D.L., Little, N.S., Santiago González, J.C. and Tabashnik, B.E.",
+      "title": "Early Warning of Resistance to Bt Toxin Vip3Aa in Helicoverpa zea",
+      "journal": "Toxins, 13: 618",
+      "doi": "10.3390/toxins13090618",
+      "url": "https://doi.org/10.3390/toxins13090618",
+      "note": ""
     },
     {
-      "year": 2020,
-      "authors": "Gilreath, R.T., Kerns, D.L., Huang, F., Yang, F.",
-      "author_list": [
-        {
-          "name": "Gilreath, R.T.",
-          "roles": []
-        },
-        {
-          "name": "Kerns, D.L.",
-          "roles": []
-        },
-        {
-          "name": "Huang, F.",
-          "roles": []
-        },
-        {
-          "name": "Yang, F.",
-          "roles": [
-            "corresponding"
-          ]
-        }
-      ],
+      "year": 2021,
+      "authors": "Kerns, D.D., Yang, F., Kerns, D.L. and Stewart, S.D.",
+      "title": "Evaluation of Bt resistance in Helicoverpa zea (Lepidoptera: Noctuidae) strains using various Bt cotton plant tissues",
+      "journal": "Pest Management Science, 78: 95-103",
+      "doi": "10.1002/ps.6611",
+      "url": "https://doi.org/10.1002/ps.6611",
+      "note": ""
+    },
+    {
+      "year": 2021,
+      "authors": "Yang, F., Williams, J., Huang, F. and Kerns, D.L.",
+      "title": "Genetic basis and cross-resistance of Vip3Aa resistance in Spodoptera frugiperda (lepidoptera: Noctuidae) derived from Texas, USA",
+      "journal": "Crop Protection, 147: 105702",
+      "doi": "10.1016/j.cropro.2021.105702",
+      "url": "https://doi.org/10.1016/j.cropro.2021.105702",
+      "note": ""
+    },
+    {
+      "year": 2021,
+      "authors": "Yang, F., Santiago González, J.C., Head, G.P., Price, P.A. and Kerns, D.L.",
+      "title": "Multiple and non-recessive resistance to Bt proteins in a Cry2Ab2-resistant population of Helicoverpa zea",
+      "journal": "Crop Protection, 145: 105650",
+      "doi": "10.1016/j.cropro.2021.105650",
+      "url": "https://doi.org/10.1016/j.cropro.2021.105650",
+      "note": ""
+    },
+    {
+      "year": 2021,
+      "authors": "Gilreath, R.T., Kerns, D.L., Huang, F. and Yang, F.",
       "title": "No positive cross‐resistance to Cry1 and Cry2 proteins favors pyramiding strategy for management of Vip3Aa resistance in Spodoptera frugiperda",
       "journal": "Pest Management Science, 77: 1963-1970",
       "doi": "10.1002/ps.6224",
       "url": "https://doi.org/10.1002/ps.6224",
-      "note": "",
-      "source_url": "https://doi.org/10.1002/ps.6224",
-      "published_online_year": 2021,
-      "published_print_year": 2021,
-      "author_mark_source": "lab-publication-list"
+      "note": ""
     },
     {
-      "year": 2020,
-      "authors": "Yang, F., Head, G.P., Price, P.A., Santiago González, J.C., Kerns, D.L.",
-      "author_list": [
-        {
-          "name": "Yang, F.",
-          "roles": [
-            "corresponding"
-          ]
-        },
-        {
-          "name": "Head, G.P.",
-          "roles": []
-        },
-        {
-          "name": "Price, P.A.",
-          "roles": []
-        },
-        {
-          "name": "Santiago González, J.C.",
-          "roles": []
-        },
-        {
-          "name": "Kerns, D.L.",
-          "roles": []
-        }
-      ],
-      "title": "Inheritance of\n                    \n                      Bacillus thuringiensis\n                      Cry2Ab2\n                    \n                    protein resistance in\n                    \n                      Helicoverpa zea\n                    \n                    (Lepidoptera: Noctuidae)",
-      "journal": "Pest Management Science, 76: 3676-3684",
-      "doi": "10.1002/ps.5916",
-      "url": "https://doi.org/10.1002/ps.5916",
-      "note": "",
-      "source_url": "https://doi.org/10.1002/ps.5916",
-      "published_online_year": 2020,
-      "published_print_year": 2020,
-      "author_mark_source": "lab-publication-list"
-    },
-    {
-      "year": 2020,
-      "authors": "Yang, F., González, J.C.S., Little, N., Reisig, D., Payne, G., Dos Santos, R.F., Jurat-Fuentes, J.L., Kurtz, R., Kerns, D.L.",
-      "author_list": [
-        {
-          "name": "Yang, F.",
-          "roles": [
-            "corresponding"
-          ]
-        },
-        {
-          "name": "González, J.C.S.",
-          "roles": []
-        },
-        {
-          "name": "Little, N.",
-          "roles": []
-        },
-        {
-          "name": "Reisig, D.",
-          "roles": []
-        },
-        {
-          "name": "Payne, G.",
-          "roles": []
-        },
-        {
-          "name": "Dos Santos, R.F.",
-          "roles": []
-        },
-        {
-          "name": "Jurat-Fuentes, J.L.",
-          "roles": []
-        },
-        {
-          "name": "Kurtz, R.",
-          "roles": []
-        },
-        {
-          "name": "Kerns, D.L.",
-          "roles": []
-        }
-      ],
-      "title": "First documentation of major Vip3Aa resistance alleles in field populations of Helicoverpa zea (Boddie) (Lepidoptera: Noctuidae) in Texas, USA",
-      "journal": "Scientific Reports, 10: 5867",
-      "doi": "10.1038/s41598-020-62748-8",
-      "url": "https://doi.org/10.1038/s41598-020-62748-8",
-      "note": "",
-      "source_url": "https://doi.org/10.1038/s41598-020-62748-8",
-      "published_online_year": 2020,
-      "author_mark_source": "lab-publication-list"
-    },
-    {
-      "year": 2019,
-      "authors": "Yang, F., Williams, J., Porter, P., Huang, F., Kerns, D.L.",
-      "author_list": [
-        {
-          "name": "Yang, F.",
-          "roles": [
-            "corresponding"
-          ]
-        },
-        {
-          "name": "Williams, J.",
-          "roles": []
-        },
-        {
-          "name": "Porter, P.",
-          "roles": []
-        },
-        {
-          "name": "Huang, F.",
-          "roles": []
-        },
-        {
-          "name": "Kerns, D.L.",
-          "roles": []
-        }
-      ],
-      "title": "F2 screen for resistance to Bacillus thuringiensis Vip3Aa51 protein in field populations of Spodoptera frugiperda (Lepidoptera: Noctuidae) from Texas, USA",
-      "journal": "Crop Protection, 126: 104915",
-      "doi": "10.1016/j.cropro.2019.104915",
-      "url": "https://doi.org/10.1016/j.cropro.2019.104915",
-      "note": "",
-      "source_url": "https://doi.org/10.1016/j.cropro.2019.104915",
-      "published_print_year": 2019,
-      "author_mark_source": "lab-publication-list"
-    },
-    {
-      "year": 2019,
-      "authors": "Guo, J., Yang, F., Brown, S., Kern, D., Head, G.P., Price, P.A., Niu, Y., Huang, F.",
-      "author_list": [
-        {
-          "name": "Guo, J.",
-          "roles": []
-        },
-        {
-          "name": "Yang, F.",
-          "roles": []
-        },
-        {
-          "name": "Brown, S.",
-          "roles": []
-        },
-        {
-          "name": "Kern, D.",
-          "roles": []
-        },
-        {
-          "name": "Head, G.P.",
-          "roles": []
-        },
-        {
-          "name": "Price, P.A.",
-          "roles": []
-        },
-        {
-          "name": "Niu, Y.",
-          "roles": []
-        },
-        {
-          "name": "Huang, F.",
-          "roles": []
-        }
-      ],
-      "title": "Fecundity of the parental and fitness of the F1 populations of corn earworm from refuge ears of seed blend plantings with Genuity® SmartStax™ maize",
-      "journal": "Crop Protection, 124: 104873",
-      "doi": "10.1016/j.cropro.2019.104873",
-      "url": "https://doi.org/10.1016/j.cropro.2019.104873",
-      "note": "",
-      "source_url": "https://doi.org/10.1016/j.cropro.2019.104873",
-      "published_print_year": 2019,
-      "author_mark_source": "lab-publication-list"
-    },
-    {
-      "year": 2019,
-      "authors": "Yang, F., Kerns, D.L., Head, G.P., Price, P.A., Levy, R., Niu, Y., Huang, F.",
-      "author_list": [
-        {
-          "name": "Yang, F.",
-          "roles": [
-            "corresponding"
-          ]
-        },
-        {
-          "name": "Kerns, D.L.",
-          "roles": []
-        },
-        {
-          "name": "Head, G.P.",
-          "roles": []
-        },
-        {
-          "name": "Price, P.A.",
-          "roles": []
-        },
-        {
-          "name": "Levy, R.",
-          "roles": []
-        },
-        {
-          "name": "Niu, Y.",
-          "roles": []
-        },
-        {
-          "name": "Huang, F.",
-          "roles": []
-        }
-      ],
-      "title": "Extended evaluation of Bt protein cross‐pollination in seed blend plantings on survival, growth, and development of Helicoverpa zea feeding on refuge ears",
-      "journal": "Pest Management Science, 76: 1011-1019",
-      "doi": "10.1002/ps.5611",
-      "url": "https://doi.org/10.1002/ps.5611",
-      "note": "",
-      "source_url": "https://doi.org/10.1002/ps.5611",
-      "published_online_year": 2019,
-      "published_print_year": 2020,
-      "author_mark_source": "lab-publication-list"
-    },
-    {
-      "year": 2019,
-      "authors": "Yang, F., González, J.C.S., Williams, J., Cook, D.C., Gilreath, R.T., Kerns, D.L.",
-      "author_list": [
-        {
-          "name": "Yang, F.",
-          "roles": [
-            "corresponding"
-          ]
-        },
-        {
-          "name": "González, J.C.S.",
-          "roles": []
-        },
-        {
-          "name": "Williams, J.",
-          "roles": []
-        },
-        {
-          "name": "Cook, D.C.",
-          "roles": []
-        },
-        {
-          "name": "Gilreath, R.T.",
-          "roles": []
-        },
-        {
-          "name": "Kerns, D.L.",
-          "roles": []
-        }
-      ],
-      "title": "Occurrence and Ear Damage of Helicoverpa zea on Transgenic Bacillus thuringiensis Maize in the Field in Texas, U.S. and Its Susceptibility to Vip3A Protein",
-      "journal": "Toxins, 11: 102",
-      "doi": "10.3390/toxins11020102",
-      "url": "https://doi.org/10.3390/toxins11020102",
-      "note": "",
-      "source_url": "https://doi.org/10.3390/toxins11020102",
-      "published_online_year": 2019,
-      "author_mark_source": "lab-publication-list"
-    },
-    {
-      "year": 2019,
-      "title": "Bacillus thuringiensis Cry1Da_7 and Cry1B.868 Protein Interactions with Novel Receptors Allow Control of Resistant Fall Armyworms, Spodoptera frugiperda (J.E. Smith)",
-      "journal": "Applied and Environmental Microbiology, 85: e00579-19",
-      "doi": "10.1128/aem.00579-19",
-      "url": "https://doi.org/10.1128/aem.00579-19",
-      "source_url": "https://experts.umn.edu/en/publications/bacillus-thuringiensis-cry1da7-and-cry1b868-protein-interactions-/",
-      "note": "",
-      "author_list": [
-        {
-          "name": "Wang, Y.",
-          "roles": []
-        },
-        {
-          "name": "Wang, J.",
-          "roles": []
-        },
-        {
-          "name": "Fu, X.",
-          "roles": []
-        },
-        {
-          "name": "Nageotte, J.R.",
-          "roles": []
-        },
-        {
-          "name": "Silverman, J.",
-          "roles": []
-        },
-        {
-          "name": "Bretsnyder, E.C.",
-          "roles": []
-        },
-        {
-          "name": "Chen, D.",
-          "roles": []
-        },
-        {
-          "name": "Rydel, T.J.",
-          "roles": []
-        },
-        {
-          "name": "Bean, G.J.",
-          "roles": []
-        },
-        {
-          "name": "Li, K.S.",
-          "roles": []
-        },
-        {
-          "name": "Kraft, E.",
-          "roles": []
-        },
-        {
-          "name": "Gowda, A.",
-          "roles": []
-        },
-        {
-          "name": "Nance, A.",
-          "roles": []
-        },
-        {
-          "name": "Moore, R.G.",
-          "roles": []
-        },
-        {
-          "name": "Pleau, M.J.",
-          "roles": []
-        },
-        {
-          "name": "Milligan, J.S.",
-          "roles": []
-        },
-        {
-          "name": "Anderson, H.M.",
-          "roles": []
-        },
-        {
-          "name": "Asiimwe, P.",
-          "roles": []
-        },
-        {
-          "name": "Evans, A.",
-          "roles": []
-        },
-        {
-          "name": "Moar, W.J.",
-          "roles": []
-        },
-        {
-          "name": "Martinelli, S.",
-          "roles": []
-        },
-        {
-          "name": "Head, G.P.",
-          "roles": []
-        },
-        {
-          "name": "Haas, J.A.",
-          "roles": []
-        },
-        {
-          "name": "Baum, J.A.",
-          "roles": []
-        },
-        {
-          "name": "Yang, F.",
-          "roles": []
-        },
-        {
-          "name": "Kerns, D.L.",
-          "roles": []
-        },
-        {
-          "name": "Jerga, A.",
-          "roles": []
-        }
-      ],
-      "authors": "Wang, Y., Wang, J., Fu, X., Nageotte, J.R., Silverman, J., Bretsnyder, E.C., Chen, D., Rydel, T.J., Bean, G.J., Li, K.S., Kraft, E., Gowda, A., Nance, A., Moore, R.G., Pleau, M.J., Milligan, J.S., Anderson, H.M., Asiimwe, P., Evans, A., Moar, W.J., Martinelli, S., Head, G.P., Haas, J.A., Baum, J.A., Yang, F., Kerns, D.L., Jerga, A."
-    },
-    {
-      "year": 2018,
-      "authors": "Chen, X., Head, G.P., Price, P., Kerns, D.L., Rice, M.E., Huang, F., Gilreath, R.T., Yang, F.",
-      "author_list": [
-        {
-          "name": "Chen, X.",
-          "roles": []
-        },
-        {
-          "name": "Head, G.P.",
-          "roles": []
-        },
-        {
-          "name": "Price, P.",
-          "roles": []
-        },
-        {
-          "name": "Kerns, D.L.",
-          "roles": []
-        },
-        {
-          "name": "Rice, M.E.",
-          "roles": []
-        },
-        {
-          "name": "Huang, F.",
-          "roles": []
-        },
-        {
-          "name": "Gilreath, R.T.",
-          "roles": []
-        },
-        {
-          "name": "Yang, F.",
-          "roles": [
-            "corresponding"
-          ]
-        }
-      ],
-      "title": "Fitness costs of Vip3A resistance in Spodoptera frugiperda on different hosts",
-      "journal": "Pest Management Science, 75: 1074-1080",
-      "doi": "10.1002/ps.5218",
-      "url": "https://doi.org/10.1002/ps.5218",
-      "note": "",
-      "source_url": "https://doi.org/10.1002/ps.5218",
-      "published_online_year": 2018,
-      "published_print_year": 2019,
-      "author_mark_source": "lab-publication-list"
-    },
-    {
-      "year": 2018,
-      "authors": "Brown, S., Kerns, D., Yang, F.",
-      "author_list": [
-        {
-          "name": "Brown, S.",
-          "roles": []
-        },
-        {
-          "name": "Kerns, D.",
-          "roles": []
-        },
-        {
-          "name": "Yang, F.",
-          "roles": []
-        }
-      ],
-      "title": "Glufosinate Ammonium Suppresses Tetranychus urticae in Cotton",
-      "journal": "Journal of Cotton Science, 22: 97-103",
-      "doi": "10.56454/wgui5664",
-      "url": "https://doi.org/10.56454/wgui5664",
-      "note": "",
-      "source_url": "https://doi.org/10.56454/wgui5664",
-      "published_online_year": 2018,
-      "author_mark_source": "lab-publication-list"
-    },
-    {
-      "year": 2018,
-      "authors": "Yang, F., Morsello, S., Head, G.P., Sansone, C., Huang, F., Gilreath, R.T., Kerns, D.L.",
-      "author_list": [
-        {
-          "name": "Yang, F.",
-          "roles": [
-            "corresponding"
-          ]
-        },
-        {
-          "name": "Morsello, S.",
-          "roles": []
-        },
-        {
-          "name": "Head, G.P.",
-          "roles": []
-        },
-        {
-          "name": "Sansone, C.",
-          "roles": []
-        },
-        {
-          "name": "Huang, F.",
-          "roles": []
-        },
-        {
-          "name": "Gilreath, R.T.",
-          "roles": []
-        },
-        {
-          "name": "Kerns, D.L.",
-          "roles": []
-        }
-      ],
-      "title": "F2 screen, inheritance and cross‐resistance of field‐derived Vip3A resistance in Spodoptera frugiperda (Lepidoptera: Noctuidae) collected from Louisiana, USA",
-      "journal": "Pest Management Science, 74: 1769-1778",
-      "doi": "10.1002/ps.4805",
-      "url": "https://doi.org/10.1002/ps.4805",
-      "note": "",
-      "source_url": "https://doi.org/10.1002/ps.4805",
-      "published_online_year": 2018,
-      "published_print_year": 2018,
-      "author_mark_source": "lab-publication-list"
-    },
-    {
-      "year": 2018,
-      "authors": "Yang, F., Chen, M., Gowda, A., Kerns, D.L., Huang, F.",
-      "author_list": [
-        {
-          "name": "Yang, F.",
-          "roles": []
-        },
-        {
-          "name": "Chen, M.",
-          "roles": []
-        },
-        {
-          "name": "Gowda, A.",
-          "roles": []
-        },
-        {
-          "name": "Kerns, D.L.",
-          "roles": []
-        },
-        {
-          "name": "Huang, F.",
-          "roles": []
-        }
-      ],
-      "title": "Possibly similar genetic basis of resistance to Bacillus thuringiensis Cry1Ab protein in 3 resistant colonies of the sugarcane borer collected from Louisiana, USA",
-      "journal": "Insect Science, 25: 241-250",
-      "doi": "10.1111/1744-7917.12418",
-      "url": "https://doi.org/10.1111/1744-7917.12418",
-      "note": "",
-      "source_url": "https://doi.org/10.1111/1744-7917.12418",
-      "published_online_year": 2016,
-      "published_print_year": 2018,
-      "author_mark_source": "lab-publication-list"
-    },
-    {
-      "year": 2017,
-      "authors": "Yang, F., Kerns, D.L., Head, G.P., Price, P., Huang, F.",
-      "author_list": [
-        {
-          "name": "Yang, F.",
-          "roles": [
-            "corresponding"
-          ]
-        },
-        {
-          "name": "Kerns, D.L.",
-          "roles": []
-        },
-        {
-          "name": "Head, G.P.",
-          "roles": []
-        },
-        {
-          "name": "Price, P.",
-          "roles": []
-        },
-        {
-          "name": "Huang, F.",
-          "roles": []
-        }
-      ],
-      "title": "Cross‐resistance to purified Bt proteins, Bt corn and Bt cotton in a Cry2Ab2‐corn resistant strain of Spodoptera frugiperda",
-      "journal": "Pest Management Science, 73: 2495-2503",
-      "doi": "10.1002/ps.4644",
-      "url": "https://doi.org/10.1002/ps.4644",
-      "note": "",
-      "source_url": "https://doi.org/10.1002/ps.4644",
-      "published_online_year": 2017,
-      "published_print_year": 2017,
-      "author_mark_source": "lab-publication-list"
-    },
-    {
-      "year": 2017,
-      "authors": "Yang, F., Kerns, D.L., Brown, S., Head, G.P., Huang, F.",
-      "author_list": [
-        {
-          "name": "Yang, F.",
-          "roles": [
-            "corresponding"
-          ]
-        },
-        {
-          "name": "Kerns, D.L.",
-          "roles": []
-        },
-        {
-          "name": "Brown, S.",
-          "roles": []
-        },
-        {
-          "name": "Head, G.P.",
-          "roles": []
-        },
-        {
-          "name": "Huang, F.",
-          "roles": []
-        }
-      ],
-      "title": "Pollen contamination in seed mixture increases the dominance of resistance to Bt maize in Spodoptera frugiperda (Lepidoptera: Noctuidae)",
-      "journal": "Pest Management Science, 73: 2379-2385",
-      "doi": "10.1002/ps.4631",
-      "url": "https://doi.org/10.1002/ps.4631",
-      "note": "",
-      "source_url": "https://doi.org/10.1002/ps.4631",
-      "published_online_year": 2017,
-      "published_print_year": 2017,
-      "author_mark_source": "lab-publication-list"
-    },
-    {
-      "year": 2017,
-      "authors": "Yang, F., Kerns, D.L., Head, G., Brown, S., Huang, F.",
-      "author_list": [
-        {
-          "name": "Yang, F.",
-          "roles": [
-            "corresponding"
-          ]
-        },
-        {
-          "name": "Kerns, D.L.",
-          "roles": []
-        },
-        {
-          "name": "Head, G.",
-          "roles": []
-        },
-        {
-          "name": "Brown, S.",
-          "roles": []
-        },
-        {
-          "name": "Huang, F.",
-          "roles": []
-        }
-      ],
-      "title": "Susceptibility of Cry1F-maize resistant, heterozygous, and susceptible Spodoptera frugiperda to Bt proteins used in the transgenic cotton",
-      "journal": "Crop Protection, 98: 128-135",
-      "doi": "10.1016/j.cropro.2017.03.023",
-      "url": "https://doi.org/10.1016/j.cropro.2017.03.023",
-      "note": "",
-      "source_url": "https://doi.org/10.1016/j.cropro.2017.03.023",
-      "published_print_year": 2017,
-      "author_mark_source": "lab-publication-list"
-    },
-    {
-      "year": 2016,
-      "authors": "Yang, F., Kerns, D.L., Brown, S., Kurtz, R., Dennehy, T., Braxton, B., Head, G., Huang, F.",
-      "author_list": [
-        {
-          "name": "Yang, F.",
-          "roles": [
-            "corresponding"
-          ]
-        },
-        {
-          "name": "Kerns, D.L.",
-          "roles": []
-        },
-        {
-          "name": "Brown, S.",
-          "roles": []
-        },
-        {
-          "name": "Kurtz, R.",
-          "roles": []
-        },
-        {
-          "name": "Dennehy, T.",
-          "roles": []
-        },
-        {
-          "name": "Braxton, B.",
-          "roles": []
-        },
-        {
-          "name": "Head, G.",
-          "roles": []
-        },
-        {
-          "name": "Huang, F.",
-          "roles": []
-        }
-      ],
-      "title": "Performance and cross-crop resistance of Cry1F-maize selected Spodoptera frugiperda on transgenic Bt cotton: implications for resistance management",
-      "journal": "Scientific Reports, 6: 28059",
-      "doi": "10.1038/srep28059",
-      "url": "https://doi.org/10.1038/srep28059",
-      "note": "",
-      "source_url": "https://doi.org/10.1038/srep28059",
-      "published_online_year": 2016,
-      "author_mark_source": "lab-publication-list"
-    },
-    {
-      "year": 2016,
-      "authors": "Huang, F., Qureshi, J.A., Head, G.P., Price, P.A., Levy, R., Yang, F., Niu, Y.",
-      "author_list": [
-        {
-          "name": "Huang, F.",
-          "roles": []
-        },
-        {
-          "name": "Qureshi, J.A.",
-          "roles": []
-        },
-        {
-          "name": "Head, G.P.",
-          "roles": []
-        },
-        {
-          "name": "Price, P.A.",
-          "roles": []
-        },
-        {
-          "name": "Levy, R.",
-          "roles": []
-        },
-        {
-          "name": "Yang, F.",
-          "roles": []
-        },
-        {
-          "name": "Niu, Y.",
-          "roles": []
-        }
-      ],
-      "title": "Frequency of Bacillus thuringiensis Cry1A.105 resistance alleles in field populations of the fall armyworm, Spodoptera frugiperda, in Louisiana and Florida",
-      "journal": "Crop Protection, 83: 83-89",
-      "doi": "10.1016/j.cropro.2016.01.019",
-      "url": "https://doi.org/10.1016/j.cropro.2016.01.019",
-      "note": "",
-      "source_url": "https://doi.org/10.1016/j.cropro.2016.01.019",
-      "published_print_year": 2016,
-      "author_mark_source": "lab-publication-list"
-    },
-    {
-      "year": 2015,
-      "authors": "Yang, F., Kerns, D.L., Leonard, B.R., Oyediran, I., Burd, T., Niu, Y., Huang, F.",
-      "author_list": [
-        {
-          "name": "Yang, F.",
-          "roles": []
-        },
-        {
-          "name": "Kerns, D.L.",
-          "roles": []
-        },
-        {
-          "name": "Leonard, B.R.",
-          "roles": []
-        },
-        {
-          "name": "Oyediran, I.",
-          "roles": []
-        },
-        {
-          "name": "Burd, T.",
-          "roles": []
-        },
-        {
-          "name": "Niu, Y.",
-          "roles": []
-        },
-        {
-          "name": "Huang, F.",
-          "roles": []
-        }
-      ],
-      "title": "Performance of Agrisure®Viptera™ 3111 corn against Helicoverpa zea (Lepidoptera: Noctuidae) in seed mixed plantings",
-      "journal": "Crop Protection, 69: 77-82",
-      "doi": "10.1016/j.cropro.2014.12.002",
-      "url": "https://doi.org/10.1016/j.cropro.2014.12.002",
-      "note": "",
-      "source_url": "https://doi.org/10.1016/j.cropro.2014.12.002",
-      "published_print_year": 2015,
-      "author_mark_source": "lab-publication-list"
-    },
-    {
-      "year": 2015,
-      "authors": "Yang, F., Kerns, D., Huang, F.",
-      "author_list": [
-        {
-          "name": "Yang, F.",
-          "roles": [
-            "corresponding"
-          ]
-        },
-        {
-          "name": "Kerns, D.",
-          "roles": []
-        },
-        {
-          "name": "Huang, F.",
-          "roles": []
-        }
-      ],
-      "title": "Refuge-in-the-Bag Strategy for Managing Insect Resistance to BT Maize",
-      "journal": "Outlooks on Pest Management, 26: 226-228",
-      "doi": "10.1564/v26_oct_10",
-      "url": "https://doi.org/10.1564/v26_oct_10",
-      "note": "",
-      "source_url": "https://doi.org/10.1564/v26_oct_10",
-      "published_print_year": 2015,
-      "author_mark_source": "lab-publication-list"
-    },
-    {
-      "year": 2015,
-      "authors": "Huang, F., Chen, M., Gowda, A., Clark, T.L., McNulty, B.C., Yang, F., Niu, Y.",
-      "author_list": [
-        {
-          "name": "Huang, F.",
-          "roles": []
-        },
-        {
-          "name": "Chen, M.",
-          "roles": []
-        },
-        {
-          "name": "Gowda, A.",
-          "roles": []
-        },
-        {
-          "name": "Clark, T.L.",
-          "roles": []
-        },
-        {
-          "name": "McNulty, B.C.",
-          "roles": []
-        },
-        {
-          "name": "Yang, F.",
-          "roles": []
-        },
-        {
-          "name": "Niu, Y.",
-          "roles": []
-        }
-      ],
-      "title": "Identification, inheritance, and fitness costs of Cry2Ab2 resistance in a field-derived population of sugarcane borer, Diatraea saccharalis (F.) (Lepidoptera: Crambidae)",
-      "journal": "Journal of Invertebrate Pathology, 130: 116-123",
-      "doi": "10.1016/j.jip.2015.07.007",
-      "url": "https://doi.org/10.1016/j.jip.2015.07.007",
-      "note": "",
-      "source_url": "https://doi.org/10.1016/j.jip.2015.07.007",
-      "published_print_year": 2015,
-      "author_mark_source": "lab-publication-list"
-    },
-    {
-      "year": 2014,
-      "authors": "Yang, F., Kerns, D.L., Head, G.P., Leonard, B.R., Levy, R., Niu, Y., Huang, F.",
-      "author_list": [
-        {
-          "name": "Yang, F.",
-          "roles": []
-        },
-        {
-          "name": "Kerns, D.L.",
-          "roles": []
-        },
-        {
-          "name": "Head, G.P.",
-          "roles": []
-        },
-        {
-          "name": "Leonard, B.R.",
-          "roles": []
-        },
-        {
-          "name": "Levy, R.",
-          "roles": []
-        },
-        {
-          "name": "Niu, Y.",
-          "roles": []
-        },
-        {
-          "name": "Huang, F.",
-          "roles": []
-        }
-      ],
-      "title": "A Challenge for the Seed Mixture Refuge Strategy in Bt Maize: Impact of Cross-Pollination on an Ear-Feeding Pest, Corn Earworm",
-      "journal": "PLoS ONE, 9: e112962",
-      "doi": "10.1371/journal.pone.0112962",
-      "url": "https://doi.org/10.1371/journal.pone.0112962",
-      "note": "",
-      "source_url": "https://doi.org/10.1371/journal.pone.0112962",
-      "published_online_year": 2014,
-      "author_mark_source": "lab-publication-list"
-    },
-    {
-      "year": 2014,
-      "authors": "Yang, F., Kerns, D.L., Head, G.P., Leonard, B.R., Niu, Y., Huang, F.",
-      "author_list": [
-        {
-          "name": "Yang, F.",
-          "roles": []
-        },
-        {
-          "name": "Kerns, D.L.",
-          "roles": []
-        },
-        {
-          "name": "Head, G.P.",
-          "roles": []
-        },
-        {
-          "name": "Leonard, B.R.",
-          "roles": []
-        },
-        {
-          "name": "Niu, Y.",
-          "roles": []
-        },
-        {
-          "name": "Huang, F.",
-          "roles": []
-        }
-      ],
-      "title": "Occurrence, distribution, and ear damage of Helicoverpa zea (Lepidoptera: Noctuidae) in mixed plantings of non-Bt and Bt corn containing Genuity® SmartStax™ traits",
-      "journal": "Crop Protection, 55: 127-132",
-      "doi": "10.1016/j.cropro.2013.10.012",
-      "url": "https://doi.org/10.1016/j.cropro.2013.10.012",
-      "note": "",
-      "source_url": "https://doi.org/10.1016/j.cropro.2013.10.012",
-      "published_print_year": 2014,
-      "author_mark_source": "lab-publication-list"
-    },
-    {
-      "year": 2014,
-      "authors": "Huang, F., Qureshi, J.A., Meagher, R.L., Reisig, D.D., Head, G.P., Andow, D.A., Ni, X., Kerns, D., Buntin, G.D., Niu, Y., Yang, F., Dangal, V.",
-      "author_list": [
-        {
-          "name": "Huang, F.",
-          "roles": []
-        },
-        {
-          "name": "Qureshi, J.A.",
-          "roles": []
-        },
-        {
-          "name": "Meagher, R.L.",
-          "roles": []
-        },
-        {
-          "name": "Reisig, D.D.",
-          "roles": []
-        },
-        {
-          "name": "Head, G.P.",
-          "roles": []
-        },
-        {
-          "name": "Andow, D.A.",
-          "roles": []
-        },
-        {
-          "name": "Ni, X.",
-          "roles": []
-        },
-        {
-          "name": "Kerns, D.",
-          "roles": []
-        },
-        {
-          "name": "Buntin, G.D.",
-          "roles": []
-        },
-        {
-          "name": "Niu, Y.",
-          "roles": []
-        },
-        {
-          "name": "Yang, F.",
-          "roles": []
-        },
-        {
-          "name": "Dangal, V.",
-          "roles": []
-        }
-      ],
-      "title": "Cry1F Resistance in Fall Armyworm Spodoptera frugiperda: Single Gene versus Pyramided Bt Maize",
-      "journal": "PLoS ONE, 9: e112958",
-      "doi": "10.1371/journal.pone.0112958",
-      "url": "https://doi.org/10.1371/journal.pone.0112958",
-      "note": "",
-      "source_url": "https://doi.org/10.1371/journal.pone.0112958",
-      "published_online_year": 2014,
-      "author_mark_source": "lab-publication-list"
-    },
-    {
-      "year": 2014,
-      "authors": "Niu, Y., Yang, F., Dangal, V., Huang, F.",
-      "author_list": [
-        {
-          "name": "Niu, Y.",
-          "roles": []
-        },
-        {
-          "name": "Yang, F.",
-          "roles": []
-        },
-        {
-          "name": "Dangal, V.",
-          "roles": []
-        },
-        {
-          "name": "Huang, F.",
-          "roles": []
-        }
-      ],
-      "title": "Larval survival and plant injury of Cry1F-susceptible, -resistant, and -heterozygous fall armyworm (Lepidoptera: Noctuidae) on non-Bt and Bt corn containing single or pyramided genes",
-      "journal": "Crop Protection, 59: 22-28",
-      "doi": "10.1016/j.cropro.2014.01.005",
-      "url": "https://doi.org/10.1016/j.cropro.2014.01.005",
-      "note": "",
-      "source_url": "https://doi.org/10.1016/j.cropro.2014.01.005",
-      "published_print_year": 2014,
-      "author_mark_source": "lab-publication-list"
-    },
-    {
-      "year": 2013,
-      "authors": "Yang, F., Huang, F., Qureshi, J.A., Leonard, B.R., Niu, Y., Zhang, L., Wangila, D.S.",
-      "author_list": [
-        {
-          "name": "Yang, F.",
-          "roles": []
-        },
-        {
-          "name": "Huang, F.",
-          "roles": []
-        },
-        {
-          "name": "Qureshi, J.A.",
-          "roles": []
-        },
-        {
-          "name": "Leonard, B.R.",
-          "roles": []
-        },
-        {
-          "name": "Niu, Y.",
-          "roles": []
-        },
-        {
-          "name": "Zhang, L.",
-          "roles": []
-        },
-        {
-          "name": "Wangila, D.S.",
-          "roles": []
-        }
-      ],
-      "title": "Susceptibility of Louisiana and Florida populations of Spodoptera frugiperda (Lepidoptera: Noctuidae) to transgenic Agrisure®Viptera™ 3111 corn",
-      "journal": "Crop Protection, 50: 37-39",
-      "doi": "10.1016/j.cropro.2013.04.002",
-      "url": "https://doi.org/10.1016/j.cropro.2013.04.002",
-      "note": "",
-      "source_url": "https://doi.org/10.1016/j.cropro.2013.04.002",
-      "published_print_year": 2013,
-      "author_mark_source": "lab-publication-list"
-    },
-    {
-      "year": 2013,
-      "authors": "Yang, F., Qureshi, J.A., Leonard, B.R., Head, G.P., Niu, Y., Huang, F.",
-      "author_list": [
-        {
-          "name": "Yang, F.",
-          "roles": []
-        },
-        {
-          "name": "Qureshi, J.A.",
-          "roles": []
-        },
-        {
-          "name": "Leonard, B.R.",
-          "roles": []
-        },
-        {
-          "name": "Head, G.P.",
-          "roles": []
-        },
-        {
-          "name": "Niu, Y.",
-          "roles": []
-        },
-        {
-          "name": "Huang, F.",
-          "roles": []
-        }
-      ],
-      "title": "Susceptibility of Louisiana and Florida Populations ofSpodoptera frugiperda(Lepidoptera: Noctuidae) to Pyramided Bt Corn Containing Genuity®Vt Double Pro™and Smartstax™Traits",
-      "journal": "Florida Entomologist, 96: 714-723",
-      "doi": "10.1653/024.096.0303",
-      "url": "https://doi.org/10.1653/024.096.0303",
-      "note": "",
-      "source_url": "https://doi.org/10.1653/024.096.0303",
-      "published_print_year": 2013,
-      "author_mark_source": "lab-publication-list"
-    },
-    {
-      "year": 2013,
-      "authors": "Yang, F., Du, Y., Cao, J., Huang, F.",
-      "author_list": [
-        {
-          "name": "Yang, F.",
-          "roles": []
-        },
-        {
-          "name": "Du, Y.",
-          "roles": []
-        },
-        {
-          "name": "Cao, J.",
-          "roles": []
-        },
-        {
-          "name": "Huang, F.",
-          "roles": []
-        }
-      ],
-      "title": "Analysis of three leafminers' complete mitochondrial genomes",
-      "journal": "Gene, 529: 1-6",
-      "doi": "10.1016/j.gene.2013.08.010",
-      "url": "https://doi.org/10.1016/j.gene.2013.08.010",
-      "note": "",
-      "source_url": "https://doi.org/10.1016/j.gene.2013.08.010",
-      "published_print_year": 2013,
-      "author_mark_source": "lab-publication-list"
-    },
-    {
-      "year": 2013,
-      "authors": "Niu, Y., Meagher, R.L., Yang, F., Huang, F.",
-      "author_list": [
-        {
-          "name": "Niu, Y.",
-          "roles": []
-        },
-        {
-          "name": "Meagher, R.L.",
-          "roles": []
-        },
-        {
-          "name": "Yang, F.",
-          "roles": []
-        },
-        {
-          "name": "Huang, F.",
-          "roles": []
-        }
-      ],
-      "title": "Susceptibility of Field Populations of the Fall Armyworm (Lepidoptera: Noctuidae) from Florida and Puerto Rico to Purified Cry1f Protein and Corn Leaf Tissue Containing Single and Pyramided Bt Genes",
-      "journal": "Florida Entomologist, 96: 701-713",
-      "doi": "10.1653/024.096.0302",
-      "url": "https://doi.org/10.1653/024.096.0302",
-      "note": "",
-      "source_url": "https://doi.org/10.1653/024.096.0302",
-      "published_print_year": 2013,
-      "author_mark_source": "lab-publication-list"
-    },
-    {
-      "year": 2013,
-      "authors": "Wangila, D.S., Leonard, B.R., Ghimire, M.N., Bai, Y., Zhang, L., Yang, Y., Emfinger, K.D., Head, G.P., Yang, F., Niu, Y., Huang, F.",
-      "author_list": [
-        {
-          "name": "Wangila, D.S.",
-          "roles": []
-        },
-        {
-          "name": "Leonard, B.R.",
-          "roles": []
-        },
-        {
-          "name": "Ghimire, M.N.",
-          "roles": []
-        },
-        {
-          "name": "Bai, Y.",
-          "roles": []
-        },
-        {
-          "name": "Zhang, L.",
-          "roles": []
-        },
-        {
-          "name": "Yang, Y.",
-          "roles": []
-        },
-        {
-          "name": "Emfinger, K.D.",
-          "roles": []
-        },
-        {
-          "name": "Head, G.P.",
-          "roles": []
-        },
-        {
-          "name": "Yang, F.",
-          "roles": []
-        },
-        {
-          "name": "Niu, Y.",
-          "roles": []
-        },
-        {
-          "name": "Huang, F.",
-          "roles": []
-        }
-      ],
-      "title": "Occurrence and larval movement of Diatraea saccharalis (Lepidoptera: Crambidae) in seed mixes of non‐Bt and Bt pyramid corn",
-      "journal": "Pest Management Science, 69: 1163-1172",
-      "doi": "10.1002/ps.3484",
-      "url": "https://doi.org/10.1002/ps.3484",
-      "note": "",
-      "source_url": "https://doi.org/10.1002/ps.3484",
-      "published_online_year": 2013,
-      "published_print_year": 2013,
-      "author_mark_source": "lab-publication-list"
-    },
-    {
-      "year": 2013,
-      "authors": "Zhang, L., Huang, F., Rogers Leonard, B., Chen, M., Clark, T., Zhu, Y.C., Wangila, D.S., Yang, F., Niu, Y.",
-      "author_list": [
-        {
-          "name": "Zhang, L.",
-          "roles": []
-        },
-        {
-          "name": "Huang, F.",
-          "roles": []
-        },
-        {
-          "name": "Rogers Leonard, B.",
-          "roles": []
-        },
-        {
-          "name": "Chen, M.",
-          "roles": []
-        },
-        {
-          "name": "Clark, T.",
-          "roles": []
-        },
-        {
-          "name": "Zhu, Y.C.",
-          "roles": []
-        },
-        {
-          "name": "Wangila, D.S.",
-          "roles": []
-        },
-        {
-          "name": "Yang, F.",
-          "roles": []
-        },
-        {
-          "name": "Niu, Y.",
-          "roles": []
-        }
-      ],
-      "title": "Susceptibility of Cry1Ab maize-resistant and -susceptible strains of sugarcane borer (Lepidoptera: Crambidae) to four individual Cry proteins",
-      "journal": "Journal of Invertebrate Pathology, 112: 267-272",
-      "doi": "10.1016/j.jip.2012.12.007",
-      "url": "https://doi.org/10.1016/j.jip.2012.12.007",
-      "note": "",
-      "source_url": "https://doi.org/10.1016/j.jip.2012.12.007",
-      "published_print_year": 2013,
-      "author_mark_source": "lab-publication-list"
-    },
-    {
-      "year": 2011,
-      "authors": "Yang, F., Du, Y.Z., Wang, L.P., Cao, J.M., Yu, W.W.",
-      "author_list": [
-        {
-          "name": "Yang, F.",
-          "roles": []
-        },
-        {
-          "name": "Du, Y.Z.",
-          "roles": []
-        },
-        {
-          "name": "Wang, L.P.",
-          "roles": []
-        },
-        {
-          "name": "Cao, J.M.",
-          "roles": []
-        },
-        {
-          "name": "Yu, W.W.",
-          "roles": []
-        }
-      ],
-      "title": "The complete mitochondrial genome of the leafminer Liriomyza sativae (Diptera: Agromyzidae): Great difference in the A+T-rich region compared to Liriomyza trifolii",
-      "journal": "Gene, 485: 7-15",
-      "doi": "10.1016/j.gene.2011.05.030",
-      "url": "https://doi.org/10.1016/j.gene.2011.05.030",
-      "note": "",
-      "source_url": "https://doi.org/10.1016/j.gene.2011.05.030",
-      "published_print_year": 2011,
-      "author_mark_source": "lab-publication-list"
-    },
-    {
-      "year": 2010,
-      "authors": "Yang, F., Cao, J., Du, Y.",
-      "author_list": [
-        {
-          "name": "Yang, F.",
-          "roles": []
-        },
-        {
-          "name": "Cao, J.",
-          "roles": []
-        },
-        {
-          "name": "Du, Y.",
-          "roles": []
-        }
-      ],
-      "title": "The survey and molecular identification of Liriomyza trifolii in Jiangsu, China",
-      "journal": "Plant Protection, 36: 108–111",
-      "doi": "",
-      "url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=SfACRjcAAAAJ&pagesize=100&citation_for_view=SfACRjcAAAAJ:ufrVoPGSRksC",
-      "note": "",
-      "source_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=SfACRjcAAAAJ&pagesize=100&citation_for_view=SfACRjcAAAAJ:ufrVoPGSRksC",
-      "author_mark_source": "lab-publication-list"
+      "year": 2021,
+      "authors": "Santiago González, J.C., Kerns, D.L., Head, G.P. and Yang, F.",
+      "title": "Status of Cry1Ac and Cry2Ab2 resistance in field populations of Helicoverpa zea in Texas, USA",
+      "journal": "Insect Science, 29: 487-495",
+      "doi": "10.1111/1744-7917.12947",
+      "url": "https://doi.org/10.1111/1744-7917.12947",
+      "note": ""
     }
   ]
 }

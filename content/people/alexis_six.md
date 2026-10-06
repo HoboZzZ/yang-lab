@@ -3,7 +3,7 @@ title: "Alexis Six"
 layout: "member"
 member: "alexis_six"
 description: "Alexis Six — undergradute student in the Corn Entomology Lab at the University of Minnesota."
-email: ""six00002@umn.edu
+email: "six00002@umn.edu"
 position: ""
 advisors: []
 research_interests:

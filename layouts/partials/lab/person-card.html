@@ -11,7 +11,7 @@
       {{ if $nameURL }}</a>{{ end }}
     </div>
   {{ end }}
-  {{ if not (in (slice "principal investigator" "postdoctoral researcher" "undergraduate researcher") (lower .role)) }}<p class="person-role">{{ .role }}</p>{{ end }}
+  {{ with .role }}<p class="person-role">{{ . }}</p>{{ end }}
   <h3>{{ if $nameURL }}<a class="person-name-link" href="{{ $nameURL }}">{{ end }}{{ .name }}{{ if $nameURL }}</a>{{ end }}</h3>
   {{ partial "lab/person-interests.html" . }}
   {{ partial "lab/person-project.html" . }}

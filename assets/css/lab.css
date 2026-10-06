@@ -130,3 +130,4 @@ body,h1,h2,h3,h4{font-variant-numeric:lining-nums}
 .person-name-link:hover{color:var(--accent-dark);text-decoration:underline;text-underline-offset:5px}
 
 @media(max-width:800px){.lab-wordmark{font-size:clamp(17px,calc(13vw - 24px),31px);white-space:nowrap}}
+.person-appointment{font-size:12px;color:var(--muted);margin:3px 0 12px}

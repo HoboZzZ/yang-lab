@@ -12,6 +12,7 @@
     </div>
   {{ end }}
   {{ with .role }}<p class="person-role">{{ . }}</p>{{ end }}
+  {{ with .yearAppointed }}<p class="person-appointment">Year Appointed: {{ . }}</p>{{ end }}
   <h3>{{ if $nameURL }}<a class="person-name-link" href="{{ $nameURL }}">{{ end }}{{ .name }}{{ if $nameURL }}</a>{{ end }}</h3>
   {{ partial "lab/person-interests.html" . }}
   {{ partial "lab/person-project.html" . }}

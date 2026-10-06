@@ -138,5 +138,17 @@
     "links": [],
     "interests": [""],
     "profileSlug": "loi-shah"
+  },
+   {
+    "name": "Alexis Six",
+    "group": "undergraduate",
+    "role": "Undergraduate researcher",
+    "project": "",
+    "image": "images/people/alexis_six.jpeg",
+    "url": "",
+    "cv": "",
+    "links": [],
+    "interests": [""],
+    "profileSlug": "alexis-six"
   }
 ]

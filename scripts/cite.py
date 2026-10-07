@@ -18,7 +18,7 @@ SOURCES = ROOT / "cite" / "sources.yaml"
 MANUAL = ROOT / "data" / "publications.json"
 OUTPUT = ROOT / "data" / "citations.json"
 UA = "yang-lab-citations/1.0 (mailto:yang8905@umn.edu)"
-MIN_YEAR = 2021
+MIN_YEAR = 2010
 
 
 def get(url):
@@ -152,6 +152,41 @@ def from_orcid(work):
     }
 
 
+def merge_manual(items, entries):
+    """Keep the curated archive and its author annotations during every sync."""
+    by_key = {}
+
+    def keys(item):
+        result = [norm(item.get("title", ""))]
+        if item.get("doi"):
+            result.insert(0, item["doi"].lower())
+        result.extend(norm(title) for title in item.get("title_aliases", []))
+        return [key for key in result if key]
+
+    def index(item):
+        for key in keys(item):
+            by_key[key] = item
+
+    for item in items:
+        index(item)
+    for entry in entries:
+        if not entry.get("title") or not entry.get("year"):
+            continue
+        matches = {id(by_key[key]): by_key[key] for key in keys(entry) if key in by_key}
+        current = next(iter(matches.values()), None)
+        curated = {key: value for key, value in entry.items() if value is not None and value != ""}
+        curated["title"] = clean(entry["title"]).rstrip(".")
+        curated["year"] = int(entry["year"])
+        if current is None:
+            current = curated
+            items.append(current)
+        else:
+            current.update(curated)
+            items[:] = [item for item in items if id(item) not in matches or item is current]
+        index(current)
+    return items
+
+
 def main():
     orcids, extra_dois = load_sources(SOURCES)
     items = []
@@ -187,35 +222,13 @@ def main():
             add(from_crossref(msg, doi))
 
     if MANUAL.exists():
-        manual = json.loads(MANUAL.read_text())
-        by_key = {}
-        for item in items:
-            by_key[item["doi"].lower() if item.get("doi") else norm(item["title"])] = item
-            by_key[norm(item["title"])] = item
-        for entry in manual.get("items") or []:
-            key = (entry.get("doi") or "").lower() or norm(entry.get("title", ""))
-            current = by_key.get(key)
-            if current:
-                if entry.get("note"):
-                    current["note"] = entry["note"]
-                if entry.get("doi") and not current.get("doi"):
-                    current["doi"] = entry["doi"]
-                    current["url"] = f"https://doi.org/{entry['doi']}"
-                continue
-            add({
-                "year": int(entry["year"]),
-                "authors": entry.get("authors") or "",
-                "title": clean(entry.get("title", "")).rstrip("."),
-                "journal": entry.get("journal") or "",
-                "doi": entry.get("doi") or "",
-                "url": f"https://doi.org/{entry['doi']}" if entry.get("doi") else "",
-                "note": entry.get("note") or "",
-            })
+        manual = json.loads(MANUAL.read_text(encoding="utf-8"))
+        items = merge_manual(items, manual.get("items") or [])
 
     items = [item for item in items if item["year"] >= MIN_YEAR]
     items.sort(key=lambda item: (-item["year"], item["title"].lower()))
     items = dedupe(items)
-    OUTPUT.write_text(json.dumps({"items": items}, indent=2, ensure_ascii=False) + "\n")
+    OUTPUT.write_text(json.dumps({"items": items}, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     print(f"wrote {len(items)} citations to {OUTPUT}")
 
 
@@ -230,6 +243,10 @@ def dedupe(items):
         key = loose(item["title"])
         match = next((prev for prev in kept if prev["year"] == item["year"] and SequenceMatcher(None, loose(prev["title"]), key).ratio() >= 0.84), None)
         if match:
+            if item.get("author_mark_source") == "lab-publication-list":
+                for field in ("author_list", "author_mark_source", "authors", "source_url"):
+                    if field in item:
+                        match[field] = item[field]
             if item.get("note") and not match.get("note"):
                 match["note"] = item["note"]
             if item.get("doi") and not match.get("doi"):

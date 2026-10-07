@@ -11,7 +11,7 @@ research_interests:
   - "Bt resistance"
   - "Integrated pest management of corn insect pests"
 education:
-- degree: "B.S., Computer Science (in progress)"
+  - degree: "B.S., Computer Science (in progress)"
     institution: "University of Minnesota"
     period: "2025–present"
 experience: []

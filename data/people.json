@@ -150,5 +150,17 @@
     "links": [],
     "interests": [""],
     "profileSlug": "alexis_six"
+  },
+  {
+    "name": "Ruyue Xu",
+    "group": "undergraduate",
+    "role": "Undergraduate researcher",
+    "project": "",
+    "image": "images/people/ruyue-xu.jpg",
+    "url": "",
+    "cv": "",
+    "links": [],
+    "interests": [""],
+    "profileSlug": "ruyue-xu"
   }
 ]
